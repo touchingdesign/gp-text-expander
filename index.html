@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><rect width='16' height='16' rx='3' fill='%234a6cf7'/></svg>">
 <title>GPCA Text Expander</title>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -831,6 +832,68 @@
     font-size: 12px;
   }
 
+  /* Duplicate answers */
+  .dup-badge {
+    background: #ffedd5;
+    color: #9a3412;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  .dup-hint {
+    color: #666;
+    font-size: 13px;
+    margin-bottom: 14px;
+    line-height: 1.5;
+  }
+  .dup-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+  .dup-col {
+    border: 1px solid #e6e9f2;
+    border-radius: 10px;
+    padding: 14px;
+    background: #fafbff;
+    min-width: 0;
+  }
+  .dup-col-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+  .dup-col .action-btns { flex-wrap: wrap; }
+  .dup-col .copy-btn,
+  .dup-col .edit-btn,
+  .dup-col .delete-btn,
+  .dup-col .save-edit-btn,
+  .dup-col .cancel-edit-btn {
+    padding: 8px 12px;
+    font-size: 13px;
+  }
+  .delete-btn {
+    background: #fff;
+    color: #b91c1c;
+    border: 1px solid #fecaca;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    white-space: nowrap;
+  }
+  .delete-btn:hover { background: #fef2f2; }
+  .modal-actions .modal-submit.danger { background: #dc2626; }
+  .modal-actions .modal-submit.danger:hover { background: #b91c1c; }
+
   /* 2-column history grid */
   .history-grid {
     display: grid;
@@ -843,6 +906,7 @@
     .action-btns { flex-wrap: wrap; }
     .result-header { flex-direction: column; }
     .history-grid { grid-template-columns: 1fr; }
+    .dup-grid { grid-template-columns: 1fr; }
   }
 </style>
 </head>
@@ -888,37 +952,49 @@
     </div>
 
     <div class="result-card" id="resultCard">
-      <div class="result-header">
-        <div class="result-meta">
-          <span class="abbr-badge" id="resultAbbr"></span>
-          <span class="topic-badge" id="resultTopic"></span>
-          <span class="edited-badge" id="editedBadge" style="display:none;">edited</span>
-          <span class="custom-badge" id="customBadge" style="display:none;">custom</span>
+      <div id="singleResult">
+        <div class="result-header">
+          <div class="result-meta">
+            <span class="abbr-badge" id="resultAbbr"></span>
+            <span class="topic-badge" id="resultTopic"></span>
+            <span class="edited-badge" id="editedBadge" style="display:none;">edited</span>
+            <span class="custom-badge" id="customBadge" style="display:none;">custom</span>
+          </div>
+          <div class="action-btns" id="actionBtns">
+            <button class="copy-btn" id="copyBtn" onclick="copyAnswer()">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
+              Copy Answer
+            </button>
+            <button class="edit-btn" id="editBtn" onclick="enterEditMode()">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 4H4a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 013 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+              Edit
+            </button>
+          </div>
+          <div class="action-btns" id="editActionBtns" style="display:none;">
+            <button class="save-edit-btn" onclick="saveEdit()">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              Save
+            </button>
+            <button class="cancel-edit-btn" onclick="cancelEdit()">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+              Cancel
+            </button>
+          </div>
         </div>
-        <div class="action-btns" id="actionBtns">
-          <button class="copy-btn" id="copyBtn" onclick="copyAnswer()">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
-            Copy Answer
-          </button>
-          <button class="edit-btn" id="editBtn" onclick="enterEditMode()">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 4H4a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 013 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
-            Edit
-          </button>
-        </div>
-        <div class="action-btns" id="editActionBtns" style="display:none;">
-          <button class="save-edit-btn" onclick="saveEdit()">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
-            Save
-          </button>
-          <button class="cancel-edit-btn" onclick="cancelEdit()">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
-            Cancel
-          </button>
-        </div>
+        <div class="result-question" id="resultQuestion"></div>
+        <div class="result-answer" id="resultAnswer"></div>
+        <textarea class="edit-textarea" id="editTextarea" style="display:none;"></textarea>
       </div>
-      <div class="result-question" id="resultQuestion"></div>
-      <div class="result-answer" id="resultAnswer"></div>
-      <textarea class="edit-textarea" id="editTextarea" style="display:none;"></textarea>
+      <div id="duplicateResult" style="display:none;">
+        <div class="result-header">
+          <div class="result-meta">
+            <span class="abbr-badge" id="dupAbbr"></span>
+            <span class="dup-badge" id="dupCountBadge">2 versions</span>
+          </div>
+        </div>
+        <p class="dup-hint" id="dupHint"></p>
+        <div class="dup-grid" id="dupGrid"></div>
+      </div>
     </div>
 
     <div class="status-bar" id="statusBar"></div>
@@ -1017,6 +1093,17 @@
   </div>
 </div>
 
+<div class="modal-overlay" id="deleteModal">
+  <div class="modal-box">
+    <h3>Delete this version?</h3>
+    <p id="deleteModalText"></p>
+    <div class="modal-actions">
+      <button class="modal-cancel" id="deleteCancelBtn" onclick="closeDeleteModal()">Cancel</button>
+      <button class="modal-submit danger" onclick="confirmDeleteVersion()">Delete</button>
+    </div>
+  </div>
+</div>
+
 <div class="toast" id="toast"></div>
 
 <script src="faq-data.js"></script>
@@ -1026,9 +1113,43 @@ let activeIndex = -1;
 let recentSearches = JSON.parse(localStorage.getItem('gpca_recent') || '[]');
 let edits = JSON.parse(localStorage.getItem('gpca_edits') || '{}');
 let customEntries = JSON.parse(localStorage.getItem('gpca_custom') || '[]');
+// Duplicate versions are removed by stable id (abbr#index in FAQ_DATA order).
+let deletedIds = JSON.parse(localStorage.getItem('gpca_deleted') || '[]');
+if (!Array.isArray(deletedIds)) deletedIds = [];
 let currentEntry = null;
 let isEditing = false;
+let pendingDeleteId = null;
 let copyMode = localStorage.getItem('gpca_mode') !== 'list';
+
+function isEdited(entry) {
+  if (!entry || entry.isCustom) return false;
+  if (edits[entry.id]) return true;
+  return entry.id !== entry.abbr && !!edits[entry.abbr];
+}
+
+function versionsOf(abbr) {
+  return entries.filter(e => e.abbr === abbr);
+}
+
+function updateStats() {
+  const topics = [...new Set(entries.map(e => e.topic).filter(Boolean))];
+  document.getElementById('stats').innerHTML =
+    `<div class="stat"><strong>${entries.length}</strong> abbreviations loaded</div>` +
+    `<div class="stat"><strong>${topics.length}</strong> categories</div>`;
+  const select = document.getElementById('newCategory');
+  if (select) {
+    const current = select.value;
+    select.innerHTML = '<option value="">-- Select category --</option>' +
+      topics.sort().map(t => `<option value="${escapeHtml(t)}">${escapeHtml(t)}</option>`).join('') +
+      '<option value="__custom__">+ New category...</option>';
+    if (current && [...select.options].some(o => o.value === current)) select.value = current;
+  }
+}
+
+function applyStoredAnswer(entry) {
+  if (edits[entry.id]) entry.answer = edits[entry.id];
+  else if (entry.id !== entry.abbr && edits[entry.abbr]) entry.answer = edits[entry.abbr];
+}
 
 // Mode toggle
 function setMode(mode) {
@@ -1078,38 +1199,49 @@ if (sessionStorage.getItem('gpca_auth') === '1') {
 }
 
 function loadData() {
-  // Base entries
-  entries = FAQ_DATA.map(d => ({
-    abbr: d.a,
-    topic: d.t,
-    question: d.q,
-    answer: d.r,
-    isCustom: false
-  }));
-
-  // Apply saved edits
+  const seen = {};
+  entries = FAQ_DATA.map(d => {
+    const dupIndex = seen[d.a] || 0;
+    seen[d.a] = dupIndex + 1;
+    return {
+      abbr: d.a,
+      topic: d.t,
+      question: d.q,
+      answer: d.r,
+      isCustom: false,
+      dupIndex
+    };
+  });
+  const totals = {};
+  entries.forEach(e => { totals[e.abbr] = (totals[e.abbr] || 0) + 1; });
   entries.forEach(e => {
-    if (edits[e.abbr]) e.answer = edits[e.abbr];
+    e.id = totals[e.abbr] > 1 ? (e.abbr + '#' + e.dupIndex) : e.abbr;
   });
 
-  // Add custom entries
+  const deleted = new Set(deletedIds);
+  entries = entries.filter(e => !deleted.has(e.id));
+
+  // Apply saved edits. Unique abbreviations stay keyed by abbr; each duplicate version uses its id.
+  entries.forEach(applyStoredAnswer);
+
+  // Add custom entries. A custom row with its own id can be an extra version of an existing abbreviation.
   customEntries.forEach(d => {
-    // Skip if abbreviation already exists (no duplicates)
-    if (!entries.find(e => e.abbr === d.a)) {
-      entries.push({ abbr: d.a, topic: d.t, question: d.q || '', answer: d.r, isCustom: true });
-    }
+    if (d.id && (deleted.has(d.id) || entries.some(e => e.id === d.id))) return;
+    if (!d.id && entries.some(e => e.abbr === d.a)) return;
+    const siblings = entries.filter(e => e.abbr === d.a);
+    const id = d.id || d.a;
+    entries.push({
+      id,
+      abbr: d.a,
+      topic: d.t,
+      question: d.q || '',
+      answer: d.r,
+      isCustom: true,
+      dupIndex: siblings.length
+    });
   });
 
-  const topics = [...new Set(entries.map(e => e.topic).filter(Boolean))];
-  document.getElementById('stats').innerHTML =
-    `<div class="stat"><strong>${entries.length}</strong> abbreviations loaded</div>` +
-    `<div class="stat"><strong>${topics.length}</strong> categories</div>`;
-
-  // Populate category dropdown
-  const select = document.getElementById('newCategory');
-  select.innerHTML = '<option value="">-- Select category --</option>' +
-    topics.sort().map(t => `<option value="${t}">${t}</option>`).join('') +
-    '<option value="__custom__">+ New category...</option>';
+  updateStats();
 
   document.getElementById('loading').style.display = 'none';
   document.getElementById('app').style.display = 'block';
@@ -1120,17 +1252,20 @@ function showSuggestions(query) {
   const box = document.getElementById('suggestions');
   if (!query) { box.classList.remove('show'); return; }
   const q = query.toLowerCase();
-  const matches = entries.filter(e =>
-    e.abbr.startsWith(q) || e.abbr.includes(q)
-  ).slice(0, 15);
+  const matches = entries.filter(e => {
+    const abbr = e.abbr.toLowerCase();
+    return abbr.startsWith(q) || abbr.includes(q);
+  }).slice(0, 15);
 
   // Sort: exact match first, then startsWith, then includes
   matches.sort((a, b) => {
-    if (a.abbr === q) return -1;
-    if (b.abbr === q) return 1;
-    if (a.abbr.startsWith(q) && !b.abbr.startsWith(q)) return -1;
-    if (!a.abbr.startsWith(q) && b.abbr.startsWith(q)) return 1;
-    return a.abbr.localeCompare(b.abbr);
+    const al = a.abbr.toLowerCase();
+    const bl = b.abbr.toLowerCase();
+    if (al === q && bl !== q) return -1;
+    if (bl === q && al !== q) return 1;
+    if (al.startsWith(q) && !bl.startsWith(q)) return -1;
+    if (!al.startsWith(q) && bl.startsWith(q)) return 1;
+    return al.localeCompare(bl) || a.dupIndex - b.dupIndex;
   });
 
   if (matches.length === 0) {
@@ -1139,26 +1274,30 @@ function showSuggestions(query) {
     return;
   }
 
-  // If exact match, show result directly
-  const exact = entries.find(e => e.abbr === q);
-  if (exact) {
-    showResult(exact);
+  // If one abbreviation matches exactly, show it (duplicate versions open side by side)
+  const exacts = entries.filter(e => e.abbr.toLowerCase() === q);
+  const distinct = new Set(exacts.map(e => e.abbr));
+  if (distinct.size === 1) {
+    showResult(exacts[0]);
   }
 
   activeIndex = -1;
-  box.innerHTML = matches.map((m, i) =>
-    `<div class="suggestion-item" data-index="${i}" onclick="selectEntry('${m.abbr}')">
-      <span class="abbr-tag">${m.abbr}</span>
-      <span class="topic-tag">${m.topic}</span>
-      <span class="question-text">${m.question}</span>
-    </div>`
-  ).join('');
+  box.innerHTML = matches.map((m, i) => {
+    const count = versionsOf(m.abbr).length;
+    const badge = count > 1 ? `<span class="dup-badge">${count} versions</span>` : '';
+    return `<div class="suggestion-item" data-index="${i}" data-id="${escapeHtml(m.id)}">
+      <span class="abbr-tag">${escapeHtml(m.abbr)}</span>
+      <span class="topic-tag">${escapeHtml(m.topic)}</span>
+      ${badge}
+      <span class="question-text">${escapeHtml(m.question)}</span>
+    </div>`;
+  }).join('');
   box.classList.add('show');
   window.__currentMatches = matches;
 }
 
-function selectEntry(abbr) {
-  const entry = entries.find(e => e.abbr === abbr);
+function selectEntry(id) {
+  const entry = entries.find(e => e.id === id);
   if (entry) {
     document.getElementById('searchInput').value = entry.abbr;
     document.getElementById('suggestions').classList.remove('show');
@@ -1166,40 +1305,280 @@ function selectEntry(abbr) {
   }
 }
 
-function showResult(entry) {
+function showResult(entry, opts) {
+  opts = opts || {};
+  const versions = versionsOf(entry.abbr);
+  if (versions.length > 1) {
+    showDuplicateResult(versions, opts);
+    versions.forEach(addToHistory);
+    return;
+  }
+  showSingleResult(entry, opts);
+}
+
+function showSingleResult(entry, opts) {
+  opts = opts || {};
   currentEntry = entry;
   cancelEdit(); // exit edit mode if active
+  document.getElementById('singleResult').style.display = '';
+  document.getElementById('duplicateResult').style.display = 'none';
   document.getElementById('resultAbbr').textContent = entry.abbr;
   document.getElementById('resultTopic').textContent = entry.topic;
   document.getElementById('resultQuestion').textContent = entry.question;
   document.getElementById('resultAnswer').textContent = entry.answer;
   document.getElementById('resultCard').classList.add('show');
   document.getElementById('statusBar').textContent = '';
-  // Show badges
-  document.getElementById('editedBadge').style.display = edits[entry.abbr] ? 'inline' : 'none';
+  document.getElementById('editedBadge').style.display = isEdited(entry) ? 'inline' : 'none';
   document.getElementById('customBadge').style.display = entry.isCustom ? 'inline' : 'none';
-  // Reset copy button
   const btn = document.getElementById('copyBtn');
   btn.classList.remove('copied');
-  btn.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg> Copy Answer';
+  btn.innerHTML = copyIcon() + ' Copy Answer';
   addToHistory(entry);
-  // Auto-copy in copy mode
-  if (copyMode) {
+  if (copyMode && opts.autoCopy !== false) {
     navigator.clipboard.writeText(entry.answer).then(() => {
       btn.classList.add('copied');
-      btn.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Copied!';
+      btn.innerHTML = checkIcon() + ' Copied!';
       showToast('Copied to clipboard!', 'success');
       setTimeout(() => {
         btn.classList.remove('copied');
-        btn.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg> Copy Answer';
+        btn.innerHTML = copyIcon() + ' Copy Answer';
       }, 2000);
     });
   }
 }
 
+function copyIcon() {
+  return '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>';
+}
+function checkIcon() {
+  return '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>';
+}
+
+function showDuplicateResult(versions, opts) {
+  opts = opts || {};
+  cancelEdit();
+  currentEntry = versions[0];
+  document.getElementById('singleResult').style.display = 'none';
+  const panel = document.getElementById('duplicateResult');
+  panel.style.display = 'block';
+  document.getElementById('resultCard').classList.add('show');
+  document.getElementById('dupAbbr').textContent = versions[0].abbr;
+  document.getElementById('dupCountBadge').textContent = versions.length + ' versions';
+  const sameAnswer = versions.every(v => v.answer === versions[0].answer);
+  document.getElementById('dupHint').textContent = sameAnswer
+    ? 'This abbreviation has ' + versions.length + ' versions. Compare them side by side, then delete the one you do not want. The answer text matches, so Copy still grabs it.'
+    : 'This abbreviation has ' + versions.length + ' different answers. Compare them side by side, copy the one you want, then delete the other.';
+
+  const grid = document.getElementById('dupGrid');
+  grid.innerHTML = '';
+  versions.forEach(v => {
+    const col = document.createElement('div');
+    col.className = 'dup-col';
+    col.dataset.id = v.id;
+
+    const top = document.createElement('div');
+    top.className = 'dup-col-top';
+
+    const meta = document.createElement('div');
+    meta.className = 'result-meta';
+    const topic = document.createElement('span');
+    topic.className = 'topic-badge';
+    topic.textContent = v.topic;
+    const ver = document.createElement('span');
+    ver.className = 'dup-badge';
+    ver.textContent = 'Version ' + (v.dupIndex + 1);
+    meta.appendChild(topic);
+    meta.appendChild(ver);
+    if (isEdited(v)) {
+      const edited = document.createElement('span');
+      edited.className = 'edited-badge';
+      edited.textContent = 'edited';
+      meta.appendChild(edited);
+    }
+    if (v.isCustom) {
+      const custom = document.createElement('span');
+      custom.className = 'custom-badge';
+      custom.textContent = 'custom';
+      meta.appendChild(custom);
+    }
+
+    const viewActions = document.createElement('div');
+    viewActions.className = 'action-btns dup-view-actions';
+    const copyBtn = document.createElement('button');
+    copyBtn.className = 'copy-btn';
+    copyBtn.innerHTML = copyIcon() + ' Copy';
+    copyBtn.addEventListener('click', () => copyVersion(v.id, copyBtn));
+    const editBtn = document.createElement('button');
+    editBtn.className = 'edit-btn';
+    editBtn.textContent = 'Edit';
+    editBtn.addEventListener('click', () => enterDupEdit(v.id));
+    const deleteBtn = document.createElement('button');
+    deleteBtn.className = 'delete-btn';
+    deleteBtn.textContent = 'Delete';
+    deleteBtn.addEventListener('click', () => askDeleteVersion(v.id));
+    viewActions.appendChild(copyBtn);
+    viewActions.appendChild(editBtn);
+    viewActions.appendChild(deleteBtn);
+
+    const editActions = document.createElement('div');
+    editActions.className = 'action-btns dup-edit-actions';
+    editActions.style.display = 'none';
+    const saveBtn = document.createElement('button');
+    saveBtn.className = 'save-edit-btn';
+    saveBtn.textContent = 'Save';
+    saveBtn.addEventListener('click', () => saveDupEdit(v.id));
+    const cancelBtn = document.createElement('button');
+    cancelBtn.className = 'cancel-edit-btn';
+    cancelBtn.textContent = 'Cancel';
+    cancelBtn.addEventListener('click', () => showDuplicateResult(versionsOf(v.abbr), { autoCopy: false }));
+    editActions.appendChild(saveBtn);
+    editActions.appendChild(cancelBtn);
+
+    top.appendChild(meta);
+    top.appendChild(viewActions);
+    top.appendChild(editActions);
+
+    const question = document.createElement('div');
+    question.className = 'result-question';
+    question.textContent = v.question;
+
+    const answer = document.createElement('div');
+    answer.className = 'result-answer dup-answer';
+    answer.textContent = v.answer;
+
+    const textarea = document.createElement('textarea');
+    textarea.className = 'edit-textarea dup-textarea';
+    textarea.style.display = 'none';
+
+    col.appendChild(top);
+    col.appendChild(question);
+    col.appendChild(answer);
+    col.appendChild(textarea);
+    grid.appendChild(col);
+  });
+
+  const status = document.getElementById('statusBar');
+  if (copyMode && opts.autoCopy !== false && sameAnswer) {
+    status.textContent = versions.length + ' versions share this answer. Delete the one you do not want.';
+    navigator.clipboard.writeText(versions[0].answer).then(() => {
+      showToast('Copied to clipboard!', 'success');
+      status.textContent = versions.length + ' versions — answer copied. Delete the one you do not want.';
+    }).catch(() => {});
+  } else if (!sameAnswer) {
+    status.textContent = versions.length + ' versions differ — choose one to copy.';
+  } else {
+    status.textContent = versions.length + ' versions. Delete the one you do not want.';
+  }
+}
+
+function dupColumn(id) {
+  return [...document.querySelectorAll('.dup-col')].find(el => el.dataset.id === id);
+}
+
+function copyVersion(id, btn) {
+  const entry = entries.find(e => e.id === id);
+  if (!entry) return;
+  navigator.clipboard.writeText(entry.answer).then(() => {
+    btn.classList.add('copied');
+    btn.innerHTML = checkIcon() + ' Copied!';
+    showToast('Copied to clipboard!', 'success');
+    setTimeout(() => {
+      btn.classList.remove('copied');
+      btn.innerHTML = copyIcon() + ' Copy';
+    }, 2000);
+  });
+}
+
+function enterDupEdit(id) {
+  const entry = entries.find(e => e.id === id);
+  const col = dupColumn(id);
+  if (!entry || !col) return;
+  isEditing = true;
+  col.querySelector('.dup-answer').style.display = 'none';
+  const textarea = col.querySelector('.dup-textarea');
+  textarea.value = entry.answer;
+  textarea.style.display = 'block';
+  textarea.focus();
+  col.querySelector('.dup-view-actions').style.display = 'none';
+  col.querySelector('.dup-edit-actions').style.display = 'flex';
+}
+
+function saveDupEdit(id) {
+  const entry = entries.find(e => e.id === id);
+  const col = dupColumn(id);
+  if (!entry || !col) return;
+  const newAnswer = col.querySelector('.dup-textarea').value.trim();
+  if (!newAnswer) return;
+  persistAnswer(entry, newAnswer);
+  showToast('Answer saved!', 'success');
+  showResult(entry, { autoCopy: false });
+}
+
+function persistAnswer(entry, newAnswer) {
+  entry.answer = newAnswer;
+  if (entry.isCustom) {
+    let idx = customEntries.findIndex(c => c.id && c.id === entry.id);
+    if (idx < 0) idx = customEntries.findIndex(c => !c.id && c.a === entry.abbr);
+    if (idx >= 0) customEntries[idx].r = newAnswer;
+    localStorage.setItem('gpca_custom', JSON.stringify(customEntries));
+  } else {
+    edits[entry.id] = newAnswer;
+    localStorage.setItem('gpca_edits', JSON.stringify(edits));
+  }
+  const hIdx = recentSearches.findIndex(e => (e.id || e.abbr) === entry.id);
+  if (hIdx >= 0) {
+    recentSearches[hIdx].answer = newAnswer;
+    localStorage.setItem('gpca_recent', JSON.stringify(recentSearches));
+    renderHistory();
+  }
+}
+
+function askDeleteVersion(id) {
+  const entry = entries.find(e => e.id === id);
+  if (!entry) return;
+  if (versionsOf(entry.abbr).length < 2) return;
+  pendingDeleteId = id;
+  document.getElementById('deleteModalText').textContent =
+    'Delete version ' + (entry.dupIndex + 1) + ' of "' + entry.abbr + '" (' + entry.topic + ')? It will be removed from search and from CSV export on this browser.';
+  document.getElementById('deleteModal').classList.add('show');
+  setTimeout(() => document.getElementById('deleteCancelBtn').focus(), 50);
+}
+
+function closeDeleteModal() {
+  pendingDeleteId = null;
+  document.getElementById('deleteModal').classList.remove('show');
+}
+
+function confirmDeleteVersion() {
+  const id = pendingDeleteId;
+  const entry = entries.find(e => e.id === id);
+  closeDeleteModal();
+  if (!entry) return;
+  if (versionsOf(entry.abbr).length < 2) return;
+  if (!deletedIds.includes(id)) deletedIds.push(id);
+  localStorage.setItem('gpca_deleted', JSON.stringify(deletedIds));
+  if (edits[id]) {
+    delete edits[id];
+    localStorage.setItem('gpca_edits', JSON.stringify(edits));
+  }
+  entries = entries.filter(e => e.id !== id);
+  recentSearches = recentSearches.filter(e => e.id !== id);
+  localStorage.setItem('gpca_recent', JSON.stringify(recentSearches));
+  renderHistory();
+  updateStats();
+  const remaining = versionsOf(entry.abbr);
+  if (remaining.length === 1) showResult(remaining[0], { autoCopy: false });
+  else if (remaining.length > 1) showDuplicateResult(remaining, { autoCopy: false });
+  else {
+    document.getElementById('resultCard').classList.remove('show');
+  }
+  showToast('Version deleted', 'success');
+}
+
 // Edit mode
 function enterEditMode() {
   if (!currentEntry) return;
+  if (document.getElementById('duplicateResult').style.display !== 'none') return;
   isEditing = true;
   const answerDiv = document.getElementById('resultAnswer');
   const textarea = document.getElementById('editTextarea');
@@ -1217,33 +1596,12 @@ function saveEdit() {
   const newAnswer = textarea.value.trim();
   if (!newAnswer) return;
 
-  // Update in-memory entry
-  currentEntry.answer = newAnswer;
+  persistAnswer(currentEntry, newAnswer);
 
-  // Persist to localStorage
-  if (currentEntry.isCustom) {
-    // Update custom entries
-    const idx = customEntries.findIndex(c => c.a === currentEntry.abbr);
-    if (idx >= 0) { customEntries[idx].r = newAnswer; }
-    localStorage.setItem('gpca_custom', JSON.stringify(customEntries));
-  } else {
-    edits[currentEntry.abbr] = newAnswer;
-    localStorage.setItem('gpca_edits', JSON.stringify(edits));
-  }
-
-  // Update display
   document.getElementById('resultAnswer').textContent = newAnswer;
-  document.getElementById('editedBadge').style.display = edits[currentEntry.abbr] ? 'inline' : 'none';
+  document.getElementById('editedBadge').style.display = isEdited(currentEntry) ? 'inline' : 'none';
   cancelEdit();
   showToast('Answer saved!', 'success');
-
-  // Update history if this entry is there
-  const hIdx = recentSearches.findIndex(e => e.abbr === currentEntry.abbr);
-  if (hIdx >= 0) {
-    recentSearches[hIdx].answer = newAnswer;
-    localStorage.setItem('gpca_recent', JSON.stringify(recentSearches));
-    renderHistory();
-  }
 }
 
 function cancelEdit() {
@@ -1296,20 +1654,9 @@ function saveNewEntry() {
   customEntries.push(newEntry);
   localStorage.setItem('gpca_custom', JSON.stringify(customEntries));
 
-  // Add to in-memory entries
-  entries.push({ abbr, topic: category, question: '', answer, isCustom: true });
+  entries.push({ id: abbr, abbr, topic: category, question: '', answer, isCustom: true, dupIndex: 0 });
 
-  // Update stats
-  const topics = [...new Set(entries.map(e => e.topic).filter(Boolean))];
-  document.getElementById('stats').innerHTML =
-    `<div class="stat"><strong>${entries.length}</strong> abbreviations loaded</div>` +
-    `<div class="stat"><strong>${topics.length}</strong> categories</div>`;
-
-  // Update category dropdown
-  const select = document.getElementById('newCategory');
-  select.innerHTML = '<option value="">-- Select category --</option>' +
-    topics.sort().map(t => `<option value="${t}">${t}</option>`).join('') +
-    '<option value="__custom__">+ New category...</option>';
+  updateStats();
 
   clearAddForm();
   showToast('New entry "' + abbr + '" saved!', 'success');
@@ -1470,6 +1817,11 @@ function importCSV(text) {
   if (first === 'abbreviation' || first === 'abbr') startIdx = 1;
 
   let updated = 0, added = 0, skipped = 0;
+  const buckets = {};
+  entries.forEach(e => {
+    if (!buckets[e.abbr]) buckets[e.abbr] = [];
+    buckets[e.abbr].push(e);
+  });
   for (let r = startIdx; r < rows.length; r++) {
     const row = rows[r];
     const abbr = (row[0] || '').trim();
@@ -1477,24 +1829,27 @@ function importCSV(text) {
     const answer = (row[2] || '').trim();
     if (!abbr || !answer) { skipped++; continue; }
 
-    const existing = entries.find(e => e.abbr === abbr);
+    const bucket = buckets[abbr] || (buckets[abbr] = []);
+    const existing = bucket.shift();
     if (existing) {
       existing.answer = answer;
       if (topic) existing.topic = topic;
       if (existing.isCustom) {
-        const idx = customEntries.findIndex(c => c.a === abbr);
+        const idx = customEntries.findIndex(c => (c.id || c.a) === existing.id);
         if (idx >= 0) {
           customEntries[idx].r = answer;
           if (topic) customEntries[idx].t = topic;
         }
       } else {
-        edits[abbr] = answer;
+        edits[existing.id] = answer;
       }
       updated++;
     } else {
-      const newEntry = { abbr, topic: topic || 'Custom', question: '', answer, isCustom: true };
+      const siblings = entries.filter(e => e.abbr === abbr);
+      const id = siblings.length === 0 ? abbr : (abbr + '#import' + siblings.length);
+      const newEntry = { id, abbr, topic: topic || 'Custom', question: '', answer, isCustom: true, dupIndex: siblings.length };
       entries.push(newEntry);
-      customEntries.push({ a: abbr, t: topic || 'Custom', q: '', r: answer });
+      customEntries.push({ id, a: abbr, t: topic || 'Custom', q: '', r: answer });
       added++;
     }
   }
@@ -1502,20 +1857,12 @@ function importCSV(text) {
   localStorage.setItem('gpca_edits', JSON.stringify(edits));
   localStorage.setItem('gpca_custom', JSON.stringify(customEntries));
 
-  // Refresh stats + category dropdown
-  const topics = [...new Set(entries.map(e => e.topic).filter(Boolean))];
-  document.getElementById('stats').innerHTML =
-    `<div class="stat"><strong>${entries.length}</strong> abbreviations loaded</div>` +
-    `<div class="stat"><strong>${topics.length}</strong> categories</div>`;
-  const select = document.getElementById('newCategory');
-  select.innerHTML = '<option value="">-- Select category --</option>' +
-    topics.sort().map(t => `<option value="${t}">${t}</option>`).join('') +
-    '<option value="__custom__">+ New category...</option>';
+  updateStats();
 
   // If current result is showing, refresh it
   if (currentEntry) {
-    const refreshed = entries.find(e => e.abbr === currentEntry.abbr);
-    if (refreshed) showResult(refreshed);
+    const refreshed = entries.find(e => e.id === currentEntry.id) || entries.find(e => e.abbr === currentEntry.abbr);
+    if (refreshed) showResult(refreshed, { autoCopy: false });
   }
 
   showToast(`Imported: ${updated} updated, ${added} added${skipped ? ', ' + skipped + ' skipped' : ''}`, 'success');
@@ -1549,11 +1896,16 @@ document.getElementById('importModal').addEventListener('click', function(e) {
 });
 
 function addToHistory(entry) {
-  // Remove duplicate if already in history
-  recentSearches = recentSearches.filter(e => e.abbr !== entry.abbr);
-  // Add to front
-  recentSearches.unshift({ abbr: entry.abbr, topic: entry.topic, question: entry.question, answer: entry.answer });
-  // Keep only 20
+  const id = entry.id || entry.abbr;
+  recentSearches = recentSearches.filter(e => (e.id || e.abbr) !== id);
+  recentSearches.unshift({
+    id,
+    abbr: entry.abbr,
+    topic: entry.topic,
+    question: entry.question,
+    answer: entry.answer,
+    version: entry.dupIndex || 0
+  });
   if (recentSearches.length > 20) recentSearches = recentSearches.slice(0, 20);
   localStorage.setItem('gpca_recent', JSON.stringify(recentSearches));
   renderHistory();
@@ -1565,21 +1917,24 @@ function renderHistory() {
     container.innerHTML = '<div class="history-empty">No recent searches yet. Start typing an abbreviation above.</div>';
     return;
   }
-  container.innerHTML = '<div class="history-grid">' + recentSearches.map((item, i) =>
-    `<div class="history-card">
+  container.innerHTML = '<div class="history-grid">' + recentSearches.map((item, i) => {
+    const count = item.abbr ? versionsOf(item.abbr).length : 1;
+    const badge = count > 1 ? `<span class="dup-badge">v${(item.version || 0) + 1}</span>` : '';
+    return `<div class="history-card">
       <div class="history-card-header">
         <div class="history-card-meta">
-          <span class="abbr-badge">${item.abbr}</span>
-          <span class="topic-badge">${item.topic}</span>
+          <span class="abbr-badge">${escapeHtml(item.abbr || '')}</span>
+          <span class="topic-badge">${escapeHtml(item.topic || '')}</span>
+          ${badge}
         </div>
         <button class="history-copy-btn" id="hcopy${i}" onclick="copyHistoryAnswer(${i})">
           <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
           Copy
         </button>
       </div>
-      <div class="history-answer">${item.answer.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</div>
-    </div>`
-  ).join('') + '</div>';
+      <div class="history-answer">${escapeHtml(item.answer || '')}</div>
+    </div>`;
+  }).join('') + '</div>';
 }
 
 function copyHistoryAnswer(index) {
@@ -1620,8 +1975,8 @@ input.addEventListener('keydown', (e) => {
   if (!box.classList.contains('show') || items.length === 0) {
     if (e.key === 'Enter') {
       const q = input.value.trim().toLowerCase();
-      const exact = entries.find(en => en.abbr === q);
-      if (exact) showResult(exact);
+      const exacts = entries.filter(en => en.abbr.toLowerCase() === q);
+      if (new Set(exacts.map(en => en.abbr)).size === 1 && exacts.length) showResult(exacts[0]);
     }
     return;
   }
@@ -1639,9 +1994,9 @@ input.addEventListener('keydown', (e) => {
   } else if (e.key === 'Enter') {
     e.preventDefault();
     if (activeIndex >= 0 && window.__currentMatches) {
-      selectEntry(window.__currentMatches[activeIndex].abbr);
+      selectEntry(window.__currentMatches[activeIndex].id);
     } else if (window.__currentMatches && window.__currentMatches.length > 0) {
-      selectEntry(window.__currentMatches[0].abbr);
+      selectEntry(window.__currentMatches[0].id);
     }
   } else if (e.key === 'Escape') {
     box.classList.remove('show');
@@ -1685,9 +2040,11 @@ function searchAnswers(query) {
         '<mark>' + escapeHtml(m.answer.slice(idx, idx + q.length)) + '</mark>' +
         escapeHtml(m.answer.slice(idx + q.length, end)) +
         (end < m.answer.length ? '...' : '');
-      return `<div class="answer-search-item" onclick="selectEntry('${m.abbr}');answerInput.value='';answerResults.classList.remove('show');">
+      const count = versionsOf(m.abbr).length;
+      const badge = count > 1 ? ` <span class="dup-badge">v${m.dupIndex + 1}</span>` : '';
+      return `<div class="answer-search-item" data-id="${escapeHtml(m.id)}">
         <span class="abbr-tag">${escapeHtml(m.abbr)}</span>
-        <span class="topic-tag" style="font-size:12px;color:#888;">${escapeHtml(m.topic)}</span>
+        <span class="topic-tag" style="font-size:12px;color:#888;">${escapeHtml(m.topic)}</span>${badge}
         <span class="answer-preview">${preview}</span>
       </div>`;
     }).join('');
@@ -1700,6 +2057,27 @@ function escapeHtml(str) {
 
 answerInput.addEventListener('input', (e) => {
   searchAnswers(e.target.value.trim());
+});
+
+document.getElementById('suggestions').addEventListener('click', (e) => {
+  const item = e.target.closest('.suggestion-item');
+  if (!item || !item.dataset.id) return;
+  selectEntry(item.dataset.id);
+});
+
+answerResults.addEventListener('click', (e) => {
+  const item = e.target.closest('.answer-search-item');
+  if (!item || !item.dataset.id) return;
+  selectEntry(item.dataset.id);
+  answerInput.value = '';
+  answerResults.classList.remove('show');
+});
+
+document.getElementById('deleteModal').addEventListener('click', function(e) {
+  if (e.target === this) closeDeleteModal();
+});
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape' && document.getElementById('deleteModal').classList.contains('show')) closeDeleteModal();
 });
 
 // Load on page ready
