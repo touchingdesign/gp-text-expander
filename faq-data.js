@@ -1,1 +1,1454 @@
-const FAQ_DATA = [{"a":"alignnn","t":"Cargo Cover","q":"My cargo cover doesn't fit or align properly — what should I do?","r":"It sounds like a couple of the straps might be pulled a little too tight! The end panels need to sit flush on the side bases near the tailgate, so try releasing and re-balancing the straps near the backseat — over-tightening there can throw off the rollbar base alignment too.\nThe key is to balance all 6 straps evenly before doing a final snug. Check out our install video at youtube.com/c/gpcaofficial or our FAQ at gpca.com/pages/faq for a full walkthrough.\nFeel free to shoot us a message anytime — we've got you!"},{"a":"ccgap","t":"Cargo Cover","q":"There is a gap underneath my cargo cover after installation — is that normal?","r":"Great question! The cargo cover is designed for shade and privacy over your main cargo area.\nDue to the Jeep's mounting point layout, there will naturally be some vertical space below the cover toward the tailgate. Most owners grab our GPCA Cargo Organizer as a combo to cover that lower vertical space so everything is fully enclosed even when the tailgate is open.\nIt's a super popular pairing — check it out at gpca.com/collections/cargo-covers!"},{"a":"ccsky","t":"Cargo Cover","q":"How do I install the cargo cover on a Jeep with a Sky One-Touch Power Top?","r":"For the Sky One-Touch Power Top, 6 of the tub edge screw holes are covered by the side window panel on both sides. You'll need to remove the windows and interior side panels first, then install the tie-downs underneath the tub edge (rather than on top).\nThis also requires 6 extra M8 nuts — standard size available at any local hardware store (not included in the soft top package). Check out gpca.com/faq for more detail.\nHappy to help if you have questions!"},{"a":"ccppp","t":"Cargo Cover","q":"What is the difference between the GPCA Cargo Cover PRO and the Cargo Cover LITE?","r":"Great question! The Cargo Cover PRO is the full upgrade over the LITE — it comes with a double-layer design, a reversible MOLLE system (plain or military look), and the Freedom Pack option adds a tailgate/vertical cover that mounts in 3 different positions.\nThe PRO's newly designed Tie-Down D-Plates also support more accessories. Plus, the soft-top version comes with hardware for both hard and soft tops, so you're covered either way.\nCheck the full lineup at gpca.com/collections/cargo-covers!"},{"a":"uvvv","t":"Cargo Cover","q":"My cargo cover color is fading — how can I prevent or fix this?","r":"Yep, long-term UV exposure and saltwater can cause fading on polyester materials over time — totally normal for any outdoor gear. The best thing to do is rinse off any saltwater after a beach run and apply Aerospace 303 Marine Grade Protectant to the cover and your interior fabrics regularly.\nIt works wonders! If the fading is significant and you feel it's premature, reach out with your order number and we'll see what we can do for you."},{"a":"jl2dr","t":"Cargo Cover","q":"Do you have a cargo cover for the 2-door Jeep Wrangler JL?","r":"Yes! You can grab the JL 2DR Cargo Cover here: gpca.com/products/gpca-jeep-wrangler-jl-2dr-cargo-cover.\nJust note that the JK cover won't work on a JL — the cargo space and mounting points are different. You can also pair it with the GPCA Transformer Cargo Organizer to cover the vertical space behind the front seat when the rear seat is removed.\nLet me know if you need help picking the right combo!"},{"a":"ccstrap","t":"Cargo Cover","q":"The cargo cover is misaligned to my cargo space — how do I fix the strap alignment?","r":"No worries, this is a common one! The straps near the backseat can sometimes get pulled too tight, pushing the end panels out of alignment with the rollbar bases.\nTry loosening those rear-seat straps first, then balance all 6 straps evenly. For the final 2 straps near the tailgate, set them lightly after the rest are balanced — this gives you the best fit and keeps everything seated properly.\nOur install video at youtube.com/c/gpcaofficial shows it step by step!"},{"a":"cctop","t":"Cargo Cover","q":"Can I use the Cargo Cover LITE with the Jeep top off?","r":"The Cargo Cover LITE is designed for top-on use — it's a great investment for shade and privacy in multiple configurations, and it keeps prying eyes away from your gear. However, for top-off use, you'll want to go with the Cargo Cover PRO, which is built for both top-on and top-off scenarios. Totally worth the upgrade for that flexibility!"},{"a":"ccaaa","t":"Cargo Cover","q":"The cargo cover panels seem off-center or misaligned — what can I check?","r":"From what I can see, the straps near the backseat are likely pulled too tight, which causes the end panels to sit high instead of resting flush on the side bases near the tailgate. Release and re-adjust those, then balance all the straps evenly before doing a final tighten.\nWatch our full install video at youtube.com/c/gpcaofficial — balancing the straps is really the key to a perfect fit. Let us know if you're still having trouble!"},{"a":"ccretain","t":"Cargo Cover","q":"The tie-down anchor bolt won't screw into the tub edge hole on my Jeep — what am I doing wrong?","r":"The most common issue here is the retainer underneath the tub edge shifting out of position — it's not designed to hold itself in place, so it can slide left or right. You'll need to hold the retainer with one hand while aligning its center hole with the bolt before you start screwing.\nOnce it's aligned it threads right in, just like it does for other JK owners. Give it a try with a second hand holding the retainer steady — it makes a big difference!"},{"a":"orggg","t":"Cargo Cover","q":"How do I install the GPCA Cargo Organizer on top of the cargo cover using the D-plates?","r":"The GPCA Freedom Pack includes 6 D-plates to mount both the cargo cover and the organizer. Install the cargo cover first, then mount the organizer on top using the shared D-plate anchor points — the organizer covers the full vertical space including the three tailgate mounting positions.\nIf you have questions during install, our FAQ at gpca.com/pages/faq walks through it, and we're always here to help!"},{"a":"cc24","t":"Cargo Cover","q":"Can I use a 2-door cargo cover on a 4-door Jeep Wrangler?","r":"Unfortunately, no — the 2DR and 4DR have different cargo space dimensions and mounting points, so they're not interchangeable.\nIf you have a 2DR Jeep, you can check availability at gpca.com/product-tag/2dr/ for 2DR-compatible accessories.\nFeel free to reach out if you need help finding the right fit for your rig!"},{"a":"ccsoft","t":"Cargo Cover","q":"I have both a hard top and soft top — which cargo cover model should I order?","r":"Go ahead and order the soft top version! It comes with extra hardware compatible with both hard and soft top setups, so you're covered no matter which top you're running.\nCompared to a hard lid, the soft cover gives you more flexibility to reclaim your full cargo space whenever you need it. Just adjust and balance the straps to get a nice snug fit.\nBest of both worlds!"},{"a":"ccnut","t":"Cargo Cover","q":"My tie-down anchor bolts didn't come with nuts — are they missing?","r":"If you ordered the JL version, no nuts are needed — the M25 thread is already integrated into the JL's tub edge, so the bolt goes right in.\nIf you ordered the JK version and are missing hardware, please share your order number and we'll get it sorted for you right away!"},{"a":"ccfaq","t":"Cargo Cover","q":"What is the difference between the hard top and soft top cargo cover models?","r":"The main difference is in the hardware included. Order the hard top version if you only run a hard top, and the soft top version if you have a soft top or both tops — the soft top version includes extra hardware for both configurations.\nFor more detail, check out our cover FAQ at gpca.com/pages/cover-faq. And if you're shopping for a back seat handle, the GP Back Grip PRO is a great combo — it mounts on any headrest and comes in 12 colors!"},{"a":"cc2dr","t":"Cargo Cover","q":"Do you have a cargo cover for the 2-door Jeep Wrangler JL?","r":"Yes! Here's the direct link for the JL 2DR: gpca.com/products/gpca-jeep-wrangler-jl-2dr-cargo-cover.\nYou might also want to check out our GP Grip line for more accessories: gpca.com/product-tag/gp-grip/. The GP Back Grip PRO is a great add-on too — aluminum handles, fits any headrest with insert poles, and 12 color choices.\nLet us know if you need help building your setup!"},{"a":"torxx","t":"Carabiner","q":"A screw came loose or fell out of my GPCA Carabiner — how do I fix it?","r":"The screw likely worked itself loose during use — no big deal! Use the Torx tool that came in the box to re-tighten it.\nPro tip: place a thin piece of fabric between the tool and the screw head to get a better grip and avoid stripping the small Torx screw. If the screw keeps backing out, a tiny dab of low-strength Loctite will keep it locked in.\nAnd if it's truly lost or stripped, reach out with your order number and we'll send a replacement your way!"},{"a":"replaaa","t":"Carabiner","q":"I need a replacement part for my GPCA Carabiner — how do I get one?","r":"No worries at all — we've got you covered!\nJust let us know your carabiner material (Titanium, Steel, or Aluminum), your shipping address, and your order number, and we'll get a replacement shipped out to you soon. We're here to make sure your GPCA gear is always performing at its best!"},{"a":"cuttt","t":"Carabiner","q":"I can't fold the cutter back on my Carabiner — it's stuck in the open position. What do I do?","r":"That's the liner lock doing its job! When the cutter is fully open, the locking lever shifts behind the hinge to lock it in place.\nTo close it, push the locking lever to the LEFT to release it, then fold the cutter back — it's the same mechanism used on most quality folding knives. Here's a quick reference video: youtu.be/Uwx4-nMi38c.\nOnce you get the feel for it, it's super intuitive!"},{"a":"carahinge","t":"Carabiner","q":"The closing gate on my GPCA Carabiner came off — how do I put it back on?","r":"Easy fix! Insert the spring into the tube first, then the clip.\nHold the closing bar in place, push the long end of the clip into the angled slot on the hinge area, and then re-mount the screw set on the hinge. If any parts are missing during this process, just let us know and we'll make sure your carabiner is back to 100%!"},{"a":"cararemove","t":"Carabiner","q":"How do I remove and re-mount the cutter tip on the Carabiner?","r":"You can see the removal process starting at the 10-second mark in this video: youtu.be/T2_IAWSw7Kw. Use the included Torx tool, and put a thin piece of fabric between the tool and screw to avoid stripping.\nTo re-mount, follow the reverse order — align the cutter and washer, insert into position, and tighten the screw back down. Store the removed parts in the original box so nothing gets lost on the trail!"},{"a":"caraliner","t":"Carabiner","q":"The cutter on my Carabiner is open and I can't get it to fold back — why not?","r":"That's the liner lock in action — a safety feature! When the cutter is fully open, the locking lever moves behind the hinge to lock it.\nTo close it, push the locking lever to the LEFT to disengage the lock, then fold the blade back. It's the same mechanism found on quality folding knives.\nQuick video here: youtu.be/Uwx4-nMi38c — you'll get the hang of it right away!"},{"a":"roddd","t":"Carabiner","q":"How do I install the cutter on the GPCA Carabiner PRO or LITE?","r":"Here's the step-by-step: Insert the female screw from the back side first, then arrange the cutter and washer onto the female screw and press them in to fit the slot. Then screw in the male screw to secure everything.\nYou may find a small rod or tube helpful for guiding the parts in through the side holes. You can also reference the video at youtu.be/T2_IAWSw7Kw for a visual walkthrough!"},{"a":"caradd","t":"Carabiner","q":"Do you have add-ons or accessories available for the GPCA Carabiners?","r":"Absolutely! We have a growing line of add-ons and cases for the GPCA Carabiners.\nCheck out the full add-on collection at: gpca.com/collections/gpca-carabiner-addons. From key modules to cutter upgrades, there's a lot of ways to customize your carry!"},{"a":"carared","t":"Carabiner","q":"Where can I get a red ring for my GPCA Carabiner?","r":"You can grab the red ring and browse the full carabiner lineup right here: gpca.com/collections/carabiners.\nLet us know if you need help finding the right one for your model!"},{"a":"reddd","t":"Carabiner","q":"The red ring is missing from my Carabiner package — what should I do?","r":"The red ring should be in a small bag inside the mail package (outside of the carabiner box), and the Torx tool should be behind the owner's manual inside the box.\nGive it another careful look — they can sometimes get tucked away!\nIf you still can't find them after checking, just message us with your order number and we'll get replacements sorted out for you right away."},{"a":"caratsa","t":"Carabiner","q":"Will the GPCA Carabiner pass through a TSA checkpoint?","r":"The GPCA Carabiner PRO is a modular system, so you can use the included Torx tool to remove the multi-tools before going through security if needed. The cutter blade is small (about 1.5 inches), and the newer models no longer use a liner lock.\nFor the most TSA-friendly option, check out the Carabiner PRO X KEY in Titanium or Steel: gpca.com/products/gpca-carabiner-pro-x-key-1. Always worth double-checking TSA guidelines since rules can vary by checkpoint!"},{"a":"caraaa","t":"Carabiner","q":"What carabiner models does GPCA offer?","r":"We've got a great lineup! GPCA Carabiners come in PRO and LITE versions across Titanium, Steel, and Aluminum — so there's something at every price point.\nBrowse the full collection here: gpca.com/collections/carabiners. Whether you want a full multi-tool setup or a sleek everyday carry, we've got you covered!"},{"a":"caranoliner","t":"Carabiner","q":"Why did GPCA stop using the liner lock on the Carabiner cutter?","r":"Good catch! We made the change for a couple of reasons — TSA requirements vary across different countries, and since the cutter is a compact one, the liner lock wasn't adding much value from a safety standpoint.\nThe updated design also makes the blade quicker and easier to fold during everyday use, which our customers really appreciated. It's a practical improvement all around!"},{"a":"caraclimb","t":"Carabiner","q":"Can I use the GPCA Carabiner for rock climbing?","r":"Ha, we're climbers too — and honestly the carabiner design is part of what inspired us! That said, the GPCA Carabiner is an EDC multi-tool and is NOT rated for climbing or load-bearing use.\nPlease use a certified climbing carabiner for any safety-critical applications. Ours is built for your keys, tools, and everyday adventures — just not for anchoring on a wall!"},{"a":"doggg","t":"Carabiner","q":"Where can I find GPCA dog leash or dog accessories?","r":"Woof! 🐾 Check out our dog accessories collection right here: gpca.com/collections/dog-1. Great picks for keeping your adventure pup geared up!"},{"a":"caradent","t":"Carabiner","q":"There is a small dent on the cutter blade — is that a defect?","r":"That small dent is actually by design! It prevents the cutter tip and the long edge from making direct contact with the carabiner base during use — similar to how most quality knives are built.\nOver time, that small catch point actually helps the cutter grab onto box tape for cleaner cuts. It's a thoughtful design detail, not a flaw.\nThat said, if anything looks truly off, send us a photo and we'll take a look!"},{"a":"cararod","t":"Carabiner","q":"How do I install the cutter or knife assembly on my GPCA Carabiner?","r":"Here's the process: (1) Unscrew the Torx 8 screw using the included Torx tool — wrap a thin piece of fabric around the tool tip to avoid stripping the small screw. (2) Remove the cutter and take a quick photo so you can reference the part order.\n(3) Re-insert the parts in the same configuration, align everything, and screw back down firmly. You can also reference the install video at youtu.be/T2_IAWSw7Kw for a visual guide!"},{"a":"carasharp","t":"Carabiner","q":"How can I sharpen the cutter on my GPCA Carabiner?","r":"You can use a regular knife sharpener on it.\nThat said, the box cutter is purposefully built with a thick blade so it's durable and doesn't need frequent sharpening for everyday cutting tasks like opening packages.\nIf you're using it more intensively, a quick pass with a whetstone or pocket sharpener will do the job!"},{"a":"carawash","t":"Carabiner","q":"The screwdrivers on my Carabiner are very loose — how can I fix this?","r":"That's likely a tolerance issue with the washer in the screwdriver assembly — it happens occasionally. No worries though!\nWe'll ship you a replacement part right away. Just send us your shipping address and order number and we'll get it taken care of.\nWe want your GPCA Carabiner working perfectly!"},{"a":"carakvvv","t":"Carabiner","q":"How do I install the key module on my GPCA Carabiner?","r":"We've got a video for that right here: youtu.be/T2_IAWSw7Kw. Quick tip: use a small rod or tube to guide the parts through the side holes before seating the female screw.\nOnce all the components — cutter and washers — are properly in position, tighten the female screw snugly and you're good to go. It looks tricky at first, but it's a smooth process once you see it!"},{"a":"edccc","t":"Carabiner","q":"Where can I shop for GPCA everyday carry (EDC) products?","r":"Right here! Check out our full EDC collection at: gpca.com/collections/edc-1.\nFrom carabiners to pens and wallets, we've got all the essentials for your everyday carry lineup. Great stuff in there!"},{"a":"carafaq","t":"Carabiner","q":"Where can I find the FAQ page for GPCA Carabiners?","r":"Head over to our Carabiner FAQ page here: gpca.com/pages/gpca-carabiner-faq. It covers installation, TSA tips, part info, and more. And as always, we're right here if you have a question that isn't answered there!"},{"a":"caraswiss","t":"Carabiner","q":"Is a Swiss Army knife better than the GPCA Carabiner multi-tool?","r":"Both are great tools, but they serve different purposes! The Swiss Army knife is a solid option, but it's not modular and not designed to clip to your belt or bag.\nThe GPCA Carabiner PRO is a modular system — you can add or remove tools as needed, clip it anywhere, and customize it for TSA if necessary. It's built to be with you every day without the bulk.\nCheck out the full lineup at gpca.com/collections/carabiners and see what fits your carry style!"},{"a":"carapxxx","t":"Carabiner","q":"Where can I get the key module for my GPCA Carabiner?","r":"The Carabiner PRO X KEY is the one you're looking for — it's available in both Titanium and Steel here: gpca.com/products/gpca-carabiner-pro-x-key-1. It's a great upgrade for organizing your essentials!"},{"a":"carass","t":"Carabiner","q":"Where can I get replacement parts for my GPCA Carabiner (cutter, screwdriver, or screw set)?","r":"You can grab replacement screw sets and hardware here: gpca.com/products/carabiner-key-module-addon-for-pro-lite. For cutter or screwdriver assembly replacements, pick the version that matches your carabiner's material (note: the Aluminum version uses Steel tools): gpca.com/products/carabiner-cutter-screwdrivers-parts-only.\nGot a new GPCA order going? Let us know the order number and we may be able to add parts to it!"},{"a":"carakspring","t":"Carabiner","q":"The keys on my Carabiner are too loose and keep flipping open — how can I tighten them?","r":"Nice fix you found with the ranger band!\nFor a more integrated solution, if you're carrying fewer keys, try adding a small rubber washer next to the spring to compress it a bit more — that extra friction keeps the keys from flopping around.\nIf you need help sourcing the right washer size, reach out and we'll point you in the right direction!"},{"a":"torxuuu","t":"Carabiner","q":"I can't unscrew the Torx screw on my GPCA Carabiner — what should I do?","r":"Use the Torx tool included in the box, and wrap a thin piece of fabric around the tip for better grip and to avoid stripping the small screw head. If it's really stuck, a tiny drop of WD-40 or gentle localized heat can help break the thread loose.\nOnce it's moving, you're all set. And if you do strip it despite your best effort, reach out with your order number and we'll sort out a replacement!"},{"a":"carakppp","t":"Carabiner","q":"The Carabiner PRO X KEY key module seems pre-assembled already — is that right?","r":"Yes! The key module comes packaged on the side in the box since the keys are meant to be mounted by you (everyone's key setup is different).\nThe Carabiner PRO X base can also be used individually as a standalone modular system. So it's not unassembled — it's just giving you the freedom to configure it your way!"},{"a":"caraboo","t":"Carabiner","q":"Why would I need a bottle opener on a carabiner multi-tool?","r":"Ha, fair question!\nSure, you could use a table edge or a belt buckle in a pinch — but why rough it when the tool's right there on your keychain?\nThe built-in opener on the GPCA Carabiner means you're always ready when adventure calls for a cold one. 🍺 Check out the full carabiner lineup here: gpca.com/collections/carabiners!"},{"a":"carawasher","t":"Carabiner","q":"What are the two black washers included with my GPCA Carabiner used for?","r":"Those two black washers are designed for use with the large Torx screws. They make it easier to dismount and reassemble the tool components — which is especially handy if you need to remove parts for TSA checkpoints. Keep them in your original box so you always have them when needed!"},{"a":"carakmore","t":"Carabiner","q":"I have a lot of keys and fobs — can the Carabiner really handle my full keychain?","r":"Totally get it — most of us are hauling a full ring! The key module is designed for your essential keys (house, office, etc.) while the carabiner body itself works great as an EDC clip for your full keyring and fob on the outside.\nYou get the best of both worlds: organized essentials inside and everything else clipped on. It's a smarter way to carry your keys!"},{"a":"caragate","t":"Carabiner","q":"How do I re-mount the closing gate back onto my GPCA Carabiner?","r":"Here are the steps: (1) Insert the spring into the slot at the bottom of the closing gate. (2) Attach the narrow end of the T-anchor into the bottom of the spring.\n(3) Place the closing gate onto the hinge at the C-end of the carabiner. (4) Lock the red ring into place to secure the gate.\nFollow these in order and it should snap back together nicely. If anything is missing or damaged, let us know and we'll get you sorted!"},{"a":"carascrew","t":"Carabiner","q":"Can I buy a replacement screw for my GPCA Carabiner?","r":"Yes! You can select the right screw from the pulldown menu here: gpca.com/products/carabiner-key-module-addon-for-pro-lite.\nGot a new GPCA order in the works? Share the order number and I can check with the team to add the screws to that shipment for you — saving you an extra order!"},{"a":"caracut","t":"Carabiner","q":"Can I buy a replacement cutter for my GPCA Carabiner?","r":"Absolutely! You can get the cutter/screwdriver assembly replacement right here: gpca.com/products/carabiner-cutter-screwdrivers-parts-only.\nMake sure to grab the version that matches your carabiner's material. Let us know if you need help identifying which one is right for your model!"},{"a":"qrnut","t":"Anchor","q":"I'm not sure if I ordered the JK or JL anchor — how can I tell, and do I need nuts?","r":"Share your order number with us and we'll look it up right away!\nAs a quick guide: if you ordered the JL anchor bolts, no nuts are needed since the M25 thread is integrated directly into the JL tub edge.\nIf you have the JK version and are missing the plastic retainer (which comes with the factory hard top), you may need one — we can help figure that out for you!"},{"a":"qrrr","t":"Anchor","q":"Where can I buy GPCA Jeep Wrangler tie-down D-rings?","r":"You can grab all our tie-downs and D-rings right here: gpca.com/collections/tie-downs. Great lineup — from the standard anchor to the Anchor PRO with D-rings.\nLet us know if you need help picking the right model for your Jeep!"},{"a":"qrtj","t":"Anchor","q":"Can I install GPCA tie-down anchors on my TJ Jeep?","r":"We haven't officially tested the full anchor lineup on TJ models yet, but if your TJ has an 8mm hole with some clearance around it for the T-handle to rotate, it may work. Alternatively, the GP-Star thumbscrew set is a great option for TJs: gpca.com/shop/gp-star-hardtop-cover-quick-release-thumbscrew-set.\nYou can also browse all TJ-compatible accessories here: gpca.com/product-tag/tj/"},{"a":"qrthread","t":"Anchor","q":"Why don't my GPCA JL anchor tie-down bolts come with nuts?","r":"For the JL, the M25 thread is integrated directly into the tub edge, so the anchor bolts thread right in without any nuts needed — it's by design!\nA helpful tip: insert the tip of the anchor into the tub edge hole first before twisting and mounting the T-handle. That initial alignment makes it much easier to seat the bolt correctly."},{"a":"qrtip","t":"Anchor","q":"My anchor bolt doesn't seem to be threading in or feels stripped — what am I missing?","r":"First thing to check: make sure you've removed the original factory bolt from the tub edge before installing the GPCA anchor — they can't go in together! Once the factory bolt is out, insert the tip of the GPCA anchor into the tub edge hole first, then turn the T-handle.\nThe handle is sized to fit in that space. If it's still not threading, let us know and we'll troubleshoot further!"},{"a":"starrr","t":"Anchor","q":"What tie-down option should I use for my Jeep Gladiator?","r":"The Gladiator's tub edge has limited clearance, so we'd recommend the GP-Star quick-release thumbscrew tool — it's designed exactly for tighter spaces like the Gladiator.\nGrab it here: gpca.com/products/gp-star-hardtop-cover-quick-release-thumbscrew-set. It makes hard top removal quick and easy!"},{"a":"qrtub","t":"Anchor","q":"The anchor bolt for my JK Jeep won't thread in — what should I check?","r":"The trick on the JK is holding the retainer plate underneath the tub edge while screwing in the bolt. The retainer isn't designed to hold itself in place — it can shift side to side — so you need to hold it steady and align the center hole with the bolt before threading.\nIt catches a lot of people off guard at first, but once it's aligned it goes right in, just like it does for every other JK owner. You've got this!"},{"a":"qrtorque","t":"Anchor","q":"Why use the T-handle on the tie-down instead of power tools or a wrench?","r":"The T-handle design gives you better tactile torque control so you don't overtighten and risk stripping the thread in your Jeep's tub edge. More importantly, the handles double as D-ring anchors for your cargo — so they're functional even when installed.\nIt's smarter design, not just convenience. Hope that clears it up!"},{"a":"qrtool","t":"Anchor","q":"I used a power tool instead of the T-handle on the anchor — is that okay?","r":"We actually recommend sticking with the T-handle for installation. Power tools can easily overtighten the bolt and strip the thread in your Jeep's tub edge, which would be a tough fix.\nThe T-handle gives you the right feel and torque, and since the anchors serve as D-ring points for your cargo too, the T-handles are part of the whole value. Better safe than sorry on the threads!"},{"a":"tdppp","t":"Anchor","q":"Where can I get the GPCA Tie-Down D-Plates?","r":"Right here! Check out the full tie-down and D-plate collection: gpca.com/collections/tie-downs.\nThe D-Plates are a great upgrade — they mount accessories and secure cargo from multiple angles. Let us know if you need help picking the right setup for your Jeep!"},{"a":"qrtop","t":"Anchor","q":"I still need a tool for the 2 bolts on the top front of my Jeep hard top — what do you recommend?","r":"You're right that the top 2 bolts have limited clearance — the GPCA Anchor covers the other 6 (75% of the work done with way more versatility for cargo!). For those top 2, the GP-Star thumbscrew is the perfect solution: gpca.com/products/gp-star-hardtop-cover-quick-release-thumbscrew-set. Two tools, total coverage!"},{"a":"qrsteal","t":"Anchor","q":"Will the tie-down anchors get stolen when I go topless?","r":"Ha, it's a valid concern! But honestly, we've never heard of anyone targeting them specifically.\nWhen you're topless and off-road in a Jeep, the tie-downs definitely look cool, but they're not exactly a hot ticket item for theft. That said, they do sit flush and low-profile once installed.\nIf it gives you peace of mind, you can always remove the T-handles and pocket them — they come right off!"},{"a":"qrrattle","t":"Anchor","q":"Do the Anchor PRO D-rings rattle after installation?","r":"Nope — they stay nice and quiet! The D-ring is clamped down by the mounting clip with friction after installation, and you can even set it at your preferred angle.\nNo rattle, no loose play. Check out the full tie-down lineup here: gpca.com/collections/tie-downs.\nYou'll love how solid they feel once installed!"},{"a":"anchorshort","t":"Anchor","q":"The GPCA anchor bolt seems shorter than my factory Jeep bolt — is that right?","r":"Great observation! The Jeep factory screw has an extra blank (non-threaded) section at the tip, but the actual thread length is the same as the GPCA Anchor PRO.\nOur bolts are built to match the factory thread engagement exactly — you're not losing any holding strength. Hope that clears it up!"},{"a":"lrrr","t":"GP-GRIP","q":"I ordered the GP Grip PRO but the left and right handles look the same — is that correct?","r":"Yes, that's by design! The GP Grip PRO handles are universal — they fit both the driver and passenger sides, as well as the rear sport bar above the cargo space.\nThe key is the utility pouch orientation: mount the pouch on opposite sides of the main body for left vs. right, and always keep the arrow end pointing toward the back of the Jeep. Check out the install instructions for the visual — it'll all make sense right away!"},{"a":"gpgjt","t":"GP-GRIP","q":"Can I use the GP Grip AIR on a Jeep Gladiator?","r":"Yes! For 2024+ Gladiator models with airbags on the roll bars, grab the GP Grip AIR 2-Pack for the front here: gpca.com/products/gp-grip-air-for-gladiator-2024.\nIt comes in 12 colors to match your setup. Note: not compatible with the Sky One Touch Top.\nThe GP Grip AIR mounts on the outside, resting on the metal side of the roll bar."},{"a":"gpgll","t":"GP-GRIP","q":"I have a smaller-diameter roll bar on my vehicle — which GP Grip model will fit?","r":"The GP Grip LITE Universal is the one for you — it's designed to mount on roll bars from 1\" to 5.5\" in diameter and takes up less space than the PRO.\nGrab it here: gpca.com/products/gp-grip-lite-universal-handles.\nIf you want to upgrade to the PRO's metal handle later, the add-on is available here: gpca.com/collections/gp-grip-addons."},{"a":"gpgcolor","t":"GP-GRIP","q":"Where can I get a color handle upgrade for the GP Grip?","r":"You can grab single or multi-handle color upgrades here: gpca.com/products/gp-grip-color-handle-upgrade-single.\nJust a heads up — slight color variations can happen depending on whether your Jeep is in sun or shade (even automotive paint doesn't match 100% in all lighting).\nWe've dialed the colors to look great in real-world conditions though!"},{"a":"gpgpfold","t":"GP-GRIP","q":"The GP Grip seems like it might block my window view — does it?","r":"Not at all! The GP Grip sits lower and better positioned than traditional handles, and you can fold it flat out of the way for a completely clear window view.\nUnlike the dangling plastic handles on the market, it won't swing into your sightline. Plus you get the integrated utility pouches for your gear.\nBest of both worlds!"},{"a":"gpgabbb","t":"GP-GRIP","q":"How do I install the GP Grip AIR on both the front and rear roll bars?","r":"The 2 longer straps on the GP Grip AIR are for the rear mounting points at the very back on each side. The shorter strap pairs with one of the long straps on one side for the rear mount.\nA small amount of strap return at the bottom is totally normal. Adjust the D-ring position on top and the Velcro on the straps to get a snug, balanced fit.\nWatch our install videos for the full step-by-step: General Install and Rear Roll Bar Install."},{"a":"gpgair","t":"GP-GRIP","q":"Where can I find the GP Grip AIR for 2024+ Jeep Wrangler?","r":"Right here — 12 colors to choose from: gpca.com/products/gp-grip-air-for-jeep-wrangler-2024. The GP Grip AIR is designed specifically for 2024+ models with side curtain airbags — it mounts on the outside of the roll bar and is built to accommodate that airbag system.\nLet us know if you have any questions before ordering!"},{"a":"gpgg","t":"GP-GRIP","q":"Where can I find the GP Grip PRO for my Jeep?","r":"Check out the full GP Grip lineup — PRO and AIR — with 12 handle colors to match your ride right here: gpca.com/product-tag/gp-grip/. Let me know which Jeep model you have and I can point you to the best fit!"},{"a":"gpga2333","t":"GP-GRIP","q":"Can the GP Grip AIR be used on 2023 and older Jeep models?","r":"The GP Grip AIR can technically be mounted on 2023 and earlier models, though the handle won't be foldable on those years — the foldable design is specifically optimized for 2024+ due to the airbag system layout. For the best fit on 2007–2023 models, the GP Grip PRO is the recommended choice: gpca.com/products/gp-grip-pro-handle. The AIR for 2024+ is here: gpca.com/products/gp-grip-air-for-jeep-wrangler-2024."},{"a":"gpgaaa","t":"GP-GRIP","q":"Where can I find add-ons and accessories for the GP Grip?","r":"All GP Grip add-ons are right here: gpca.com/collections/gp-grip-addons. The utility pouch wrap is a fan favorite: gpca.com/products/utility-pouch-wrap-for-gp-grip. Great ways to customize your setup!"},{"a":"gpgalll","t":"GP-GRIP","q":"What are the longer straps in the GP Grip AIR package used for?","r":"The two longer straps are for the rear-most mounting points on the back window roll bar (not the front).\nHere's the owner's manual for a full visual reference: bit.ly/gpgrip-manual.\nIf you have any install questions along the way, just reach out — we're happy to walk you through it!"},{"a":"gpgback","t":"GP-GRIP","q":"I need to order only the rear roll bar handles for the GP Grip AIR — can I do that?","r":"Since we don't have the rear handles listed separately online yet, here's what to do: order the front 2-Pack at gpca.com/products/gp-grip-air-for-jeep-wrangler-2024 and then immediately send us your order number.\nWe'll manually change it to the rear set for you. Easy workaround, and we're happy to make it happen!"},{"a":"gpgfaq","t":"GP-GRIP","q":"Where can I find the GPCA GP Grip FAQ page?","r":"All the details are here: gpca.com/pages/gp-grip-faq. Installation guides, compatibility info, and more. And as always, I'm right here if anything needs more explanation!"},{"a":"gpgpart","t":"GP-GRIP","q":"Where can I find replacement parts and add-ons for the GP Grip?","r":"Check out the GP Grip Parts and Add-ons page here: gpca.com/products/gp-grip-parts-addons. Everything from mounting hardware to strap upgrades is there. And while you're at it, check out our Carabiner PRO X KEY — another great addition to your EDC setup: gpca.com/products/gpca-carabiner-pro-x-key-1."},{"a":"gpgmenu","t":"GP-GRIP","q":"My package only has one handle — does the GP Grip come in pairs?","r":"The GP Grip comes in both single and 2-pack options listed on the same product page. It sounds like you may have selected the single-pack.\nDouble check your order here: gpca.com/products/gp-grip-pro-handle. If there's any issue with the order, just share the order number and we'll sort it out for you!"},{"a":"gpgplll","t":"GP-GRIP","q":"What are the differences between the GP Grip PRO and the GP Grip LITE?","r":"The GP Grip PRO features aerospace-grade aluminum handles in 12 color options for a premium, solid feel. The GP Grip LITE has ABS engineered handles in 3 colors at a more accessible price point.\nBoth mount on the roll bar in the same way. PRO: gpca.com/products/gp-grip-pro-handle | LITE: gpca.com/products/gp-grip-lite-universal-handles.\nThe GP Back Grips also pair great with either one for a full grip setup!"},{"a":"gpga22","t":"GP-GRIP","q":"I want to order only the rear roll bar handles for the GP Grip AIR — how do I do that?","r":"Since we don't have the rear-only pack listed separately online just yet, order the front 2-Pack and let us know the order number — we'll manually update it to the rear roll bar set for you. No hassle at all! gpca.com/products/gp-grip-air-for-jeep-wrangler-2024"},{"a":"gpgdiy","t":"GP-GRIP","q":"Do you have more than 12 handle colors available for the GP Grip?","r":"We're always working to expand options — I've passed along your feedback to the product team!\nFor now, the GP Grip PRO handles are aluminum, so you can actually paint them with automotive paint from a local hardware store if you want a specific color match for your rig.\nCheck out the GP Grip lineup here: gpca.com/product-tag/gp-grip/."},{"a":"gpgfold","t":"GP-GRIP","q":"I have very little space on my roll bar — will the GP Grip still fit?","r":"The GP Grip PRO can be folded into a more compact profile to fit narrower roll bar spaces. And if you already have cords or straps from other accessories on the roll bar, just mount the GP Grip first and run the cord over the wrap after. It's flexible enough to work in tight setups!"},{"a":"gpgafold","t":"GP-GRIP","q":"The handle on my GP Grip AIR doesn't seem to fold — why not?","r":"For the GP Grip AIR, you'll want to fold the handles while you're in the process of mounting — press the straps into their best positions first before locking down the bottom screws. For the PRO model, fold the handle while tightening the straps on the roll bar.\nIf you're still having trouble, check our FAQ at gpca.com/pages/gp-grip-faq or shoot us a message!"},{"a":"gpgreverse","t":"GP-GRIP","q":"Can I use the other side of the handle padding on my GP Grip?","r":"Yes! The handle padding on the GP Grips is reversible — you can have the leather side out or the nylon side out depending on your preference.\nJust another little detail we built in to let you customize your grip. Hope that helps!"},{"a":"gpgpro","t":"GP-GRIP","q":"Can you share the link for the GP Grip PRO?","r":"Of course! Here you go — GP Grip PRO in 12 colors: gpca.com/products/gp-grip-pro-handle.\nAnd for the ultimate passenger experience, the GP Back Grip PRO pairs perfectly with it: gpca.com/products/gp-back-grip-pro. Check out our new arrivals too while you're there: gpca.com/collections/new-arrivals!"},{"a":"gpgsky","t":"GP-GRIP","q":"Can I install the GP Grip PRO or AIR under the Sky One-Touch Power Top?","r":"Unfortunately, the space around the roll bar under the Sky One-Touch Top is too narrow for the GP Grip PRO or AIR. However, the GP Back Grip is a great alternative that works great in that setup.\nYou can also browse other JL accessories here: gpca.com/product-tag/jl/. Plenty of ways to gear up your Jeep even with the SOT!"},{"a":"burggg","t":"GP-GRIP","q":"The red handle on my GP Grip LITE looks more burgundy than red — is that right?","r":"The GP Grip LITE uses a nylon material which gives it that deeper burgundy tone — it can look redder in bright light or studio photos, which is why the product shots can look a bit different.\nIf you want a truer, brighter red, the GP Grip PRO has a metallic red handle that's a much closer match to Jeep's factory red.\nLet us know which you'd prefer and we'll help you get there!"},{"a":"gpgtire","t":"GP-GRIP","q":"Why would I need a GP Grip handle on my Jeep if it already has factory handles?","r":"Great question! The GP Grip really shines during slow-speed off-road sections when you need to check your tire placement or brace yourself on rough terrain without relying on the steering wheel.\nFactory handles mainly help with getting in and out of the Jeep — the GP Grip gives you an actual solid hold while you're moving through tough terrain. Big difference once you try it!"},{"a":"gpgfff","t":"GP-GRIP","q":"I'm worried the GP Grip handle might hit my head — is there enough clearance?","r":"No worries! The GP Grip PRO is foldable, so you can fold it flat out of the way when you don't need it — unlike the dangling plastic handles that swing around and block your view.\nWhen folded, it sits clean and out of the way. When you need it, it's right there. 12 colors to match your Jeep too: gpca.com/products/gp-grip-pro-handle!"},{"a":"gpgswing","t":"GP-GRIP","q":"What makes the GP Grip better than the standard plastic Jeep handles on the market?","r":"Honestly, those plastic handles get the basic job done, but they come with real trade-offs — they wiggle, swing around, and can block your window view. The GP Grip PRO is built from aerospace-grade aluminum, so it won't sway or flex.\nIt folds flush when not in use, includes integrated utility pouches for your gear, and comes in 12 colors. It's not just a handle — it's a properly engineered off-road tool.\nTry it on one trail and you'll never go back!"},{"a":"gpgarrr","t":"GP-GRIP","q":"I want to order the rear GP Grip AIR roll bar handles — how do I do that?","r":"Since the rear-only pack isn't listed separately yet, here's the move: order the front 2-Pack here: gpca.com/products/gp-grip-air-for-jeep-wrangler-2024 and immediately send us your order number.\nWe'll change it to the rear set for you. Easy fix!"},{"a":"gpgttt","t":"GP-GRIP","q":"Does the GP Grip only work when the Jeep top is off?","r":"Not at all! You can install the GP Grip AIR with the freedom panel and hard top on or off.\nWe just show the installation with the top off in our videos for better visibility and clarity. With a Torx tool adapter, the install is totally doable with the top on too."},{"a":"gpgshade","t":"GP-GRIP","q":"My new GP Grips won't work with my Spiderweb Shade — what should I do?","r":"Good news — it works! Just install the GP Grip first on the roll bar, then strap the Spiderweb Shade over it after.\nThe shade straps right over the wrap without any conflict. Give it a try and let us know if you run into any trouble — we'll get it sorted!"},{"a":"gpgtop","t":"GP-GRIP","q":"Can I install the GP Grip side handles without removing the hard top or freedom panel?","r":"Yes, you don't need to take the hard top off!\nLifting the freedom panel makes the install a bit easier and faster, but it's not required. The GP Grip installs around the roll bar whether the top is on or off."},{"a":"gpgrear","t":"GP-GRIP","q":"Can I get rear roll bar handles for my Jeep?","r":"Absolutely! For JL 2024+: grab the rear roll bar handles here — gpca.com/products/gp-grip-air-for-jeep-wrangler-2024?variant=51869618143542.\nFor Gladiator 2024+, we currently offer headrest handles for rear passengers. What Jeep model are you rocking?\nI can point you to the exact right option!"},{"a":"gpguu","t":"GP-GRIP","q":"Where can I find the GP Grip Universal and the sunglasses case?","r":"The GP Grip LITE Universal fits roll bars from 1\"–5.5\" in diameter with a sleek duo-strap look: gpca.com/products/gp-grip-lite-universal-handles.\nYou can also mount the GPCA sunglasses case directly onto the handle — check it out here: gpca.com/collections/gp-grip-addons. Great way to keep your shades within reach!"},{"a":"bggg","t":"Back GRIP","q":"Is there a grab handle for my rear passengers?","r":"Yes! The GP Back Grip PRO is exactly what you're looking for.\nIt features solid aluminum handles and mounts directly onto any headrest with standard insert poles — no permanent modification needed. 12 colors to match your ride: gpca.com/products/gp-back-grip-pro. For other vehicles (cars, trucks) you can also choose the non-removable mount version.\nLet us know what you're driving!"},{"a":"bgccc","t":"Back GRIP","q":"There is already a handle on my car door B-pillar — why do I need the GP Back Grip?","r":"We thought about that! The B-pillar handles aren't optimally positioned to help move your body weight toward the center of the seat — they're mainly for support at the door frame.\nFor off-road stability and helping passengers (especially kids and seniors) get centered in the seat, having a grip in front of them makes a big difference. The GP Back Grip is specifically designed for that centered, stable hold."},{"a":"bg???","t":"Back GRIP","q":"Why do I need the GP Back Grip at all?","r":"The GP Back Grip gives passengers a centered grip to pull themselves into the seat with ease and stay stable during off-road sections or sudden stops. Door handles and B-pillar handles don't really serve that purpose.\nIt's especially great for kids and seniors who need a reliable hold. Once you use it off-road, you'll wonder how you rode without it!"},{"a":"bg900","t":"Back GRIP","q":"I can't remove my headrest — can I still install the GP Back Grip?","r":"About 90% of headrests are removable using the standard pull-up method shown in our video. Some newer headrests (like certain Chevy models) require a flathead tool to push the pole release button — here's a reference: youtube.com/watch?v=example.\nIf you have a fixed one-piece seat, unfortunately the removable mount version won't work — but the non-removable strap-on version might be an option. Let us know your vehicle and we'll find the right solution!"},{"a":"bgdiy","t":"Back GRIP","q":"I could just DIY a handle like this — why should I buy the GP Back Grip?","r":"Love the DIY spirit — we've got that same energy at GPCA! If you've got the skills and materials, a DIY rig can work.\nThe GP Back Grip PRO, though, is a complete solution — aerospace-grade aluminum handles in the right dimensions, with calibrated holding force, 12 color options, and a clean, purposeful design that just looks right in your vehicle. For a lot of folks, the quality and ease is worth it.\nTotally your call though!"},{"a":"bgfit","t":"Back GRIP","q":"The GP Back Grip handle seems too small for my hands — will it fit?","r":"The design is intentionally snug for maximum stability — a tighter fit means a more confident hold during off-road use.\nThat said, you can raise the headrest height slightly to expose more of the handle, giving your hand more room to grip. Try it and let us know — you might be surprised how solid it feels!"},{"a":"bgfront","t":"Back GRIP","q":"Can the GP Back Grip be mounted on the front of the seat as well?","r":"Yes! Some customers mount it on the front face of the front seat so the driver's side passengers (or kids in the back) can use it to pull themselves in and out.\nYou can actually stack one on each side of the seatback — one for getting in from the rear, one for bracing from the front. Very versatile!"},{"a":"bggrand","t":"Back GRIP","q":"I don't put my elderly family members in the back seat — why would I need this?","r":"Ha, fair enough! But just once for the adventure, right? 😄 The GP Back Grip is great for all rear passengers — kids, friends, anyone navigating rough terrain or steep inclines.\nYou'll be surprised how often passengers reach for something solid to hold on to. And it looks sharp too!"},{"a":"bghand","t":"Back GRIP","q":"The handle looks small — can a large hand actually grip it comfortably?","r":"Absolutely! The GPCA Back Grip PRO is designed to fit all adult hand sizes comfortably.\nDimensions: 6.5\" (long side) x 4.5\" (short side) x 2.5\" x 0.5\". The 4.5\" grip width covers hands ranging from small (3.5\") to XL (4\" palm width), so most adult hands fit securely around the bottom grip face.\nGive it a try — it's built to hold!"},{"a":"bginstall","t":"Back GRIP","q":"How do I install the GP Back Grip?","r":"Super easy! For the ~90% of cars with removable headrests: slide the headrest out, slip the ring mount onto the headrest poles, then reinsert the headrest — done!\nFor non-removable headrests, select the strap-on mount version from the pulldown menu — it straps right on without any removal needed. Either way, you're looking at a 2-minute install. 12 colors to match your interior too!"},{"a":"bglll","t":"Back GRIP","q":"Where can I find the GP Back Grip LITE?","r":"Right here: gpca.com/products/gp-back-grip-lite. The LITE features an engineered ABS handle at a more accessible price point.\nIf you want the full aluminum PRO version, that's here: gpca.com/products/gp-back-grip-pro. Both come in multiple color options!"},{"a":"bgpaaa","t":"Back GRIP","q":"I already have a paracord handle — isn't that good enough?","r":"Paracord handles are cool and they do the job in a pinch! The downside is they tend to swing and can compress your fingers during rough off-road rides.\nThe GP Back Grip PRO gives you a solid, fixed aluminum grip that moves your passengers into the center of the seat with ease and stays stable on all road conditions. It's a meaningful upgrade, especially for passengers who need more confidence on the trail."},{"a":"bgpair","t":"Back GRIP","q":"Does the GP Back Grip come as a pair or just one handle?","r":"The GP Back Grip PRO comes as a pair — one handle for each rear headrest — so both back seat passengers are covered.\nIf you have multiple vehicles or want to gear up for friends and family, just add more sets!\nThey make great gifts for Jeep owners and adventure lovers."},{"a":"bgplll","t":"Back GRIP","q":"What is the difference between the GP Back Grip PRO and the GP Back Grip LITE?","r":"The GP Back Grip PRO is built from solid aluminum with a premium feel and 12 colors to choose from — it's built for tough conditions and serious off-roading: gpca.com/products/gp-back-grip-pro. The GP Back Grip LITE uses an engineered ABS handle with a lighter weight and a more accessible price: gpca.com/products/gp-back-grip-lite.\nBoth mount the same way and look great in any vehicle!"},{"a":"bgpull","t":"Back GRIP","q":"I don't want passengers pulling on the back of my seat — will the GP Back Grip cause that?","r":"Totally get it — the first ride, people might grab at it out of curiosity! But the GP Back Grip gives them their OWN dedicated grip, which actually reduces the tendency to grab the seat back.\nOver time, passengers love having a proper handle, and during off-road it genuinely helps them stay centered without touching your seat at all. Win-win!"},{"a":"bgstrength","t":"Back GRIP","q":"I'm worried the GP Back Grip will damage my headrest or seat — will it?","r":"No worries at all! Car and truck headrests and seats are engineered to handle significant weight and stress from real-world driving conditions, including off-road.\nThe GP Back Grip's ring mount distributes the load evenly on the headrest poles, which are designed for exactly this kind of use. You're not going to hurt anything!"},{"a":"bgweak","t":"Back GRIP","q":"The GP Back Grip demo video seems overly dramatic — does it really make that much difference?","r":"Ha, we may have gone a little dramatic in the demo! But the core need is real — especially for seniors, kids, or anyone on a bumpy trail.\nThe GP Back Grip helps passengers pull themselves into the seat's center and stay stable, which even a \"strong\" passenger will appreciate on a rough off-road stretch. It's one of those things you use more than you expect once it's installed!"},{"a":"bronair","t":"Bronco accessory","q":"Can I mount the GP Grip on a Ford Bronco?","r":"The Bronco's roll bar space is more limited, so the GP Grip PRO/AIR isn't the right fit there. However, the GP Back Grip PRO is a great option for Bronco owners — it mounts on any headrest with standard insert poles and comes in 12 colors: gpca.com/products/gp-back-grip-pro.\nAll our Bronco-compatible accessories are here: gpca.com/product-tag/bronco/."},{"a":"bronnn","t":"Bronco accessory","q":"Can the GPCA Bronco cargo cover be used with the top off?","r":"The Bronco Cargo Cover is designed for top-on use — it provides great shade and privacy under the hard top. For top-off use, it's not the right fit, but you can check out all our other Bronco 2021+ accessories here: gpca.com/product-tag/bronco/ for options that work topless!"},{"a":"bronsport","t":"Bronco accessory","q":"Will the GPCA Bronco cargo cover fit a Bronco Sport?","r":"Unfortunately no — the Bronco Sport has a very different hard top configuration from the full-size Bronco, so our Bronco cover won't fit.\nIf you're looking for Bronco Sport accessories, let us know and we'll do our best to help point you in the right direction!"},{"a":"waaa","t":"GPCA Wallet","q":"Where can I buy the GPCA wallet?","r":"Right here! gpca.com/products/gpca-united-1-wallet — check it out and let us know if you have any questions. It's a sleek, functional EDC wallet that pairs perfectly with the GPCA Carabiner lineup!"},{"a":"warfff","t":"GPCA Wallet","q":"Is the GPCA wallet RFID blocking?","r":"The GPCA wallet doesn't include a dedicated RFID blocking layer, but you can easily add an RFID blocking card behind your card stack to prevent any potential interference from nearby cards or readers. It's a simple and affordable add-on available at most stores. Hope that helps!"},{"a":"g222","t":"GPCA Pen","q":"My GP 1945 pen ink refill doesn't seem to be working — what can I do?","r":"This is actually a pretty common thing after shipping! Vibration and changes in air pressure during transit can cause small air bubbles to form in the refill, which disrupts ink flow.\nThe fix is simple: stand the pen upright (nib pointing down) for a few days and let the ink settle. In most cases, it writes perfectly after that.\nIf it's still not flowing well after a few days, share your shipping address and order number and we'll get a replacement refill out to you!"},{"a":"rfff","t":"GPCA Pen","q":"My pen refill isn't working and I need a replacement — can you send one?","r":"Absolutely! We'll send you a refill 3-pack to make sure you're fully stocked.\nPlease confirm your shipping address and we'll get it out to you. Also worth trying first: stand the pen upright for a few days — air bubbles from shipping often cause initial flow issues.\nIf you need an alternative in the meantime, the Lamy M22 refill is a compatible option available at most office supply stores."},{"a":"pennn","t":"GPCA Pen","q":"Where can I buy a GPCA pen?","r":"Check out our GP 1945 pen collection right here: gpca.com/collections/pens. The GP 1945 Bolt Action PRO and LITE both make amazing everyday carry pens with a lot of personality.\nLet us know if you need help picking the right model!"},{"a":"g111","t":"GPCA Pen","q":"My GP Grip PRO package didn't include a pen — should it have?","r":"The GP 1945 pen is only included with the Survivor Pack — it's not part of the standard PRO pack.\nIf you're interested in the pen, you can order it separately here: gpca.com/collections/pens.\nIf you actually did order the Survivor Pack and the pen is missing, just share your order number and we'll make it right!"},{"a":"pentip","t":"GPCA Pen","q":"I lost the glass breaker tip and pen clip for my GP 1945 pen — can I buy replacements?","r":"Yes! Replacement Tungsten Glass Breaker tips and pen clips are available.\nJust make sure to match the material and color to your existing pen. Grab them here: gpca.com/products/gp-1945-safety-emergency-tip-cap-pen-clip.\nWe've got you covered!"},{"a":"jeeppp","t":"Car accessories","q":"Where can I find GPCA Jeep Wrangler accessories?","r":"All Jeep Wrangler accessories are here: gpca.com/collections/jeep. From cargo covers to grab handles and tie-downs, we've got a solid lineup for your build.\nLet us know what you're looking for!"},{"a":"jlll","t":"Car accessories","q":"Where can I find GPCA accessories for my Jeep Wrangler JL?","r":"Everything for your JL Wrangler is right here: gpca.com/collections/jl. Let us know what you're building and we'll help you put together the right setup!"},{"a":"jkkk","t":"Car accessories","q":"Where can I find GPCA accessories for my Jeep Wrangler JK?","r":"All JK Wrangler gear is here: gpca.com/collections/jk. If you need help figuring out what fits your specific year or setup, just ask — we're happy to help!"},{"a":"jttt","t":"Car accessories","q":"Where can I find GPCA accessories for my Jeep Gladiator JT?","r":"Shop all JT Gladiator accessories here: gpca.com/collections/jt.\nWe've got some great picks for the Gladiator platform — let us know if you need any recommendations!"},{"a":"jkjl","t":"Car accessories","q":"Can I use a JK cargo cover on a JL Jeep, or vice versa?","r":"Unfortunately, they won't interchange — the JK and JL have different cargo space dimensions and mounting points, so covers are model-specific.\nYou can order the correct JL cover at gpca.com with free shipping available now.\nIf you're unsure which model you have, the body style changed in 2018 (JL) — just let us know and we'll confirm the right one for you!"},{"a":"tesss","t":"Car accessories","q":"Where can I find GPCA accessories for my Tesla?","r":"Your Tesla S/3/Y gear is right here: gpca.com/collections/tesla.\nWe've got some great EDC and interior accessories for Tesla owners too.\nLet us know what you're looking to add!"},{"a":"pickstring","t":"Guitar Pick","q":"Won't the titanium guitar pick wear out my guitar strings faster?","r":"True — strings and picks naturally wear on each other, it's just part of playing music. The trade-off with titanium is that metallic touch and instant tone response that musicians love — it's a distinct feel you can't get with plastic picks.\nStrings are consumables anyway, and most players who try the titanium pick love the feel enough to keep using it. Check it out here: gpca.com/products/gpca-titanium-guitar-pick-set!"},{"a":"pick33","t":"Guitar Pick","q":"How thick is the GPCA Titanium guitar pick?","r":"It's 3mm thick with a brushed finish on both sides for grip and feel. Thicker picks are stiffer, which gives you more precision, attack, and control — exactly what titanium picks are known for in the metal and rock world.\nIt's a very deliberate design choice. Check it out: gpca.com/products/gpca-titanium-guitar-pick-set!"},{"a":"pickk","t":"Guitar Pick","q":"Standard plastic picks work fine — why would I switch to a titanium pick?","r":"Plastic picks are totally solid for everyday playing! The titanium pick offers something a bit different — a subtle metallic tone response, faster attack, and a unique feel that really shines on electric guitar.\nIt's one of those things you have to try to fully appreciate. If you play a lot, it's a fun upgrade to experiment with: gpca.com/products/gpca-titanium-guitar-pick-set!"},{"a":"addd","t":"Shipping","q":"The shipping address on my GPCA order appears to be incorrect — how can it be updated?","r":"Hi! We noticed our USPS shipping system isn't recognizing the address on your order.\nNo worries — let's get this fixed right away! Could you please provide your corrected address in the following format: Name, Company Name (if any), Door Number, Street Name, Apartment Number (if any), City, State/Province, Postal Code, Country, Phone Number.\nWe'll get your order updated as soon as we hear back from you. Sorry for the inconvenience and thank you for your patience!"},{"a":"backkk","t":"Shipping","q":"My order is delayed and hasn't shipped yet — can I get a refund?","r":"We're really sorry about the delay! We're experiencing some logistics congestion and we want to make sure your order gets to you properly.\nYour order will be fulfilled as soon as it arrives at our warehouse, estimated in 2–3 weeks, and you'll receive a shipping update when it ships. If you'd prefer not to wait, we can process a refund now and you're always welcome to place a new order once the item is back in stock.\nJust let us know what you'd prefer and we'll take care of it!"},{"a":"backooo","t":"Shipping","q":"My order is delayed and it says it's a backorder item — when will it ship?","r":"This item was on backorder, and we've just restocked this week and are ready to ship very soon! You'll receive a shipping update once it's on its way.\nWe're sorry for the wait and appreciate your patience — it'll be worth it when it arrives! Have a great week!"},{"a":"delaaa","t":"Shipping","q":"My package seems to be stuck in transit — where is it?","r":"Your package is on its way! It looks like USPS is experiencing some delay on the latest scan update, but the package is moving.\nPlease give it 3–5 more business days. If there's still no update after that, we'll open a case with USPS and make sure your package gets to you.\nAlso check all your inbox folders for the shipping email, and add hello@gpca.com to your contacts so it doesn't go to spam. Thanks for your patience — it's almost there!"},{"a":"delayyy","t":"Shipping","q":"I checked my shipping status but USPS hasn't updated it recently — is something wrong?","r":"USPS sometimes has scan delays — the package can be moving without the tracking updating right away. Please give it another 3–5 business days to see a new update.\nIf you still don't see movement, reach out with your order number and we'll follow up with USPS on your behalf. Thanks for keeping an eye on it!"},{"a":"deliii","t":"Shipping","q":"I have an international order — can you give me an update on my shipping status?","r":"International shipping updates can sometimes be slow to appear, especially during customs processing. Your package is on its way!\nPlease allow some extra time for customs clearance in your country. If you haven't received any update in a while, send us your order number and we'll look into it and give you the latest we have.\nThanks for your patience!"},{"a":"delll","t":"Shipping","q":"My tracking shows the package has been delivered — but I haven't received it yet.","r":"It looks like the carrier marked this as delivered! Here are a few things to check first: look around all entry points of your home (porch, mailbox, side door), check with neighbors in case it was left nearby, and check if anyone else at the address may have brought it inside.\nIf it's still nowhere to be found after checking, please reach out with your order number and we'll help you file a claim and get this resolved. We've got you!"},{"a":"duuu","t":"Shipping","q":"I think I may have placed a duplicate order — can you check and cancel one?","r":"No worries at all — we'll take a look! Please share the email address or order number(s) used and we'll confirm whether a duplicate was placed and cancel the extra one right away.\nYou'll receive a refund to your original payment method if a duplicate charge occurred. Thanks for catching that!"},{"a":"emaaa","t":"Shipping","q":"I asked about my order on social media — should I email you instead?","r":"Yes! For the quickest and most secure help with your order, please email us at hello@gpca.com with your order number.\nOur team responds within 1 business day and can access all your order details there. We'll get you taken care of right away!"},{"a":"eyyy","t":"Shipping","q":"Will you monitor my package to make sure it arrives safely?","r":"Absolutely — we'll keep an eye on it for you! If anything looks off with the tracking or there's a concerning delay, we'll proactively reach out and take action.\nWe want your order in your hands as much as you do. Thanks for reaching out!"},{"a":"innn","t":"Shipping","q":"How much does international shipping cost for GPCA orders?","r":"International shipping rates vary based on your location and the items in your order. The exact shipping cost will be calculated at checkout on gpca.com.\nIf you'd like a rough estimate before ordering, share your country and what you're looking to order and we'll do our best to give you an idea. We ship worldwide!"},{"a":"inteee","t":"Shipping","q":"What is the status of my international order?","r":"Thanks for checking in! International orders can take longer depending on customs clearance in your country.\nPlease share your order number and we'll pull up the latest tracking info for you and give you the most up-to-date status. Hang tight — it's on its way to you!"},{"a":"inttt","t":"Shipping","q":"International shipping seems expensive — is there a more affordable option?","r":"We totally understand — international shipping costs are driven by carrier rates and can feel steep, especially for smaller orders. Unfortunately, we can't control those rates, but we ship via the most reliable carriers to make sure your order arrives safely.\nBundling multiple items in one order is the best way to get more value out of the shipping cost. Let us know if you'd like help putting together a bundle!"},{"a":"locaaa","t":"Shipping","q":"Can you look up my order? I'm not sure if it went through.","r":"Of course! Please share the email address used at checkout or your order number, and we'll pull up your order right away.\nIf you checked out as a guest, the email address will be the key. We'll get you a full update ASAP!"},{"a":"misss","t":"Shipping","q":"My package arrived but there are missing items — what should I do?","r":"We're really sorry about that! Please share your order number and let us know which items are missing, and we'll get the missing pieces shipped out to you right away.\nNo need to send anything back — we'll make it right. Thank you for letting us know!"},{"a":"o??","t":"Shipping","q":"Can you help me look up the details of my GPCA order?","r":"Of course! Could you share your order number or the email address used at checkout?\nWe'll pull up everything — order contents, shipping status, and tracking — and get you a full update. We're on it!"},{"a":"onnn","t":"Shipping","q":"My order has shipped — can you confirm the tracking details?","r":"Great news — your order is on its way! You should have received a shipping confirmation email with your USPS tracking number.\nCheck all folders (including spam) and add hello@gpca.com to your contacts so future emails land in your inbox. If you can't find the email, share your order number and we'll send the tracking details directly!"},{"a":"orddd","t":"Shipping","q":"Can you locate my order? I'd like to check its status.","r":"Happy to help!\nPlease share your order number or the email address you used at checkout, and we'll look it up right away.\nIf you used a different email or checked out as a guest, let us know and we'll do our best to track it down for you!"},{"a":"orderrr","t":"Shipping","q":"Can I place a GPCA order by phone or in person?","r":"Currently we only process orders online! You can order directly from our website at gpca.com or through our Amazon storefront at amazon.com/gpca.\nBoth options offer secure checkout and fast shipping. Let us know if you need help navigating the site — happy to point you in the right direction!"},{"a":"outtt","t":"Shipping","q":"The item I want is out of stock — what should I do?","r":"We're sorry about that!\nThe best thing to do is check back at gpca.com periodically, or reach out so we can add you to the notify list when it's back in stock.\nIn the meantime, feel free to browse other accessories that might interest you — lots of great stuff in stock now!"},{"a":"parttt","t":"Shipping","q":"Part of my order is missing — what's the next step?","r":"So sorry about that!\nPlease share your order number and which part is missing, and we'll get the missing item(s) shipped out to you as soon as possible.\nWe'll make it right — no hassle!"},{"a":"pirrr","t":"Shipping","q":"My international order has a logistics delay — can you give me an update?","r":"We're sorry for the inconvenience! International logistics can sometimes experience delays during high-volume periods or customs processing.\nYour package is still on its way — please allow a bit more time for customs clearance. Share your order number and we'll check the latest carrier update on our end and keep you posted!"},{"a":"preee","t":"Shipping","q":"I ordered a pre-order item — when will it ship?","r":"Your order includes a pre-order item that's currently in production/transit. Shipping for this item will start soon — you'll receive a shipping confirmation email with tracking as soon as it's on its way.\nThanks so much for your patience and for supporting GPCA early. We're excited to get this to you!"},{"a":"reee","t":"Shipping","q":"Can you send me instructions on how to ship back my return package?","r":"Of course! Please print out this email thread (including your Return Authorization Number) and pack it with the return item.\nShip to: GPCA Products, 3104 South Saddlebrook Ln #B, Katy, TX 77494. Please retain your return tracking number — we can't assume responsibility for lost shipments.\nAllow 2–3 weeks for delivery and 5–10 business days after receipt for processing. Any questions, we're here!"},{"a":"reshiii","t":"Shipping","q":"My package shows as lost or was never delivered — can you reship it?","r":"We're so sorry to hear that! Let's get this sorted for you right away.\nPlease share your order number and shipping address, and we'll follow up with the carrier and arrange a reship as needed. We want to make sure your GPCA gear makes it to you!"},{"a":"resss","t":"Shipping","q":"[Internal] Please reship this order to the team — internal use only.","r":"[Internal note: Reship order as directed. Confirm address with internal team before processing. Use standard warehouse fulfillment workflow.]"},{"a":"rettt","t":"Shipping","q":"Can you send me a prepaid return shipping label?","r":"We'd be happy to help with your return! Please share your order number and reason for return, and we'll review and provide return instructions.\nNote that return shipping fees are generally the customer's responsibility unless there's a defect or fulfillment error on our end. Once we confirm the details, we'll get the process started for you!"},{"a":"saddd","t":"Shipping","q":"My shipping address is wrong on my order — can you update it?","r":"No problem — let's catch this before it ships! Please share your order number and the correct shipping address as soon as possible, and we'll update it right away.\nIf it's already shipped, we'll do our best to redirect it with the carrier. We're on it!"},{"a":"scannn","t":"Shipping","q":"I placed an order but haven't received a shipping update email yet.","r":"The shipping confirmation email might have landed in your spam or promotions folder. Please check all folders and add hello@gpca.com to your contacts list so future emails don't get filtered.\nIf you still can't find it, share your order number and we'll resend the tracking information directly. Your order is moving!"},{"a":"sccc","t":"Shipping","q":"I entered the wrong shipping address — can you update it before it ships?","r":"Yes — let's update it right away! Share your order number and the corrected shipping address and we'll make the change immediately.\nIf the package has already shipped, we'll try our best to reroute with the carrier. The sooner you reach us, the better!\nThanks for catching this!"},{"a":"shhh","t":"Shipping","q":"Why is my order taking so long to arrive?","r":"We totally understand the wait can be frustrating! USPS and carrier networks occasionally experience volume-related delays, especially during peak periods.\nYour package is still on its way — please give it a few more business days. If tracking hasn't updated in over a week, reach out with your order number and we'll investigate with the carrier.\nWe appreciate your patience and we're here to help!"},{"a":"sss","t":"Shipping","q":"Can you give me an update on my shipping status?","r":"Of course! Please share your order number or the email you used at checkout and we'll pull up the latest tracking info right away.\nYou can also check your original shipping confirmation email for the USPS tracking link. We'll get you a full update ASAP!"},{"a":"steall","t":"Shipping","q":"My package was stolen after delivery — what can I do?","r":"That's really frustrating — we're sorry that happened! Here's what we'd recommend: first, file a police report for the stolen package (your carrier and insurance may require this).\nThen contact USPS to report the theft at their official site. Share your order number with us as well and we'll see what options are available on our end to help.\nWe want to make sure you get your GPCA gear!"},{"a":"theftt","t":"Shipping","q":"My tracking shows delivered but I never received the package — what should I do?","r":"Before anything else, please check all delivery spots around your home: porch, side door, mailbox, garage area, and check with neighbors in case it was left nearby. Also check if anyone else at the address may have received it. If it's truly missing after all that, share your order number with us and we'll file a carrier investigation and explore options to get you taken care of!"},{"a":"trrr","t":"Shipping","q":"Can you share my tracking number for my GPCA order?","r":"Happy to help!\nPlease share your order number or the email address used at checkout and we'll send you the tracking number right away. You should also have received a shipping confirmation email — check all folders and look for the USPS tracking link in there!"},{"a":"addd","t":"Shipping","q":"[Internal] Please confirm the shipping address for this order before processing.","r":"[Internal note: Confirm shipping address with customer before fulfillment. Cross-check against order record and update if needed before marking as ready to ship.]"},{"a":"dttt","t":"Shipping","q":"Will my order be delivered today?","r":"It looks like your order is out for delivery today! Keep an eye on your USPS tracking link for real-time updates.\nIf you have any issues with the delivery, let us know and we'll jump in to help right away. Exciting — almost there!"},{"a":"orderrr","t":"Order","q":"Can I place a GPCA order over the phone?","r":"We currently only process orders online — no phone ordering at the moment! You can order directly at gpca.com or through our Amazon storefront at amazon.com/gpca.\nBoth options are quick, secure, and offer free shipping on qualifying orders. Let us know if you need any help placing your order!"},{"a":"ordeee","t":"Order","q":"I can't find my order — can you look it up using my email address?","r":"Of course! I searched using your email but wasn't able to locate a matching order.\nCould you double-check the email you used at checkout? Sometimes orders are placed under a different email or as a guest.\nShare your receipt if you have it and I'll take another look right away!"},{"a":"orddd","t":"Order","q":"Can you look up my order using my order number?","r":"Absolutely! Please share your order number (or the email address used at checkout) and we'll pull it up right away.\nIf you used multiple emails, try those as well and let us know. We'll get you the latest update as soon as we find it!"},{"a":"duppp","t":"Order","q":"I accidentally placed a duplicate order — can one be cancelled?","r":"No worries — we'll take care of that right away! We'll cancel the duplicate order for you, and you'll receive a refund back to your original payment method.\nPlease share your order numbers so we can confirm which one to cancel. Thanks for catching it!"},{"a":"payyy","t":"Order","q":"Can you send me a PayPal payment link for an additional item or shipping fee?","r":"Sure thing! Here is your PayPal link: [Insert PayPal link here].\nPlease complete the payment and then send us the confirmation so we can process your request. Let us know if you have any questions!"},{"a":"dashhh","t":"Order","q":"Can I view my order details under my GPCA account?","r":"Yes! Log into your account at gpca.com and you'll be able to see your order history, tracking info, and status.\nIf you checked out as a guest, you may not have an account — but you can create one using the same email. Let us know if you need help accessing your order!"},{"a":"cannn","t":"Order","q":"I need to cancel my order — is that possible?","r":"We'll do our best to help! If your order hasn't shipped yet, we can cancel it and issue a full refund.\nPlease share your order number as soon as possible so we can check the fulfillment status and act quickly. The sooner we know, the better the chance we can catch it in time!"},{"a":"mphooo","t":"Order","q":"We need a photo to identify the missing item from your order — can you send one?","r":"Could you snap a quick photo of what was included in your package and send it over to hello@gpca.com with your order number?\nThat'll help us quickly identify what's missing and get the right item shipped out to you.\nWe'll get it sorted as soon as we see the photo!"},{"a":"canppp","t":"Order","q":"I requested a cancellation — has it been processed yet?","r":"We received your cancellation request and are checking with the fulfillment team to see if we can still pause it before it ships. We'll update you as soon as we have confirmation.\nIf the order has already shipped, we'll provide return instructions. Thank you for your patience!"},{"a":"ordernoshow","t":"Order","q":"I placed an order recently but haven't received any confirmation email — did it go through?","r":"Thanks for checking in! Orders can sometimes go through without a confirmation email reaching the inbox — it may have landed in spam or your promotions folder.\nPlease check all folders and search for an email from hello@gpca.com. If you don't find anything, share the email address you used and we'll look up the order on our end and resend the confirmation!"},{"a":"oeee","t":"Order","q":"I placed an order but haven't received any information or confirmation — what happened?","r":"Sorry about the confusion! This can happen if the confirmation email went to your spam folder or if the order was placed as a guest with a different email.\nPlease check all folders for an email from hello@gpca.com, and share the email address or any payment confirmation you have and we'll locate your order right away. We're on it!"},{"a":"cou12","t":"Discount","q":"Do you offer a special discount for celebrities, large social media creators, or music groups?","r":"Hey, that's awesome — thank you for supporting GPCA! We do offer a special 12% discount on top of all current sale prices for qualifying big supporters.\nHere's your exclusive code: gpca12mrtxm (expires in 2 days). Please tag @GPCAofficial if you share our products — we'd love to feature you to our 40K+ IG followers and across our other channels.\nThanks for the love and have a great one!"},{"a":"couuu","t":"Discount","q":"Do you offer a military, first responder, or frontline discount?","r":"Absolutely — thank you so much for your service! 🙏 We're honored to offer a special discount for military, firefighters, police, and frontline workers. Here's your code for an additional 5% off: Generalpurpose5ck (expires in 2 days).\nYou can also use GPCA-SP for an extra 10% discount on top of current sale prices (expires in 2 days). Thank you again — your sacrifice means a lot to all of us at GPCA!"},{"a":"courrr","t":"Discount","q":"I'm having trouble applying my coupon code at checkout — what should I do?","r":"No worries at all! Give it one more try at checkout, and make sure the code is entered exactly as shared (no extra spaces).\nIf it's still not applying, just place the order and send us your order number — we'll manually apply the discount as a partial refund to your original payment method. Easy fix!\nThanks for your order and have a great one!"},{"a":"counnn","t":"Discount","q":"I forgot to apply my coupon code during checkout — can you still apply it?","r":"Of course! We've got you covered.\nJust share your coupon code and order number with us, and we'll manually apply it as a partial refund to your original payment method. No stress — thanks for reaching out and we appreciate your support of GPCA! 🙌"},{"a":"refff","t":"RMA","q":"I returned my order — when can I expect my refund?","r":"Thanks for checking in! We'll follow up with our RMA team to confirm the return has been received and inspected.\nOnce it clears, your refund will be processed and should appear within 10–15 business days depending on your bank. Thanks for your patience and let us know if you have any further questions!"},{"a":"rmaa","t":"RMA","q":"I'd like to return my GPCA order — how do I start the process?","r":"We're sorry to hear it didn't work out! Before processing the return, we want to make sure we can't fix the issue — feel free to ask any questions about installation or product use and we'll do our best to help.\nIf you still want to proceed, your Return Authorization Number is: [INSERT ORDER NUMBER]2025. Print this email thread and include it with your return shipment to: GPCA Products, 3104 South Saddlebrook Ln #B, Katy, TX 77494.\nRetain your return tracking number. Allow 2–3 weeks for delivery and 5–10 business days after receipt for your refund to be applied to your original payment method."},{"a":"rmarr","t":"RMA","q":"I want to return my current item and order a different one — how do I do that?","r":"No problem! You can return your current item and place a new order for the correct one right away — no need to wait.\nYour Return Authorization Number is: [INSERT ORDER NUMBER]2025. Print this email thread and include it with your return to: GPCA Products, 3104 South Saddlebrook Ln #B, Katy, TX 77494.\nRetain your tracking number. We'll process your return within 5–10 business days of receipt and apply a credit to your original payment method.\nLet us know your new order and we'll keep an eye on it!"},{"a":"rmadefect","t":"RMA","q":"I received a defective or damaged product — what are my options?","r":"We're really sorry about that! If there's a confirmed defect, we'll send you a replacement right away — no return required.\nIf it's not a defect but you're unhappy with it, I can also get manager approval for a 15% partial refund so you can keep the item. If you'd prefer a full return, your Return Authorization Number is: [INSERT ORDER NUMBER]2025.\nPrint this thread and ship the item to: GPCA Products, 3104 South Saddlebrook Ln #B, Katy, TX 77494. Retain your tracking number and allow 5–10 business days after receipt for processing.\nWhatever works best for you, we're here to help!"},{"a":"rma1","t":"RMA","q":"I'm not happy with my product — what can be done?","r":"We're sorry to hear that! Let's start by understanding the issue — sometimes it's something we can resolve quickly.\nIs it a fit issue, installation question, or a product defect? Our FAQ at gpca.com/pages/faq and install videos at youtube.com/c/gpcaofficial might have the answer.\nIf there's a defect, we'll gladly send a replacement. If installation is the challenge, let us walk you through it.\nAnd if you still want to return after all that, we'll get the process started. Just let us know what happened!"},{"a":"rmass","t":"RMA","q":"Does GPCA cover return shipping fees?","r":"Return shipping is generally the customer's responsibility unless the item is defective or there was a fulfillment error on our end. We're sorry for the inconvenience!\nIf you believe your situation qualifies for covered return shipping, please share your order number and details and we'll review it with the team. We want to make the process as fair and smooth as possible for you."},{"a":"wronggg","t":"RMA","q":"I received the wrong item or my package has a missing part — what should I do?","r":"Oh no — we're so sorry about that mix-up! Please share your order number and a photo of what you received (or what's missing), and we'll get the correct item or missing part shipped out to you as soon as possible.\nNo return needed for fulfillment errors. We'll make it right!"},{"a":"refunddd","t":"RMA","q":"I was told I'd receive a refund — when will it appear in my account?","r":"Your refund has been processed on our end! Please allow 5–10 business days for it to appear, depending on your bank's processing time.\nIf it doesn't show up within that window, please reach out with your order number and we'll follow up on our end. Thanks for your patience!"},{"a":"afff","t":"Marketing","q":"I'm interested in promoting GPCA on my channel — how do I become an affiliate?","r":"Hey, we'd love to have you on board! We've reviewed your channel and see a lot of potential to collaborate.\nI'd like to invite you to join our affiliate program at affiliate.gpca.com — you can sign up and get your unique coupon code today. We provide all the support you need: affiliate links, exclusive discount codes, and marketing materials to help you grow your channel right away.\nLooking forward to working with you!"},{"a":"amaaa","t":"Marketing","q":"Where can I find GPCA products on Amazon?","r":"You can find our full Amazon storefront here: amazon.com/gpca. Same great products, Prime shipping eligible, and all the reviews you need to feel confident before ordering.\nLet us know if you have any questions!"},{"a":"clubbb","t":"Marketing","q":"Our Jeep club is interested in working with GPCA — how do we connect?","r":"That's awesome — we love the Jeep community! We'll review your club details with our team and see how we can support each other.\nIn the meantime, I'd also like to personally invite your club members to our affiliate program: affiliate.gpca.com. It's a great way for members to earn rewards and share exclusive discounts with the crew.\nLooking forward to working with you all! 🙌"},{"a":"collaaa","t":"Marketing","q":"I'm interested in a marketing collaboration with GPCA — who should I contact?","r":"Thank you for reaching out! For marketing collaborations, please email us at hello@gpca.us with a brief overview of your channel, platform, and what you have in mind.\nOur team reviews all collaboration inquiries and will get back to you as soon as possible. Looking forward to connecting!"},{"a":"deccc","t":"Marketing","q":"Can I get a free GPCA decal?","r":"We love the enthusiasm!\nShoot us a message with your shipping address and we'll see what we can do — we occasionally send out decals with orders or for big supporters. Tag us @GPCAofficial on Instagram and we might just have a little something for you! 🤙"},{"a":"iggg","t":"Marketing","q":"We'd love for you to tag GPCA on Instagram when you share your experience!","r":"If you're loving your GPCA gear, please tag us @GPCAofficial on Instagram!\nWe share customer photos and adventures to our 40K+ followers — and we'd love to feature your build or trail story. The GPCA community is full of awesome people, and we'd love to see you out there! 🤙"},{"a":"igppp","t":"Marketing","q":"We'd love to collaborate — can you share your channel or page stats with us?","r":"Awesome — we're always looking for great people to work with! Could you share some details about your platform — follower count, average views/engagement, and content focus?\nThat helps us figure out the best way to collaborate and what we can offer you. Looking forward to connecting!"},{"a":"igvvv","t":"Marketing","q":"We'd love to collaborate — please upload a video featuring our product and we'll go from there!","r":"Excited to work together! Here's our ask: create a video featuring the GPCA product and upload it to your channel, then send us the link.\nOnce we review performance and engagement, we can discuss next steps for an ongoing collaboration. We want to make sure it's a great fit for both sides.\nLet's make something awesome!"},{"a":"infbg","t":"Marketing","q":"We'd love for you to review the GP Back Grip — would you be interested?","r":"The GP Back Grip PRO is one of our most unique and loved products — we think your audience would really appreciate it! It's a grab handle that mounts on the headrest, designed for passengers in any vehicle on or off-road.\nWould you be open to receiving a unit and creating a review? Let us know and we'll coordinate shipping right away!"},{"a":"inflll","t":"Marketing","q":"We're interested in collaborating — please share your channel details for our team to review.","r":"Thanks for reaching out! Please share links to your channel(s) along with your main content focus (Jeep, offroad, EDC, outdoor, etc.) and your approximate audience size.\nOur team will review and get back to you with collaboration options. Looking forward to it!"},{"a":"infvvv","t":"Marketing","q":"We'd love to have you create a video featuring GPCA products — are you interested?","r":"We'd love that! The GPCA lineup — from grab handles to EDC carabiners to cargo covers — makes for great content, especially for Jeep and outdoor audiences.\nIf you're interested, let us know your platform and audience size and we'll send you a product to feature. Can't wait to see what you create!"},{"a":"ksss","t":"Marketing","q":"Do you have any new products launching on Kickstarter or anywhere else?","r":"Yes!\nCheck out our latest launches and new arrivals here: gpca.com/collections/new-arrivals. We also occasionally run Kickstarter campaigns for new product launches — follow us @GPCAofficial on Instagram and sign up at gpca.com to stay in the loop on everything new coming out!"},{"a":"newww","t":"Marketing","q":"Are there any new GPCA products I should check out?","r":"Great timing! Check out all our latest new arrivals here: gpca.com/collections/new-arrivals.\nWe're always rolling out new gear for Jeep owners, EDC enthusiasts, and outdoor adventurers. Lots of exciting stuff — let us know if anything catches your eye!"},{"a":"outtt","t":"Marketing","q":"The product I want is currently out of stock — are there other GPCA accessories I can check out in the meantime?","r":"Bummer — we're sorry about that! While that item is restocking, check out our other accessories — there's a lot of great gear in stock right now: gpca.com/collections/all.\nWe'll also have the out-of-stock item back soon. Want us to notify you when it's available?"},{"a":"revvv","t":"Marketing","q":"Would you be willing to leave a review for your GPCA product?","r":"If you're loving your GPCA gear, we'd be so grateful for a quick review! It means the world to a small California brand and helps other adventurers discover the right gear.\nYou can leave a review directly on the product page at gpca.com or on our Amazon storefront at amazon.com/gpca. Thank you so much — it really does make a difference! 🙌"},{"a":"youttt","t":"Marketing","q":"We'd like to invite you to collaborate with GPCA on YouTube — are you interested?","r":"We'd love to work with you! YouTube is a big part of how we connect with the Jeep and outdoor community.\nIf you're interested, please share your channel link and a little about your content focus and audience. We'll review and reach out with a collaboration proposal.\nLet's make something great together!"},{"a":"affliii","t":"Marketing","q":"What is the GPCA affiliate program link?","r":"Our affiliate program is right here: affiliate.gpca.com. Sign up, get your unique coupon code and affiliate link, and start earning right away.\nWe provide all the marketing support you need. Would love to have you on the team!"},{"a":"ddd","t":"Dealer","q":"I'm interested in becoming a GPCA dealer or distributor — how do I get started?","r":"Thanks so much for reaching out — that's exciting! We'd love to learn more about your company.\nPlease let us know which products you're interested in carrying and the quantity you have in mind, and we'll review, provide a price sheet, and explore how we can collaborate. GPCA products are patented in the U.S. and internationally, so our dealers enjoy strong IP protection.\nWe're primarily looking for dealers and distributors for wholesale right now — let us know if you're open to that!"},{"a":"dd1","t":"Dealer","q":"I'm interested in learning more about GPCA wholesale or dealer pricing.","r":"Thanks for your interest! Please let us know which products you're considering and your estimated order quantities.\nWe'll review and send you a detailed price sheet. GPCA products are patented in the U.S., China, and internationally — our dealers have strong protection.\nWe look forward to building a great partnership with you!"},{"a":"dda","t":"Dealer","q":"I'm interested in becoming an authorized GPCA dealer — what's the process?","r":"We'd love to explore that with you! Please share some details about your company — your location, current product categories, and the GPCA products you're most interested in.\nWe'll follow up with our dealer requirements, pricing tiers, and next steps. Looking forward to connecting!"},{"a":"ddc","t":"Dealer","q":"Does GPCA offer a dropshipping program?","r":"Great question — we do have dropshipping options available for qualifying partners! Please share your platform, monthly sales volume estimate, and which products you'd like to offer.\nWe'll review and get back to you with program details and pricing. Let's see if it's a good fit!"},{"a":"ddp","t":"Dealer","q":"Can you share the GPCA price sheet for wholesale orders?","r":"Happy to share!\nPlease provide your company name, location, and the products and quantities you're interested in, and we'll send you our current wholesale price sheet. We look forward to working with you!"},{"a":"thh","t":"Misc","q":"[Standard Closing] Thank you for reaching out — have a great one!","r":"Thanks for reaching out! Have a great one! 🙌"},{"a":"hhh","t":"Misc","q":"[Standard Closing] Have a great one!","r":"Have a great one! 🤙"},{"a":"ttt","t":"Misc","q":"[Standard Closing] Thanks and goodbye.","r":"Thanks for reaching out! Have a good one!"},{"a":"tkkk","t":"Misc","q":"[Standard Closing] Thank you!","r":"Thanks so much! 🙌"},{"a":"hddd","t":"Misc","q":"[Standard Closing] Hope that helps!","r":"Hope that helps! Let us know if you have any other questions. 😊"},{"a":"hggg","t":"Misc","q":"[Standard Closing] Hope you enjoy your GPCA gear!","r":"Hope you enjoy your GPCA products! Happy adventuring! 🏔️"},{"a":"heee","t":"Misc","q":"[Standard Closing] Here to help!","r":"We're here to help! Feel free to reach out anytime. 😊"},{"a":"helppp","t":"Misc","q":"[Standard Closing] Let us know if you need more help.","r":"Let us know if there's anything else we can help with — we're always here! 🤙"},{"a":"kkk","t":"Misc","q":"[Standard Closing] Cool, got it!","r":"Got it! Thanks for letting us know. 🙂"},{"a":"warmm","t":"Misc","q":"[Warm Welcome] Welcome to GPCA!","r":"Welcome to GPCA! We're so glad to have you here.\nWhether you're a seasoned off-roader or just getting started with your adventure gear, we're here to help. Feel free to ask anything! 🤙"},{"a":"enjjj","t":"Misc","q":"[Standard Follow-up] Enjoy, and let us know if you have questions!","r":"Enjoy your GPCA gear, and don't hesitate to reach out if you have any questions along the way. Happy adventuring! 🏕️"},{"a":"phooo","t":"Misc","q":"I'd like to place an order by phone — is that possible?","r":"We appreciate you reaching out! We currently only process orders online at gpca.com or through our Amazon storefront at amazon.com/gpca.\nBoth are quick, secure, and offer free shipping on qualifying orders. Let us know if you need any help navigating the site!"},{"a":"calll","t":"Misc","q":"Do you have a customer service phone number I can call?","r":"We handle all customer support via email to make sure every inquiry gets a thorough, tracked response. Reach us anytime at hello@gpca.com — we respond within 1 business day. It's the fastest way to get the help you need! 😊"},{"a":"???","t":"Misc","q":"I received a blank or unclear message — can you clarify what you're looking for?","r":"Hi! It looks like your message came through empty or unclear — no worries!\nCould you let us know what you're looking for or what question you have? We're happy to help and want to make sure we give you the right answer. 😊"},{"a":"gifff","t":"Misc","q":"A customer is receiving a small gift or surprise — how should we communicate it?","r":"We have a little surprise heading your way! 🎁 Keep an eye on your mailbox — we hope it puts a smile on your face. Thanks so much for being an awesome part of the GPCA community!"},{"a":"hiccc","t":"Misc","q":"A customer is reporting issues with the GPCA website — how do we respond?","r":"Thanks for the heads up! We're sorry you're running into trouble on the site.\nCould you describe what's happening and share the page URL? We'll look into it right away and get it fixed.\nIn the meantime, you can also try refreshing the page or using a different browser. Thanks for helping us improve the experience!"},{"a":"gpcaaa","t":"Misc","q":"What does GPCA stand for?","r":"Great question!\nGPCA stands for General Purpose California — it reflects our roots in California adventure culture and our philosophy of building versatile, general-purpose gear for outdoor enthusiasts and everyday carry. Built by adventurers, for adventurers! 🤙"},{"a":"maddd","t":"Misc","q":"Where are GPCA products made?","r":"GPCA is based in California and our products are designed here in the U.S. Our manufacturing partners are carefully selected to ensure the quality and precision our customers expect.\nAll products go through strict quality control before they reach you. Proud to build great gear! 🇺🇸"},{"a":"ittt","t":"Misc","q":"The GPCA website is loading slowly or not working properly — what should I do?","r":"Sorry about that! Try refreshing the page or clearing your browser cache.\nSwitching to a different browser or device can also help. If the issue persists, please let us know what page you're on and what device/browser you're using and we'll look into it on our end right away!"},{"a":"ebayyy","t":"Misc","q":"Does GPCA have an eBay store?","r":"We don't currently sell on eBay — our official storefronts are gpca.com and our Amazon store at amazon.com/gpca. We recommend buying from these channels to ensure you're getting genuine GPCA products with full warranty and support.\nLet us know if you need help ordering!"},{"a":"forrr","t":"Misc","q":"I have feedback or design suggestions for GPCA products — where can I share them?","r":"We LOVE hearing from our community — you're the reason our products keep getting better! Please share your feedback and we'll pass it directly to our product team.\nYour insights genuinely shape what we build next. Thank you for caring enough to reach out! 🙏"},{"a":"deccc","t":"Misc","q":"Can I request a free GPCA decal?","r":"We love the enthusiasm!\nDrop us your shipping address and we'll see what we can do. Tag us @GPCAofficial on Instagram with your Jeep or adventure setup and you might just get a little something special from us. 🤙"},{"a":"revvv","t":"Misc","q":"Can you ask a customer for a product review?","r":"We hope you're loving your GPCA gear! If you have a moment, we'd be incredibly grateful if you could leave us a quick review on our website or Amazon store.\nIt means the world to a small California brand and helps other adventurers find the right gear. Thank you so much! 🙏"}];
+const FAQ_DATA = [
+  {
+    "a": "alignnn",
+    "t": "Cargo Cover",
+    "q": "My cargo cover doesn't fit or align properly — what should I do?",
+    "r": "Thanks for reaching out. From what I can see, the last 2 straps are pulled too tight, so the end panels are not resting on the side bases near the tailgate, you may need to release the 2 straps near the backseat as well, they can be pulled too tight to cause misalignment to the rollbar base as well,\n\nIf you have installation issues, you can watch our video https://www.youtube.com/c/gpcaofficial or visit our FAQ https://gpca.com/pages/faq to make it right. It's key to balance the straps first for the best fit and performance.\n\nFeel free to let me know anything I can help with.\n\nHave a good one!"
+  },
+  {
+    "a": "ccgap",
+    "t": "Cargo Cover",
+    "q": "There is a gap underneath my cargo cover after installation — is that normal?",
+    "r": "Our cover is designed for providing sun shade and privacy, due to the mounting point limit, Jeep owners usually get the GPCA organizer as a combo with the cover to hide the vertical space under it, so it's completely covered even when the tailgate is open.\n\nThanks for checking with us."
+  },
+  {
+    "a": "ccsky",
+    "t": "Cargo Cover",
+    "q": "How do I install the cargo cover on a Jeep with a Sky One-Touch Power Top?",
+    "r": "For a Sky One-Touch Power Top, 6 screw holes on the tub edge are covered by the side window panel on both sides. You will need to remove the windows and side panels inside, and then install the tie-downs under the tub edge instead of the top of the tub edge which requires 6 extra M8 nuts (standard size from a local hardware store, we currently don't provide these nuts in the soft top package).\nLearn more if needed www.gpca.com/faq\n\nThanks for reaching out,\nHave a good one!"
+  },
+  {
+    "a": "ccppp",
+    "t": "Cargo Cover",
+    "q": "What is the difference between the GPCA Cargo Cover PRO and the Cargo Cover LITE?",
+    "r": "The GPCA Cargo Cover Pro is an upgrade to our bestselling Cargo Cover LITE, and the Freedom Pack has a Tailgate cover to cover the vertical space. And you can order the soft top version for both hard/ soft tops since it comes with both hardware.\n\nhttps://gpca.com/collections/cargo-covers\n\n\nDesigned for both top-on or top-less models\nDouble-layer with MOLLE system to mount accessories\nReversible for 2 different looks, plain or military look\nNewly designed Tie-Down D-Plates serve as an upgrade allowing more accessories to be mounted\nAdded Tailgate/ Vertical cover can be mounted on 3 different positions\n\nIf you have any questions, please visit https://gpca.com/pages/faq  and I am here to help too,"
+  },
+  {
+    "a": "uvvv",
+    "t": "Cargo Cover",
+    "q": "My cargo cover color is fading — how can I prevent or fix this?",
+    "r": "Longtime UV exposure or saltwater to the polyester material can cause the color to fade over time. Depending on how much UV exposure your cover will endure, owners usually wash off the saltwater and apply Aerospace 303 Marine Grade protectant to the cover and all interior fabrics on a Jeep.\n\nPlease share your order number, I will check the status and see if we can send you a replacement,\n\nThanks for reaching out,\nHave a good one!"
+  },
+  {
+    "a": "jl2dr",
+    "t": "Cargo Cover",
+    "q": "Do you have a cargo cover for the 2-door Jeep Wrangler JL?",
+    "r": "The JL 2DR cover would have space behind the front seat when the back seat is removed, but you can also get the cargo organizer to cover the vertical space.\nhttps://gpca.com/products/gpca-jeep-wrangler-jl-2dr-cargo-cover\nhttps://gpca.com/products/gpca-transformer-cargo-organizer\n\n* Jk cover won't work with the JL since the space is very different and mounting points are different also.\n\nMore JL accessories you will like:\nhttps://gpca.com/collections/jl"
+  },
+  {
+    "a": "ccstrap",
+    "t": "Cargo Cover",
+    "q": "The cargo cover is misaligned to my cargo space — how do I fix the strap alignment?",
+    "r": "In some cases, the straps near the backseat could be pulled too hard causing the misalignment, you can re-adjust it, so that the openings are aligned to the rollbar base\nAnd please pull and set the 2 straps near the tailgate lightly after balancing the rest 4 straps for the best fit, and the end of the cover would land on the side edge of the base near the tail gate.\n\nThanks for checking with us\n\nHope it helps,"
+  },
+  {
+    "a": "cctop",
+    "t": "Cargo Cover",
+    "q": "Can I use the Cargo Cover LITE with the Jeep top off?",
+    "r": "The LITE is Not for the top off, but it's still a great investment to put stuff in shade with multiple configrations and steer away prying eyes, pleasse get the PRO version for both top on and off\n\nThanks for checking with us."
+  },
+  {
+    "a": "ccaaa",
+    "t": "Cargo Cover",
+    "q": "The cargo cover panels seem off-center or misaligned — what can I check?",
+    "r": "Thanks for reaching out. From what I can see, the last 2 straps are pulled too tight near the backseats, so the end panels are not resting on the side bases near the tailgate, you may need to release the 2 straps near the backseat as well, they can be pulled too tight to cause misalignment to the rollbar base as well,\n\nIf everything is balanced, the end of the cover edge should be resting on both side corners behind the tailgate.\n* Please adjust and only apply 90-95% pulling tension on each strap, not 100% since it's a soft cover that requires some space to flex.\n\nIf you have installation issues, you can watch our video https://www.youtube.com/c/gpcaofficial or visit our FAQ www.gpca.com/faq to make it right. It's key to balance the straps first for the best fit and performance.\n\nFeel free to let me know anything I can help with.\n\nHave a good one!"
+  },
+  {
+    "a": "ccretain",
+    "t": "Cargo Cover",
+    "q": "The tie-down anchor bolt won't screw into the tub edge hole on my Jeep — what am I doing wrong?",
+    "r": "You will need to hold the retainer under the tub edge and make sure the center hole aligns with the bolt before screwing it, because the retainer is not designed to hold itself and can shift left and right, it happens a lot, but once you align, it should work like other Jeep JK owners,\n\n* For clarification, the metal surface should be placed against the bottom of the tub edge, the 2 side \"clips\" clip to the bottom edge of the tub, and the bolt should line up with the middle screw hole, if the retainer is placed up side down or aligned with the side hole without the thread, the bolt won't engage."
+  },
+  {
+    "a": "orggg",
+    "t": "Cargo Cover",
+    "q": "How do I install the GPCA Cargo Organizer on top of the cargo cover using the D-plates?",
+    "r": "The GPCA Freedom pack has the added cargo organizer to cover the vertical space including the tailgate positions on all 3 mounting point sets\nThanks for checking with us\nThe GPCA Freedom pack has 6 D-plates to mount both the cover and organizer. Please install the cargo cover first, the organizer straps will be simply going through the same slot and be on top of the cargo cover strap (the slot is designed to fit more than 2 straps)\n\n🙂 More Jeep Wrangler gear: https://gpca.com/collections/jeep\nHave a good one!"
+  },
+  {
+    "a": "cc24",
+    "t": "Cargo Cover",
+    "q": "Can I use a 2-door cargo cover on a 4-door Jeep Wrangler?",
+    "r": "No, it won't fit. The cargo space and mounting points are different between the 2DR and 4DR.\n\nThe 2DR cover is out of stock, we do not have a time frame on when it will be available, but you can still get other accessories for your 2DR, free shipping now:https://gpca.com/product-tag/2dr/\n\nThanks for reaching out,\nHave a good one!"
+  },
+  {
+    "a": "ccsoft",
+    "t": "Cargo Cover",
+    "q": "I have both a hard top and soft top — which cargo cover model should I order?",
+    "r": "You can order the soft top version since it comes with extra hardware for both tops.\n\nComparing to a hard lid, the soft cover is more flexible to regain the full cargo space whenever you need, you can adjust and balance the straps to tighten it with care, hope it helps.\n\nThanks for reaching out,\nHave a good one!"
+  },
+  {
+    "a": "ccnut",
+    "t": "Cargo Cover",
+    "q": "My tie-down anchor bolts didn't come with nuts — are they missing?",
+    "r": "Please share your order number with me, I will check. If you have ordered the JL bolts, you do not need the nuts since it's integrated with the tub edge,\n\nThanks for reaching out,\nHave a good one!"
+  },
+  {
+    "a": "ccfaq",
+    "t": "Cargo Cover",
+    "q": "What is the difference between the hard top and soft top cargo cover models?",
+    "r": "You can order according to your top type.\nIf you have both tops you can get the soft top version since it comes with extra hardware.\nhttps://gpca.com/pages/cover-faq\n\nI will suggest the GPCA Back Grip Pro as well.\nThe GPCA Back Grip Pro has aluminum handles and will work on any headrests with the insert poles (12 colors to choose from to match your ride)\nhttps://gpca.com/products/gp-back-grip-pro"
+  },
+  {
+    "a": "cc2dr",
+    "t": "Cargo Cover",
+    "q": "Do you have a cargo cover for the 2-door Jeep Wrangler JL?",
+    "r": "You can get the JL 2DR cover here:\nhttps://gpca.com/products/gpca-jeep-wrangler-jl-2dr-cargo-cover\n\nand you may consider our GP Grip line\nhttps://gpca.com/product-tag/gp-grip/\n\nI will suggest the GPCA Back Grip Pro as well.\nThe GPCA Back Grip Pro has aluminum handles and will work on any headrests with the insert poles (12 colors to choose from to match your ride)\nhttps://gpca.com/products/gp-back-grip-pro\n\nThanks for reaching out,\nHave a good one🙌"
+  },
+  {
+    "a": "torxx",
+    "t": "Carabiner",
+    "q": "A screw came loose or fell out of my GPCA Carabiner — how do I fix it?",
+    "r": "It looks like the screw did not tighten enough and got loose during use. You could re-tighten them using the Torx tool that came with the box, taking a thin piece of fabric between the tool and the screw could help avoid stripping since it's a small Torx screw. * Apply some WD-40 or localized heat if needed. You may need to apply low-strength Loctite if you want to completely fix the screw.\n\nNo worries. Since you missed the part, we can ship you the replacement soon. Please confirm your carabiner material, address and order number.\n\nThanks for reaching out 🙂\nHave a good one!"
+  },
+  {
+    "a": "replaaa",
+    "t": "Carabiner",
+    "q": "I need a replacement part for my GPCA Carabiner — how do I get one?",
+    "r": "No worries. We can ship you the replacement soon. Please confirm your carabiner material, address and order number. We're here to help,\n\nThanks for reaching out,\nHave a good one!"
+  },
+  {
+    "a": "cuttt",
+    "t": "Carabiner",
+    "q": "I can't fold the cutter back on my Carabiner — it's stuck in the open position. What do I do?",
+    "r": "When the cutter is fully opened, the locking lever would move and lock the hinge from behind. The locking lever should be pushed to the left to unlock before closing the cutter back similar to many knife locking mechanisms.\nIt's called liner lock mechanism, here is a quick video for your reference if needed\nhttps://www.youtube.com/watch?v=NyejLlcm2Dg"
+  },
+  {
+    "a": "carahinge",
+    "t": "Carabiner",
+    "q": "The closing gate on my GPCA Carabiner came off — how do I put it back on?",
+    "r": "You could insert the spring into the tube first, then the clip, hold the tube/ closing bar to push the long end of the clip on the angled space on the hinging area and mount the screw set on the hinge,\n\nIf you have any missing parts please let me know we will make sure the GPCA Carabiner works again.\n\nThanks for reaching out,\nHave a good evening,"
+  },
+  {
+    "a": "cararemove",
+    "t": "Carabiner",
+    "q": "How do I remove and re-mount the cutter tip on the Carabiner?",
+    "r": "You may take out the cutter and washer referencing after the 10 second mark in this video https://youtu.be/T2_IAWSw7Kw,  taking a thin piece of fabric between the tool and the screw could help avoid stripping since it's a small Torx screw, and then store them in the box.\n\nTo mount them back, you may need to use a small rod/ tube to guide the parts in from the side holes before putting back the female screw. Once all the parts are tightly in place (cutter and washers on its side) with the female screw in place, you can screw the male screw in. You can use some low-strength Loctite to fix the screw if needed."
+  },
+  {
+    "a": "caraliner",
+    "t": "Carabiner",
+    "q": "The cutter on my Carabiner is open and I can't get it to fold back — why not?",
+    "r": "When the cutter is fully opened, the locking lever would move and lock the hinge from behind. The locking lever should be pushed to the left to unlock before closing the cutter back similar to many knife locking mechanisms.\n\nIt's called liner lock mechanism, here is a quick video for your reference if needed\nhttps://www.youtube.com/watch?v=NyejLlcm2Dg\n\nHope it helps 🙂"
+  },
+  {
+    "a": "roddd",
+    "t": "Carabiner",
+    "q": "How do I install the cutter on the GPCA Carabiner PRO or LITE?",
+    "r": "Please follow the order of the parts here.\nInsert the female screw on the back side, arrange the cutter and washer onto the female screw and press them a bit to fit the slot , and then screw the male screw in.\n\n*You may need to use a small rod/ tube to guide the parts in from the side holes. You can use some low-strength Loctite to fix the screw."
+  },
+  {
+    "a": "caradd",
+    "t": "Carabiner",
+    "q": "Do you have add-ons or accessories available for the GPCA Carabiners?",
+    "r": "You can get the case and  more add-ons for the GPCA Carabiners here: https://gpca.com/collections/gpca-carabiner-addons\nThanks for checking with us 🙂"
+  },
+  {
+    "a": "carared",
+    "t": "Carabiner",
+    "q": "Where can I get a red ring for my GPCA Carabiner?",
+    "r": "You can get the red ring here: https://gpca.com/collections/carabiners"
+  },
+  {
+    "a": "reddd",
+    "t": "Carabiner",
+    "q": "The red ring is missing from my Carabiner package — what should I do?",
+    "r": "The red ring should be inside the mail package outside of the carabiner box in a small bag, and the Torx tool should be behind the owner's manual in the carabiner box. Could you check again since it could be missed?\nIf you still could not find it, we will check with the shipping team."
+  },
+  {
+    "a": "caratsa",
+    "t": "Carabiner",
+    "q": "Will the GPCA Carabiner pass through a TSA checkpoint?",
+    "r": "The GPCA Carabiner PRO is a modular system, you can use the Torx tool that comes with the box to mount and demount all the multi-tools on it if needed for TSA.\n* The cutter is small, around 1.5 inch, no lockliner\nYou can get the Carabiner PRO X KEY from there, available in Titanium and Steel,\nhttps://gpca.com/products/gpca-carabiner-pro-x-key-1\n\nAll models:\nhttps://gpca.com/collections/carabiners .\n\nHope you enjoy our GPCA products,\n* Please see our new arrivals：https://gpca.com/collections/new-arrivals\n* Newly launched recently: https://gpca.com/products/gpca-united-1-wallet\n\nThanks for reaching out,"
+  },
+  {
+    "a": "caraaa",
+    "t": "Carabiner",
+    "q": "What carabiner models does GPCA offer?",
+    "r": "We have different GPCA Carabiner PRO/ LITE multi-tool models in Titanium, Steel and Aluminum here, and you may find the one you like at various price points, https://gpca.com/collections/carabiners 🙌"
+  },
+  {
+    "a": "caranoliner",
+    "t": "Carabiner",
+    "q": "Why did GPCA stop using the liner lock on the Carabiner cutter?",
+    "r": "Due to the TSA requirement in different countries and the cutter being a small one, we no longer use the liner lock in the design for safety reasons. And it's easier and quicker to fold during daily unboxing too from what our customer suggested."
+  },
+  {
+    "a": "caraclimb",
+    "t": "Carabiner",
+    "q": "Can I use the GPCA Carabiner for rock climbing?",
+    "r": "We are a climbers too, we like the carabiners so much that we turn it into an EDC multi-tool. It's inspired by it but not designate for climbing and is not rated for it."
+  },
+  {
+    "a": "doggg",
+    "t": "Carabiner",
+    "q": "Where can I find GPCA dog leash or dog accessories?",
+    "r": "If you are looking for our dog leash/ rope/ accessories, you can find them here: https://gpca.com/collections/dog-1"
+  },
+  {
+    "a": "caradent",
+    "t": "Carabiner",
+    "q": "There is a small dent on the cutter blade — is that a defect?",
+    "r": "The screw may create a small dent on the blade but its design intent is for preventing the cutter tip/ long edge from touching the base at all (like most knives did), and the small dent can catching on the tape on a box to cut/ break it better over time.\n\nI think the design team is thoughtful on detail like this but not a lot of people get it, I guess it's hard to explain, I didn't get it from the beginning."
+  },
+  {
+    "a": "cararod",
+    "t": "Carabiner",
+    "q": "How do I install the cutter or knife assembly on my GPCA Carabiner?",
+    "r": "1. Unscrew the Torx 8 screw\n You could unscrew using the Torx tool that came with the box, taking a thin piece of fabric between the tool and the screw could help avoid stripping since it's a small Torx screw.\n\n2. remove the cutter and insert the parts back the same way. Take a photo so you can follow the same order of the parts.\nYou may need to use a small rod/ tube to guide the parts in from the side holes before putting back the female screw. Once all the parts are in place with the female screw in place, you can screw the male screw in. You can use some low-strength Loctite to fix the screw."
+  },
+  {
+    "a": "carasharp",
+    "t": "Carabiner",
+    "q": "How can I sharpen the cutter on my GPCA Carabiner?",
+    "r": "You can use regular knife sharpener. But the Box cutter is designed to be a thick cutter so you do not have to sharpen it for cutting boxes."
+  },
+  {
+    "a": "carawash",
+    "t": "Carabiner",
+    "q": "The screwdrivers on my Carabiner are very loose — how can I fix this?",
+    "r": "No worries. It could be the washer in the screwdriver assembly has a tolerance issue, No worries. We can ship you the replacement soon for this time. Please confirm your address and order number. We're here to help,\n\nThanks for reaching out,\nHave a good one!"
+  },
+  {
+    "a": "carakvvv",
+    "t": "Carabiner",
+    "q": "How do I install the key module on my GPCA Carabiner?",
+    "r": "We have a video here for the Key Module Installations:\nhttps://youtu.be/T2_IAWSw7Kw\n\n* You may need to use a small rod/ tube to guide the parts in from the side holes before putting back the female screw. Once all the parts are tightly in place (cutter and washers on its side) with the female screw in place, you can screw the male screw in. You can use some low-strength Loctite to fix the screw.\n\nThanks for checking with us 🙂"
+  },
+  {
+    "a": "edccc",
+    "t": "Carabiner",
+    "q": "Where can I shop for GPCA everyday carry (EDC) products?",
+    "r": "GPCA EDC (Everyday Carries): https://gpca.com/collections/edc-1"
+  },
+  {
+    "a": "carafaq",
+    "t": "Carabiner",
+    "q": "Where can I find the FAQ page for GPCA Carabiners?",
+    "r": "https://gpca.com/pages/gpca-carabiner-faq"
+  },
+  {
+    "a": "caraswiss",
+    "t": "Carabiner",
+    "q": "Is a Swiss Army knife better than the GPCA Carabiner multi-tool?",
+    "r": "Swiss knife if not a modular system and not open to cliping on your belt and more heavy tool if you'd like 🙂 The GPCA Carabiner PRO is a modular system, you can use the Torx tool that comes with the box to mount and demount all the multi-tools on it if needed for TSA. https://gpca.com/collections/carabiners .\n*Hope you enjoy our GPCA products, please see our new arrivals：https://gpca.com/collections/new-arrivals 🙂"
+  },
+  {
+    "a": "carapxxx",
+    "t": "Carabiner",
+    "q": "Where can I get the key module for my GPCA Carabiner?",
+    "r": "You can get the Carabiner PRO X KEY from here, available in Titanium and Steel,\nhttps://gpca.com/products/gpca-carabiner-pro-x-key-1"
+  },
+  {
+    "a": "carass",
+    "t": "Carabiner",
+    "q": "Where can I get replacement parts for my GPCA Carabiner (cutter, screwdriver, or screw set)?",
+    "r": "You may get the screw sets from here:\nhttps://gpca.com/products/carabiner-key-module-addon-for-pro-lite?variant=51463011926326\n\nAs a back up, you can also consider the cutter/ screwdriver assembly according to the materials from here (* Carabiner Aluminum version uses Steel tool):\nhttps://gpca.com/products/carabiner-cutter-screwdrivers-parts-only\n\nThanks for checking with us 🙂"
+  },
+  {
+    "a": "carakspring",
+    "t": "Carabiner",
+    "q": "The keys on my Carabiner are too loose and keep flipping open — how can I tighten them?",
+    "r": "If you have fewer keys you may add a rubber washer next to the spring to compress the spring a bit more, Hope it helps 🙌"
+  },
+  {
+    "a": "torxuuu",
+    "t": "Carabiner",
+    "q": "I can't unscrew the Torx screw on my GPCA Carabiner — what should I do?",
+    "r": "You could unscrew them using the Torx tool that came with the box, taking a thin piece of fabric between the tool and the screw could help avoid stripping since it's a small Torx screw. * Apply some WD-40 or localized heat if needed. You may need to apply low-strength Loctite if you want to completely fix the screw.\n\nThanks for reaching out 🙂\nHave a good one!"
+  },
+  {
+    "a": "carakppp",
+    "t": "Carabiner",
+    "q": "The Carabiner PRO X KEY key module seems pre-assembled already — is that right?",
+    "r": "The key module is packaged on the side since the keys are mounted by our customers so it's not pre-assembled. And the Carabiner PRO X can also be used individually as a modular base. 🙂"
+  },
+  {
+    "a": "caraboo",
+    "t": "Carabiner",
+    "q": "Why would I need a bottle opener on a carabiner multi-tool?",
+    "r": "Sure, you could use the edge of a table, a belt buckle, or even your teeth (not recommended unless you’re auditioning for a survival show). But why risk it when you can pop bottles like a pro with the built-in opener on the GPCA Carabiner? 🙂 We have different GPCA Carabiner PRO/ LITE multi-tool models in Titanium, Steel and Aluminum here, and you may find the one you like at various price points, https://gpca.com/collections/carabiners 🙌"
+  },
+  {
+    "a": "carawasher",
+    "t": "Carabiner",
+    "q": "What are the two black washers included with my GPCA Carabiner used for?",
+    "r": "Those two black washers are designed for use with the large Torx screws. They make it easier to dismount and reassemble the tool components — which is especially handy if you need to remove parts for TSA checkpoints. Keep them in your original box so you always have them when needed!"
+  },
+  {
+    "a": "carakmore",
+    "t": "Carabiner",
+    "q": "I have a lot of keys and fobs — can the Carabiner really handle my full keychain?",
+    "r": "The essential ones can be inside the key module, and it's still a great EDC keychain for the rest of your keys and key fob with multi-tool 🙌Thanks for checking with us 🙂"
+  },
+  {
+    "a": "caragate",
+    "t": "Carabiner",
+    "q": "How do I re-mount the closing gate back onto my GPCA Carabiner?",
+    "r": "Please follow these steps to reassemble closing gate on the carabiner:\n\n1. Insert the spring into the slot at the bottom of the closing gate.\n2. Attach the narrow end of the T-anchor into the bottom of the spring.\n3. Place the closing gate onto the hinge of the carabiner's C end.\n4. Lock the red ring.\n5. Insert the female screw and screw on the male screw on the C end.\n\nI hope this helps! Please let me know if you have any further questions."
+  },
+  {
+    "a": "carascrew",
+    "t": "Carabiner",
+    "q": "Can I buy a replacement screw for my GPCA Carabiner?",
+    "r": "Got it. You can get the screws accordingly from the pulldown menu:\nhttps://gpca.com/products/carabiner-key-module-addon-for-pro-lite:\n\n*Or if you have a new order of any GPCA products on GPCA.com, please give me your new order number, and I will get my manager's approval and add the parts to your order FREE and to save the shipping costs for you.\n\nIt looks like the screw did not tighten enough and got loose during use. You could re-tighten them using the Torx tool that came with the box, taking a thin piece of fabric between the tool and the screw could help avoid stripping since it's a small Torx screw. * Apply some WD-40 or localized heat if needed. You may need to apply low-strength Loctite if you want to completely fix the screw.\n\nThanks for reaching out,\nHave a good one!🙂"
+  },
+  {
+    "a": "caracut",
+    "t": "Carabiner",
+    "q": "Can I buy a replacement cutter for my GPCA Carabiner?",
+    "r": "You can get the cutter/ screwdriver assembly from here,\nhttps://gpca.com/products/carabiner-cutter-screwdrivers-parts-only\n\nThanks for reaching out,\nHave a good one!"
+  },
+  {
+    "a": "qrnut",
+    "t": "Anchor",
+    "q": "I'm not sure if I ordered the JK or JL anchor — how can I tell, and do I need nuts?",
+    "r": "Please share your order number with us, we will check. If you have ordered the JL bolts, it doesn't come with the nuts and you do not need the nuts since it's integrated with the tub edge,\nIf you do not have the plastic retainer that comes with the factory hard top of your JK 2007-2018 you will need the square nuts under the tub edge.\nPlease email hello@gpca.com and we are happy to help. Thanks for reaching out 🙂\n\nIf you have a JL/ JT, you do not need to use the square nut. But you can keep them if you want to use the  anchor/ T-handle for other purposes,\n\nThanks for reaching out 🙂\nHave a good one!"
+  },
+  {
+    "a": "qrrr",
+    "t": "Anchor",
+    "q": "Where can I buy GPCA Jeep Wrangler tie-down D-rings?",
+    "r": "You can get our Tie-downs and D-rings here: https://gpca.com/collections/tie-downs"
+  },
+  {
+    "a": "qrtj",
+    "t": "Anchor",
+    "q": "Can I install GPCA tie-down anchors on my TJ Jeep?",
+    "r": "We have not tested them on different TJs yet, but for an 8mm hole with some allowance around for the T-handle to turn, it may fit,\n\nOr you can consider smaller bolts like the GP-Star: https://gpca.com/shop/gp-star-hardtop-cover-quick-release-thumbscrew-set/\n\nYou can see more TJ accessories here: https://gpca.com/product-category/jeep-accessories/jeep-wrangler-cj-yj-tj-lj/\n\n*Hope you enjoy our GPCA products, please see our new arrivals： https://gpca.com/product-category/new-arrivals/\n\nHope it helps,\nHave a good one!"
+  },
+  {
+    "a": "qrthread",
+    "t": "Anchor",
+    "q": "Why don't my GPCA JL anchor tie-down bolts come with nuts?",
+    "r": "Got it. For the JL, the M25 thread is integrated into the tub edge so no nuts are needed. And I double checked your order. You have the JL version in it.\n\n*You can align and insert the end tip of the Anchor first, before twisting and mounting it on the tub edge, there should be enough space to operate\n\nThanks for checking with us"
+  },
+  {
+    "a": "qrtip",
+    "t": "Anchor",
+    "q": "My anchor bolt doesn't seem to be threading in or feels stripped — what am I missing?",
+    "r": "If the factory bolt is still on the tub edge, please remove the factory bolt before fitting it,\nYou will need to insert the tip of the screw to the tub edge hole before turning the T-handle anchor, the handle should just fit into that space.\n\nThank you,\nHave a good one,"
+  },
+  {
+    "a": "starrr",
+    "t": "Anchor",
+    "q": "What tie-down option should I use for my Jeep Gladiator?",
+    "r": "Gladiator tub edge space is limited, but we have the GP-Star tool for it.\nhttps://gpca.com/products/gp-star-hardtop-cover-quick-release-thumbscrew-set"
+  },
+  {
+    "a": "qrtub",
+    "t": "Anchor",
+    "q": "The anchor bolt for my JK Jeep won't thread in — what should I check?",
+    "r": "You will need to hold the retainer under the tub edge and make sure the center hole aligns with the bolt before screwing it, because the retainer is not designed to hold itself and can shift left and right, it happens a lot, but once you align, it should work like other Jeep JK owners,\n\n* For clarification, the metal surface should be placed against the bottom of the tub edge, the 2 side \"clips\" clip to the bottom edge of the tub, and the bolt should line up with the middle screw hole, if the retainer is placed up side down or aligned with the side hole without the thread, the bolt won't engage."
+  },
+  {
+    "a": "qrtorque",
+    "t": "Anchor",
+    "q": "Why use the T-handle on the tie-down instead of power tools or a wrench?",
+    "r": "The T-handles provide stronger torque and double as anchors for more use cases for your cargo. Hope it helps 🙌\n\n*Over-tightening could impact the hardtop edge. With 6 of them, the proper torque is 158 in-lbm for each only, it's actually very similar to tightening a seat post clamp. So a 180 degree turn of the T-handle to align is not going to have a difference as long as it's not over turned, there are still 6 of them, so please do not over tighten them across the board 🙂\n\nIf you need a bolt replacement please email hello@gpca.com 🙂"
+  },
+  {
+    "a": "qrtool",
+    "t": "Anchor",
+    "q": "I used a power tool instead of the T-handle on the anchor — is that okay?",
+    "r": "That works! 🙂 We sometimes use electric tools too.  Anchors also transform and make your cargo space more versatile with mounting point and multiple colors and look good top on/ topless. No need to store away. You can get our Tie-downs and D-rings here:  https://gpca.com/collections/tie-downs 🙌"
+  },
+  {
+    "a": "tdppp",
+    "t": "Anchor",
+    "q": "Where can I get the GPCA Tie-Down D-Plates?",
+    "r": "You can get our Tie-down D-plate for more workload: https://gpca.com/products/tie-down-d-plate"
+  },
+  {
+    "a": "qrtop",
+    "t": "Anchor",
+    "q": "I still need a tool for the 2 bolts on the top front of my Jeep hard top — what do you recommend?",
+    "r": "Yes. 75% easier for 6 screws out of the 8 with our Anchor, 100% more versatile cargo space though 🙂 For the top 2 bolts, space is limited, but we have the GP-Star tool:\nhttps://gpca.com/products/gp-star-hardtop-cover-quick-release-thumbscrew-set   Thanks for checking with us. 🙌"
+  },
+  {
+    "a": "qrsteal",
+    "t": "Anchor",
+    "q": "Will the tie-down anchors get stolen when I go topless?",
+    "r": "We never heard of the case. BUT Topless and offroad, it's a Jeep. Yes, they look great, but not the first priority to steal them I guess 🙂  You can get our Tie-downs and D-rings here: https://gpca.com/collections/tie-downs   🙌"
+  },
+  {
+    "a": "qrrattle",
+    "t": "Anchor",
+    "q": "Do the Anchor PRO D-rings rattle after installation?",
+    "r": "They don't rattle. The D-ring clamped down by the mounting clip with fiction after installations and you can even set it at any angles. You can get our Tie-downs and D-rings here: https://gpca.com/collections/tie-downs  🙂🙌"
+  },
+  {
+    "a": "anchorshort",
+    "t": "Anchor",
+    "q": "The GPCA anchor bolt seems shorter than my factory Jeep bolt — is that right?",
+    "r": "Great observation! The Jeep factory screw has an extra blank (non-threaded) section at the tip, but the actual thread length is the same as the GPCA Anchor PRO.\nOur bolts are built to match the factory thread engagement exactly — you're not losing any holding strength. Hope that clears it up!"
+  },
+  {
+    "a": "lrrr",
+    "t": "GP-GRIP",
+    "q": "I ordered the GP Grip PRO but the left and right handles look the same — is that correct?",
+    "r": "The design is universal, it fits both the driver and passenger sides and even the rear sport bar above the cargo space, but the utility pouch installations are slightly different, mounting on different sides of the main body.\nPlease always mount the arrow-end towards the back and the utility pouch inside.\n* Please fold the handle before tightening the roll bar wrap for a tight fit.\n\nThese are 2 videos to show the installations on each side:\nDriver side:\nhttps://youtu.be/mlJwbuy0qX0\nPassenger side:\nhttps://youtu.be/oAHNIqW8qiU\n\nAnd you may tighten the handle padding before closing the Velcro stripes to make it more of a tight fit.\n\nLet me know if you have any questions,\nThanks for reaching out,\n\nHave a good one,"
+  },
+  {
+    "a": "gpgjt",
+    "t": "GP-GRIP",
+    "q": "Can I use the GP Grip AIR on a Jeep Gladiator?",
+    "r": "Please get the GP Grip AIR 2-Pack for the FRONT for Gladiator 2024+ with airbag on roll bars from here, 12 colors to choose from:\nhttps://gpca.com/products/gp-grip-air-for-gladiator-2024\n(NOT for Sky One Touch Top)\n\n* The GP Grip Air is designed to be mounted on the outside, resting on the metal side of the roll bar, so it's built to accommodate the airbag system.\n\nYou may also consider the GPCA headrest grip for passengers for the 2+2 pack they are great a matche.\nhttps://gpca.com/products/gp-back-grip-pro\n\nHope you enjoy our GPCA products,\n* We just released an amazing EDC carabiner featured on Kickstarter:  https://gpca.com/products/gpca-carabiner-pro-x-key-1\n* Please see our new arrivals：https://gpca.com/collections/new-arrivals\n* Newly launched recently: https://gpca.com/products/gpca-united-1-wallet\n\nThanks for reaching out,\nHave a good one!"
+  },
+  {
+    "a": "gpgll",
+    "t": "GP-GRIP",
+    "q": "I have a smaller-diameter roll bar on my vehicle — which GP Grip model will fit?",
+    "r": "You can get the GP Grip LITE Universal since it requires less space than the GP Grip PRO and can be mounted on a 1\"-5.5\" diameter rollbar:\nhttps://gpca.com/products/gp-grip-lite-universal-handles\nAnd you can get the upgrade here if you like the PRO metal handle\nhttps://gpca.com/collections/gp-grip-addon\n\nThe GPCA Back Grip Pro has aluminum handles and will be a great match\nhttps://gpca.com/products/gp-back-grip-pro\n\nThanks for reaching out,\nHave a good one"
+  },
+  {
+    "a": "gpgcolor",
+    "t": "GP-GRIP",
+    "q": "Where can I get a color handle upgrade for the GP Grip?",
+    "r": "You can purchase our color handle upgrade according to the handle amount here:\nhttps://gpca.com/products/gp-grip-color-handle-upgrade-single\n\nThe color always has some variations under sun shade/ top/ topless. Even automotive paint is not gonna match 100% 🙂 We dialed the color slightly even under the top in a darker environment it would still look great. Or you can shop for other colors to accommodate your Jeep color too, Just an idea. 🙌\n\nThanks for reaching out,\nHave a good one! 🙂"
+  },
+  {
+    "a": "gpgpfold",
+    "t": "GP-GRIP",
+    "q": "The GP Grip seems like it might block my window view — does it?",
+    "r": "The GP Grip is lower and much better positioned for comfort, and you may fold it out of the way and enjoy a full view, and it has the pouches you need for your accessories."
+  },
+  {
+    "a": "gpgabbb",
+    "t": "GP-GRIP",
+    "q": "How do I install the GP Grip AIR on both the front and rear roll bars?",
+    "r": "The 2 long straps of the GP-Grip Air are for the very back mounting points at the end (on each side), the short one pairs with the long one on one side.\nand it's normal to have a small return of the bottom strap there.\n\nPlease adjust the D-ring position on top and the Velcro on the strap to slightly tighten the back mount to balance it.\n\nAnd here is the installation video, with proper adjustments they should fit your Jeep Wrangler perfectly.\nhttps://www.youtube.com/watch?v=zH0QLcjY74g\nInstallation for the rear roll bar: https://youtu.be/7Tnv9_r_qaY?si=UpqAKKD7ninrZr2B&t=44\n\nHope it helps. Let me know if you need any more assistance."
+  },
+  {
+    "a": "gpgair",
+    "t": "GP-GRIP",
+    "q": "Where can I find the GP Grip AIR for 2024+ Jeep Wrangler?",
+    "r": "You can now get the GP Grip AIR for 2024+ with airbag on roll bars from here, 12 colors to choose from:\nhttps://gpca.com/products/gp-grip-air-for-jeep-wrangler-2024\n\n* The GP Grip Air is designed to be mounted on the outside, resting on the metal side of the roll bar, so it's built to accommodate the airbag system. (NOT for the Sky One Touch Top)"
+  },
+  {
+    "a": "gpgg",
+    "t": "GP-GRIP",
+    "q": "Where can I find the GP Grip PRO for my Jeep?",
+    "r": "You can get the GP Grip PRO/ AIR with 12 color handles to match your Jeep\nhttps://gpca.com/product-tag/gp-grip/"
+  },
+  {
+    "a": "gpga2333",
+    "t": "GP-GRIP",
+    "q": "Can the GP Grip AIR be used on 2023 and older Jeep models?",
+    "r": "The GP-Grip Air handles will work on the 2023 or past models as well (not foldable though), but the best fit on 2024+ due to the air bag system.\nhttps://gpca.com/products/gp-grip-air-for-jeep-wrangler-2024\n\nYou may use the GP Grip PRO for the best fit for 2007-2023 models:\nhttps://gpca.com/products/gp-grip-pro-handle"
+  },
+  {
+    "a": "gpgaaa",
+    "t": "GP-GRIP",
+    "q": "Where can I find add-ons and accessories for the GP Grip?",
+    "r": "You can get them from here:\nhttps://gpca.com/collections/gp-grip-addons\n\nhttps://gpca.com/products/utility-pouch-wrap-for-gp-grip?variant=48110263042358"
+  },
+  {
+    "a": "gpgalll",
+    "t": "GP-GRIP",
+    "q": "What are the longer straps in the GP Grip AIR package used for?",
+    "r": "The longer straps on the GP Grip Air are for the last mounting point on the back window rollbar (not the front). Here is the owner's manual\nhttps://cdn.shopify.com/s/files/1/0749/2475/3206/files/GPCA-GP-GRIP_owners_manual_2023.pdf?v=1693239313\n\nHope it helps,\n\nThanks for reaching out,\nHave a good one!"
+  },
+  {
+    "a": "gpgback",
+    "t": "GP-GRIP",
+    "q": "I need to order only the rear roll bar handles for the GP Grip AIR — can I do that?",
+    "r": "You can order the 2-Pack for the front and I can manually change the order to the back roll bar handles since we do not have the rear handles only online, just let me know your order number right after you ordered them.\n\nhttps://gpca.com/products/gp-grip-air-for-jeep-wrangler-2024\n\nAll the best,"
+  },
+  {
+    "a": "gpgfaq",
+    "t": "GP-GRIP",
+    "q": "Where can I find the GPCA GP Grip FAQ page?",
+    "r": "If you have any questions, please visit https://gpca.com/pages/gp-grip-faq ,and I am here to help too,"
+  },
+  {
+    "a": "gpgpart",
+    "t": "GP-GRIP",
+    "q": "Where can I find replacement parts and add-ons for the GP Grip?",
+    "r": "Got it. Please select the parts you need from the GP Grip Parts and Addons page:\nhttps://gpca.com/products/gp-grip-parts-addons\n\n\nHope you enjoy our GPCA products,\n* We just released an amazing EDC carabiner featured on Kickstarter:  https://gpca.com/products/gpca-carabiner-pro-x-key-1\n* Please see our new arrivals：https://gpca.com/collections/new-arrivals\n* Newly launched recently: https://gpca.com/products/gpca-united-1-wallet\n\nThanks for reaching out,\nHave a good one! 🙂"
+  },
+  {
+    "a": "gpgmenu",
+    "t": "GP-GRIP",
+    "q": "My package only has one handle — does the GP Grip come in pairs?",
+    "r": "There are different packages under the main listings, you can select from the pull-down menu and find the price of the grip that you want. You may have selected the 2-pack instead of 1-pack at a lower price\nhttps://gpca.com/products/gp-grip-pro-handle"
+  },
+  {
+    "a": "gpgplll",
+    "t": "GP-GRIP",
+    "q": "What are the differences between the GP Grip PRO and the GP Grip LITE?",
+    "r": "The GP Grip PRO has aluminum handles with 12 colors, and LITE has the ABS engineered handle with 3 colors.\nhttps://gpca.com/products/gp-grip-pro-handle .\nhttps://gpca.com/products/gp-grip-lite-universal-handles\n\n* The Back Grips are great matches for the GP Grips:\nhttps://gpca.com/product-tag/gp-grip/\n\nHope it helps!"
+  },
+  {
+    "a": "gpga22",
+    "t": "GP-GRIP",
+    "q": "I want to order only the rear roll bar handles for the GP Grip AIR — how do I do that?",
+    "r": "You can order the front 2 pack and let us know the order number we can manually change to the back for you since we do not have it online yet.\n\nThanks for checking with us 🙂"
+  },
+  {
+    "a": "gpgdiy",
+    "t": "GP-GRIP",
+    "q": "Do you have more than 12 handle colors available for the GP Grip?",
+    "r": "I just forwarded your valuable feedback to our product team and improve our GPCA products,\nFor now, you can still get the default metallic color aluminum handles and paint them with your own automotive paint from your local hardware store.\n\nPlease check our our GP Grip Line here:https://gpca.com/product-tag/gp-grip/\n\nThanks for reaching out,\nHave a good one!"
+  },
+  {
+    "a": "gpgfold",
+    "t": "GP-GRIP",
+    "q": "I have very little space on my roll bar — will the GP Grip still fit?",
+    "r": "GP GRIP PRO can be folded into this symmetric look to fit narrow space accordingly. And if you have cords/ straps from other accessories on your roll bar already, you can always mount the GP Grip first and put the cord on top of the wrap after.\n\nHope this helps,\nHave a good one,"
+  },
+  {
+    "a": "gpgafold",
+    "t": "GP-GRIP",
+    "q": "The handle on my GP Grip AIR doesn't seem to fold — why not?",
+    "r": "Please fold the handles when you are mounting the GP Grip AIR, and press on the straps after adjusting them to their best positions before mounting the bottom screws. *If you have the PRO, please fold the handle when tightening the straps on the roll bar.\nIf you have any questions, please visit https://gpca.com/pages/gp-grip-faq\n\nHope it helps, 🙂"
+  },
+  {
+    "a": "gpgreverse",
+    "t": "GP-GRIP",
+    "q": "Can I use the other side of the handle padding on my GP Grip?",
+    "r": "The handle paddings on the GP Grips are reversible, you can have the leather side out or the Nylon side out, just another tip. Hope it helps 🙂"
+  },
+  {
+    "a": "gpgpro",
+    "t": "GP-GRIP",
+    "q": "Can you share the link for the GP Grip PRO?",
+    "r": "You can get the GP-Grip PRO in 12 different colors here:\n\nhttps://gpca.com/products/gp-grip-pro-handle\nhttps://gpca.com/products/gp-back-grip-pro\n\n*Hope you enjoy our GPCA products, please see our new arrivals：https://gpca.com/collections/new-arrivals"
+  },
+  {
+    "a": "gpgsky",
+    "t": "GP-GRIP",
+    "q": "Can I install the GP Grip PRO or AIR under the Sky One-Touch Power Top?",
+    "r": "It's too narrow around the roll bar under the Sky One Touch Top to install the GP Grip PRO/ AIR  as mentioned on the product page, but you can still get the GP Back Grip and other accessories here:\nhttps://gpca.com/shop/gp-back-grip-pro/\nhttps://gpca.com/product-tag/jl/\n\n* Under the Jeep Wrangler JL Sky One-touch top, some Jeeper use the GP Grip LITE Universal since it requires less space than the GP Grip PRO and can be mounted on a 1\"-5.5\" diameter rollbar, but it's not recommended, only for offroad park where you don't usually need the roll bar airbag protection when the doors are even taken off.  Here is a video https://www.youtube.com/watch?v=qrpf1z-Cbag\nhttps://gpca.com/products/gp-grip-lite-universal-handles\n\nThanks for checking with us🙂"
+  },
+  {
+    "a": "burggg",
+    "t": "GP-GRIP",
+    "q": "The red handle on my GP Grip LITE looks more burgundy than red — is that right?",
+    "r": "The GP Grip LITE is Nylon material that has the burgundy color but it looks more red in a bright environment or a studio setup, If you need the bright red you can get the GP Grip PRO which has the red on metal which is a closer match to the red color on Jeep,\n\nThanks for reaching out,\nHave a good one!"
+  },
+  {
+    "a": "gpgtire",
+    "t": "GP-GRIP",
+    "q": "Why would I need a GP Grip handle on my Jeep if it already has factory handles?",
+    "r": "The GP-Grip could be really helpful when you need to check tire placement or stabilize yourself on tough terrain at a lower speed without putting too much of your leverage on the steering wheel to drive. The factory handles would only provide some help getting on the Jeep. 🙂"
+  },
+  {
+    "a": "gpgfff",
+    "t": "GP-GRIP",
+    "q": "I'm worried the GP Grip handle might hit my head — is there enough clearance?",
+    "r": "GP GRIP PRO is the only foldable handle designed by GPCA, not only it won't hit your head, you can fold it away for a full window view unlike the dangling plastic ones, 12 colors to match you ride 🙂\nhttps://gpca.com/products/gp-grip-pro-handle  🙌"
+  },
+  {
+    "a": "gpgswing",
+    "t": "GP-GRIP",
+    "q": "What makes the GP Grip better than the standard plastic Jeep handles on the market?",
+    "r": "🙂 Those plastic Jeep handles may get the job done, but they come with a lot of compromises—wiggling, swinging, and even blocking your window view when you’re trying to enjoy the ride. The GP-Grip PRO is built solid with aerospace-grade aluminum, meaning it won’t sway or flex when you need a firm grip, especially on rough trails. Plus, it’s foldable, so you get the support you need without sacrificing visibility. And The GP-Grip PRO could be really helpful when you need to check tire placement or stabilize yourself on tough terrain at a lower speed without putting too much of your leverage on the steering wheel to drive. 🚙🙌"
+  },
+  {
+    "a": "gpgarrr",
+    "t": "GP-GRIP",
+    "q": "I want to order the rear GP Grip AIR roll bar handles — how do I do that?",
+    "r": "You can now get the front GP Grip AIR 2-Pack here since we do not have the rear only at this point:\nhttps://gpca.com/products/gp-grip-air-for-jeep-wrangler-2024\nLet me know your order number at the same time  we will ship you the rear set,\n\nThanks for checking with us 🙂"
+  },
+  {
+    "a": "gpgttt",
+    "t": "GP-GRIP",
+    "q": "Does the GP Grip only work when the Jeep top is off?",
+    "r": "You can Install the GP Grip AIR with the freedom panel and hardtop off, or on with Torx tool adapter. We only show the installation when the top is off for more clarity. Thanks for checking with us 🙂🙌"
+  },
+  {
+    "a": "gpgshade",
+    "t": "GP-GRIP",
+    "q": "My new GP Grips won't work with my Spiderweb Shade — what should I do?",
+    "r": "The GP Grip can be installed first and then the Spiderweb shade can be strapped on after.\nGive it a try, let me know if you need more help,\n\nThanks for reaching out,\nHave a good one! 🙂"
+  },
+  {
+    "a": "gpgtop",
+    "t": "GP-GRIP",
+    "q": "Can I install the GP Grip side handles without removing the hard top or freedom panel?",
+    "r": "You won't need to take the hard top off to install the GP Grip, but lifting the freedom panel could help and speed up installation."
+  },
+  {
+    "a": "gpgrear",
+    "t": "GP-GRIP",
+    "q": "Can I get rear roll bar handles for my Jeep?",
+    "r": "What model is your Jeep?\nFor JL 2024+, you can get the rear roll bar handles here, just select the color you need.https://gpca.com/products/gp-grip-air-for-jeep-wrangler-2024?variant=51869618143542\nFor Gladiator 2024+, we currently only offer the headrest handles for the rear passengers.https://gpca.com/products/gp-back-grip-pro"
+  },
+  {
+    "a": "gpguu",
+    "t": "GP-GRIP",
+    "q": "Where can I find the GP Grip Universal and the sunglasses case?",
+    "r": "You can get the GP Grip Universal for the \"duo-strap\" look. Since it requires less space than the GP Grip PRO and can be mounted on a 1\"-5.5\" diameter rollbar on Jeep and all:\nhttps://gpca.com/products/gp-grip-lite-universal-handles\nAnd you can also mount the sunglasses case on it: https://gpca.com/products/gpca-utility-case\nThanks for reaching out 🙂"
+  },
+  {
+    "a": "bggg",
+    "t": "Back GRIP",
+    "q": "Is there a grab handle for my rear passengers?",
+    "r": "I will suggest the GPCA Back Grip Pro as well.\nThe GPCA Back Grip Pro has aluminum handles and will work on any headrests with the insert poles (12 colors to choose from to match your ride)\nhttps://gpca.com/products/gp-back-grip-pro\n\n* For other cars and trucks, you can also select the non-removable option since it has longer straps for headrests that are really thick behind the back on cars and trucks, and they work for all removable headrests too.\n\nThanks for reaching out,\nHave a good one🙌"
+  },
+  {
+    "a": "bgccc",
+    "t": "Back GRIP",
+    "q": "There is already a handle on my car door B-pillar — why do I need the GP Back Grip?",
+    "r": "Yes, we consider that too. To move/ assist the body weight to the center of the seat, the B-pillar handles are not built perfectly for that. And for offroad, having a grip in front helps the stabilization, it's much easier to balance using the GPCA Back Grip PRO/ LITE. Hope it helps."
+  },
+  {
+    "a": "bg???",
+    "t": "Back GRIP",
+    "q": "Why do I need the GP Back Grip at all?",
+    "r": "The GPCA Back Grip \"moves\" and assist passengers to the center of the seat with ease  (especially for kids and seniors), and stabilizes you on any road conditions including offroad. The side handles only provide very little help in these 2 cases actually. 🙂\n\nYes, we consider that too. To move/ assist the body weight to the center of the seat, the b-pillar handles are not built perfectly for that. And for offroad, having a grip in front helps the stabilization, it's much more easier to balance using the GPCA Back Grip PRO/ LITE. Hope it helps."
+  },
+  {
+    "a": "bg900",
+    "t": "Back GRIP",
+    "q": "I can't remove my headrest — can I still install the GP Back Grip?",
+    "r": "You're right, Even though 90% of headrests are removable easily like in the video, our GPCA Back Grip won't work for the 1 piece seat obviously, and some of the headrests (Like the new Chevy) need a flathead to push on the pole and unlock with the big release buttons like this: https://www.youtube.com/watch?v=6fgK2Ddikeg\nor you can select the non-removable option for non-removable headrests.\n\nHope it helps\n\nThanks for reaching out"
+  },
+  {
+    "a": "bgdiy",
+    "t": "Back GRIP",
+    "q": "I could just DIY a handle like this — why should I buy the GP Back Grip?",
+    "r": "Yes, that may work as a DIY project and we liked DIY stuff inside GPCA too. Our GP-Grip Line is more of a complete solution with a pair of aluminum grips with the right dimensions, and holding force and they look great with any car/ truck with 12 matching colors you can choose from.\n\nOur GP-Grip PRO Line is a cool solution with a pair of aluminum grips with the right dimensions and a patented 4-ring mount tested with holding force. They look great with any car/ truck with 13 matching colors you can choose from. https://gpca.com/products/gp-back-grip-pro\nYou may also consider the LITE line:\nhttps://gpca.com/products/gp-back-grip-lite\nThanks for reaching out🙂"
+  },
+  {
+    "a": "bgfit",
+    "t": "Back GRIP",
+    "q": "The GP Back Grip handle seems too small for my hands — will it fit?",
+    "r": "The design is for a snug fit if possible for more stability, and adjusting the height of the headrest can provide more handle access during an offroad for bigger hands if needed,\nCould you try it?\n\nHope this helps,🙂"
+  },
+  {
+    "a": "bgfront",
+    "t": "Back GRIP",
+    "q": "Can the GP Back Grip be mounted on the front of the seat as well?",
+    "r": "Yes. Some customer mount it in the front of the seat, so it's for both front and back side of the back seat for getting in and out. Thanks for checking with us 🙂You can mount one in the front of the front seat and stack another to the back for your passengers 🙌"
+  },
+  {
+    "a": "bggrand",
+    "t": "Back GRIP",
+    "q": "I don't put my elderly family members in the back seat — why would I need this?",
+    "r": "Grandma says that though 🙂\nOnly once for this little adventure, promised🙂"
+  },
+  {
+    "a": "bghand",
+    "t": "Back GRIP",
+    "q": "The handle looks small — can a large hand actually grip it comfortably?",
+    "r": "The GPCA Back Grips are designed to fit all hands comfortably with the design intent of a SOLID grip for off-roading. The overall dimensions: Long side 6.5\"(short side 4.5\") x 2.5\" x 0.5\"\nThe average adult palm width is from Small (3.5inch) to XL (4inch), the GP-Grip metal handle bottom side is 4.5 inches, added 1/2 inches wider than the 4inch XL size.\nThe padding wrap for the GP-Grip PRO is 4.2 inches wide, 1.2 inches in diameter. For big hands on the far side of the spectrum, you can tighten the handle padding for more space. And sometimes if the headrest is in the lowest position, you can raise it a bit to gain more space if needed. hope it helps 🙂"
+  },
+  {
+    "a": "bginstall",
+    "t": "Back GRIP",
+    "q": "How do I install the GP Back Grip?",
+    "r": "It's EASY 🙂  For the removable headrests that 90% of the cars have, you can slide the headrest out, put the ring mount on and done. For all other non-removable headrests, you can get the non-removable mount model from the pulldown menu and they are simply strapped on.  (12 colors to choose from to match your ride)\nhttps://gpca.com/products/gp-back-grip-pro\nThanks for reaching out🙌"
+  },
+  {
+    "a": "bglll",
+    "t": "Back GRIP",
+    "q": "Where can I find the GP Back Grip LITE?",
+    "r": "Our Back Grip LITE line has the engineered ABS handle if you like: https://gpca.com/products/gp-back-grip-lite"
+  },
+  {
+    "a": "bgpaaa",
+    "t": "Back GRIP",
+    "q": "I already have a paracord handle — isn't that good enough?",
+    "r": "The only thing is that the paracord could squeeze the fingers during a off-road ride, always swing left and right. The GPCA Back Grip \"moves\" passengers to the center of the seat with ease  (especially for kids and seniors), and stabilizes you on any road conditions including offroad. It's much more easier to balance using the GPCA Back Grip PRO. And we have 13 colors to match your ride. Hope it helps 🙂"
+  },
+  {
+    "a": "bgpair",
+    "t": "Back GRIP",
+    "q": "Does the GP Back Grip come as a pair or just one handle?",
+    "r": "GPCA Back Grip PRO has a pair of handles with 12 color choices for both headrests, if you have more than 1 car or thinking about your friends and family, just add more. Thanks for reaching out,\nHave a good one!"
+  },
+  {
+    "a": "bgplll",
+    "t": "Back GRIP",
+    "q": "What is the difference between the GP Back Grip PRO and the GP Back Grip LITE?",
+    "r": "GP Back Grip PRO: This model is crafted with solid aluminum, which ensures durability and a premium feel. It's designed to withstand rough conditions and provide a sturdy grip with 12 colors to choose from.\nhttps://gpca.com/products/gp-back-grip-pro\n\nGP Back Grip LITE: The LITE version is made of engineered fiber-filled Nylon ABS, making it lighter and more budget-friendly while still offering durability and a solid grip.\nhttps://gpca.com/products/gp-back-grip-lite"
+  },
+  {
+    "a": "bgpull",
+    "t": "Back GRIP",
+    "q": "I don't want passengers pulling on the back of my seat — will the GP Back Grip cause that?",
+    "r": "First-time riders love the grip and might play with it. But after that, overall it's a great help for passengers including kids and seniors getting in and out. And when you are offroading, the car would move a lot, the handles are only being helpful for your passengers.  and the GPCA Back Grip looks great with 12 colors to match your ride. 🙂\nhttps://gpca.com/products/gp-back-grip-pro\n\nThanks for reaching out🙌"
+  },
+  {
+    "a": "bgstrength",
+    "t": "Back GRIP",
+    "q": "I'm worried the GP Back Grip will damage my headrest or seat — will it?",
+    "r": "No worries. Any headrests and seats on cars and trucks are built for much tougher driving situations on/offroad and for handling different weights on or behind them.\nHope it helps. 🙂"
+  },
+  {
+    "a": "bgweak",
+    "t": "Back GRIP",
+    "q": "The GP Back Grip demo video seems overly dramatic — does it really make that much difference?",
+    "r": "Everyone may have a weak moment in life including us 🙂 The GPCA Back Grip \"moves\" and assist passengers to the center of the seat with ease (especially for kids and seniors), and stabilizes you on any road conditions including offroad. The side handles only provide very little help in these 2 cases actually. 🙌\nhttps://gpca.com/products/gp-back-grip-pro"
+  },
+  {
+    "a": "bronair",
+    "t": "Bronco accessory",
+    "q": "Can I mount the GP Grip on a Ford Bronco?",
+    "r": "Since the space is limited a Bronco, we cannot mount our GP Grip PRO/ AIR on it.\n\nI will suggest the GPCA Back Grip Pro for your Bronco. The GPCA Back Grip Pro has aluminum handles and will work on any headrests with the insert poles (12 colors to choose from to match your ride)\nhttps://gpca.com/products/gp-back-grip-pro\n\nAnd  you can get other Bronco 2021+ accessories here:\nhttps://gpca.com/product-tag/bronco/\n\nThanks for checking with us 🙂"
+  },
+  {
+    "a": "bronnn",
+    "t": "Bronco accessory",
+    "q": "Can the GPCA Bronco cargo cover be used with the top off?",
+    "r": "The Bronco Cover is built for under the hardtop, with the top on, it's a great investment to steer away prying eyes and put things under shade.\nBut you can get other Bronco 2021+ accessories here:\nhttps://gpca.com/product-tag/bronco/\n\nThanks for reaching out,\nHave a good one!"
+  },
+  {
+    "a": "bronsport",
+    "t": "Bronco accessory",
+    "q": "Will the GPCA Bronco cargo cover fit a Bronco Sport?",
+    "r": "Got it. The Bronco Sport is different from the Bronco that has a very different hard top , so it won't fit."
+  },
+  {
+    "a": "waaa",
+    "t": "GPCA Wallet",
+    "q": "Where can I buy the GPCA wallet?",
+    "r": "https://gpca.com/products/gpca-united-1-wallet"
+  },
+  {
+    "a": "warfff",
+    "t": "GPCA Wallet",
+    "q": "Is the GPCA wallet RFID blocking?",
+    "r": "You may consider arranging the card behind or adding an RFID blocking card on the back of the card stack to avoid interference from the card stack behind.\n\nHope it helps 🙂"
+  },
+  {
+    "a": "g222",
+    "t": "GPCA Pen",
+    "q": "My GP 1945 pen ink refill doesn't seem to be working — what can I do?",
+    "r": "Sometimes vibration in the carrier's truck or airplane and different environments could form some air bubbles in the refill, please stand it upright for a few days to get the best performance out of your refill.\nWe can arrange the replacement for you if you need, please confirm your shipping address, No worries.\nhttps://gpca.com/collections/pen-addons"
+  },
+  {
+    "a": "rfff",
+    "t": "GPCA Pen",
+    "q": "My pen refill isn't working and I need a replacement — can you send one?",
+    "r": "We'd like to send you a refill pack of 3, please confirm your address,\n* Different environments could form some air bubbles in the refill, please stand it upright for a few days to get the best performance out of your refill.\n\n*You may purchase the Lamy M22 refill as an alternative for our pen."
+  },
+  {
+    "a": "pennn",
+    "t": "GPCA Pen",
+    "q": "Where can I buy a GPCA pen?",
+    "r": "Check out our GP 1945 pens.\nhttps://gpca.com/collections/pens\nhttps://gpca.com/products/gp-1945-bolt-action-pen-lite"
+  },
+  {
+    "a": "g111",
+    "t": "GPCA Pen",
+    "q": "My GP Grip PRO package didn't include a pen — should it have?",
+    "r": "The G1 pen is only included in the Survivor pack, your order is the PRO pack, If you're interested in getting it, you can order our GP 1945 Bolt Action pen here: https://gpca.com/collections/pens\n\nThe G1 pen is only included in the Survivor pack.If you actually ordered the Survivor pack, let me know your order number, I will check with the shipping team and make sure you get the pen.\n*If not, but you're interested in getting it, you can order our GP 1945 Bolt Action pen here: https://www.gpca.com/product-tag/gp-1945/ or https://gpca.com/shop/g1-safety-pen/\n\nThanks for reaching out,\nHave a good one!"
+  },
+  {
+    "a": "pentip",
+    "t": "GPCA Pen",
+    "q": "I lost the glass breaker tip and pen clip for my GP 1945 pen — can I buy replacements?",
+    "r": "It is definitely possible to obtain replacements for the lost Tungsten Glass Breaker tip and the pen clip. Please select the matching material and color for yours 🙂\nhttps://gpca.com/products/gp-1945-safety-emergency-tip-cap-pen-clip\n\nThanks for checking with us 🙂"
+  },
+  {
+    "a": "jeeppp",
+    "t": "Car accessories",
+    "q": "Where can I find GPCA Jeep Wrangler accessories?",
+    "r": "More Jeep Wrangler gear: https://gpca.com/collections/jeep"
+  },
+  {
+    "a": "jlll",
+    "t": "Car accessories",
+    "q": "Where can I find GPCA accessories for my Jeep Wrangler JL?",
+    "r": "See more gear for your JL Wrangler: https://gpca.com/collections/jl"
+  },
+  {
+    "a": "jkkk",
+    "t": "Car accessories",
+    "q": "Where can I find GPCA accessories for my Jeep Wrangler JK?",
+    "r": "See more gear for your JK Wrangler:\nhttps://gpca.com/collections/jk"
+  },
+  {
+    "a": "jttt",
+    "t": "Car accessories",
+    "q": "Where can I find GPCA accessories for my Jeep Gladiator JT?",
+    "r": "Shop all JT Gladiator accessories here:\nhttps://gpca.com/collections/jt"
+  },
+  {
+    "a": "jkjl",
+    "t": "Car accessories",
+    "q": "Can I use a JK cargo cover on a JL Jeep, or vice versa?",
+    "r": "It won't fit. The cargo space and mounting points are different between the JK and JL,\n\nYou can order the JL cover on GPCA.com and it's free shipping now,\n\nThanks for reaching out,\nHave a good one!"
+  },
+  {
+    "a": "tesss",
+    "t": "Car accessories",
+    "q": "Where can I find GPCA accessories for my Tesla?",
+    "r": "For your Tesla S/ 3/ Y: https://gpca.com/collections/tesla"
+  },
+  {
+    "a": "pickstring",
+    "t": "Guitar Pick",
+    "q": "Won't the titanium guitar pick wear out my guitar strings faster?",
+    "r": "True. We buy it all the time. 🙌 Strings and picks are built for and consumed for creating music, there is the metallic touch and instant response to the tone musician loved about the Titanium pick 🙂\nhttps://gpca.com/products/gpca-titanium-guitar-pick-set"
+  },
+  {
+    "a": "pick33",
+    "t": "Guitar Pick",
+    "q": "How thick is the GPCA Titanium guitar pick?",
+    "r": "What we built is on the thick side, 3mm, with brushed finish on both sides for a better grip and feel. Thicker picks  are stiffer, offering more precision, attack, and control — which is what most metal picks like titanium are used for 🙂  https://gpca.com/products/gpca-titanium-guitar-pick-set"
+  },
+  {
+    "a": "pickk",
+    "t": "Guitar Pick",
+    "q": "Standard plastic picks work fine — why would I switch to a titanium pick?",
+    "r": "Titanium pick gives your music some unique metallic touch, fast response time, it's subtle but you may like it especially for electric guitar 🙂  https://gpca.com/products/gpca-titanium-guitar-pick-set"
+  },
+  {
+    "a": "addd",
+    "t": "Shipping",
+    "q": "The shipping address on my GPCA order appears to be incorrect — how can it be updated?",
+    "r": "[INTERNAL USE ONLY — do not send to customer]\nConfirm shipping address with customer before fulfillment. Cross-check against order record and update if needed before marking as ready to ship."
+  },
+  {
+    "a": "backkk",
+    "t": "Shipping",
+    "q": "My order is delayed and hasn't shipped yet — can I get a refund?",
+    "r": "We're really sorry about the delay! We're experiencing some logistics congestion and we want to make sure your order gets to you properly.\nYour order will be fulfilled as soon as it arrives at our warehouse, estimated in 2–3 weeks, and you'll receive a shipping update when it ships. If you'd prefer not to wait, we can process a refund now and you're always welcome to place a new order once the item is back in stock.\nJust let us know what you'd prefer and we'll take care of it!"
+  },
+  {
+    "a": "backooo",
+    "t": "Shipping",
+    "q": "My order is delayed and it says it's a backorder item — when will it ship?",
+    "r": "This item was on backorder, and we've just restocked this week and are ready to ship very soon! You'll receive a shipping update once it's on its way.\nWe're sorry for the wait and appreciate your patience — it'll be worth it when it arrives! Have a great week!"
+  },
+  {
+    "a": "delaaa",
+    "t": "Shipping",
+    "q": "My package seems to be stuck in transit — where is it?",
+    "r": "Your package is on its way! It looks like USPS is experiencing some delay on the latest scan update, but the package is moving.\nPlease give it 3–5 more business days. If there's still no update after that, we'll open a case with USPS and make sure your package gets to you.\nAlso check all your inbox folders for the shipping email, and add hello@gpca.com to your contacts so it doesn't go to spam. Thanks for your patience — it's almost there!"
+  },
+  {
+    "a": "delayyy",
+    "t": "Shipping",
+    "q": "I checked my shipping status but USPS hasn't updated it recently — is something wrong?",
+    "r": "USPS sometimes has scan delays — the package can be moving without the tracking updating right away. Please give it another 3–5 business days to see a new update.\nIf you still don't see movement, reach out with your order number and we'll follow up with USPS on your behalf. Thanks for keeping an eye on it!"
+  },
+  {
+    "a": "deliii",
+    "t": "Shipping",
+    "q": "I have an international order — can you give me an update on my shipping status?",
+    "r": "International shipping updates can sometimes be slow to appear, especially during customs processing. Your package is on its way!\nPlease allow some extra time for customs clearance in your country. If you haven't received any update in a while, send us your order number and we'll look into it and give you the latest we have.\nThanks for your patience!"
+  },
+  {
+    "a": "delll",
+    "t": "Shipping",
+    "q": "My tracking shows the package has been delivered — but I haven't received it yet.",
+    "r": "It looks like the carrier marked this as delivered! Here are a few things to check first: look around all entry points of your home (porch, mailbox, side door), check with neighbors in case it was left nearby, and check if anyone else at the address may have brought it inside.\nIf it's still nowhere to be found after checking, please reach out with your order number and we'll help you file a claim and get this resolved. We've got you!"
+  },
+  {
+    "a": "duuu",
+    "t": "Shipping",
+    "q": "I think I may have placed a duplicate order — can you check and cancel one?",
+    "r": "No worries at all — we'll take a look! Please share the email address or order number(s) used and we'll confirm whether a duplicate was placed and cancel the extra one right away.\nYou'll receive a refund to your original payment method if a duplicate charge occurred. Thanks for catching that!"
+  },
+  {
+    "a": "emaaa",
+    "t": "Shipping",
+    "q": "I asked about my order on social media — should I email you instead?",
+    "r": "Yes! For the quickest and most secure help with your order, please email us at hello@gpca.com with your order number.\nOur team responds within 1 business day and can access all your order details there. We'll get you taken care of right away!"
+  },
+  {
+    "a": "eyyy",
+    "t": "Shipping",
+    "q": "Will you monitor my package to make sure it arrives safely?",
+    "r": "Absolutely — we'll keep an eye on it for you! If anything looks off with the tracking or there's a concerning delay, we'll proactively reach out and take action.\nWe want your order in your hands as much as you do. Thanks for reaching out!"
+  },
+  {
+    "a": "innn",
+    "t": "Shipping",
+    "q": "How much does international shipping cost for GPCA orders?",
+    "r": "International shipping rates vary based on your location and the items in your order. The exact shipping cost will be calculated at checkout on gpca.com.\nIf you'd like a rough estimate before ordering, share your country and what you're looking to order and we'll do our best to give you an idea. We ship worldwide!"
+  },
+  {
+    "a": "inteee",
+    "t": "Shipping",
+    "q": "What is the status of my international order?",
+    "r": "Thanks for checking in! International orders can take longer depending on customs clearance in your country.\nPlease share your order number and we'll pull up the latest tracking info for you and give you the most up-to-date status. Hang tight — it's on its way to you!"
+  },
+  {
+    "a": "inttt",
+    "t": "Shipping",
+    "q": "International shipping seems expensive — is there a more affordable option?",
+    "r": "We totally understand — international shipping costs are driven by carrier rates and can feel steep, especially for smaller orders. Unfortunately, we can't control those rates, but we ship via the most reliable carriers to make sure your order arrives safely.\nBundling multiple items in one order is the best way to get more value out of the shipping cost. Let us know if you'd like help putting together a bundle!"
+  },
+  {
+    "a": "locaaa",
+    "t": "Shipping",
+    "q": "Can you look up my order? I'm not sure if it went through.",
+    "r": "Of course! Please share the email address used at checkout or your order number, and we'll pull up your order right away.\nIf you checked out as a guest, the email address will be the key. We'll get you a full update ASAP!"
+  },
+  {
+    "a": "misss",
+    "t": "Shipping",
+    "q": "My package arrived but there are missing items — what should I do?",
+    "r": "We're really sorry about that! Please share your order number and let us know which items are missing, and we'll get the missing pieces shipped out to you right away.\nNo need to send anything back — we'll make it right. Thank you for letting us know!"
+  },
+  {
+    "a": "o??",
+    "t": "Shipping",
+    "q": "Can you help me look up the details of my GPCA order?",
+    "r": "Of course! Could you share your order number or the email address used at checkout?\nWe'll pull up everything — order contents, shipping status, and tracking — and get you a full update. We're on it!"
+  },
+  {
+    "a": "onnn",
+    "t": "Shipping",
+    "q": "My order has shipped — can you confirm the tracking details?",
+    "r": "Great news — your order is on its way! You should have received a shipping confirmation email with your USPS tracking number.\nCheck all folders (including spam) and add hello@gpca.com to your contacts so future emails land in your inbox. If you can't find the email, share your order number and we'll send the tracking details directly!"
+  },
+  {
+    "a": "orddd",
+    "t": "Shipping",
+    "q": "Can you locate my order? I'd like to check its status.",
+    "r": "Absolutely! Please share your order number (or the email address used at checkout) and we'll pull it up right away.\nIf you used multiple emails, try those as well and let us know. We'll get you the latest update as soon as we find it!"
+  },
+  {
+    "a": "orderrr",
+    "t": "Shipping",
+    "q": "Can I place a GPCA order by phone or in person?",
+    "r": "We currently only process orders online — no phone ordering at the moment! You can order directly at gpca.com or through our Amazon storefront at amazon.com/gpca.\nBoth options are quick, secure, and offer free shipping on qualifying orders. Let us know if you need any help placing your order!"
+  },
+  {
+    "a": "outtt",
+    "t": "Shipping",
+    "q": "The item I want is out of stock — what should I do?",
+    "r": "Bummer — we're sorry about that! While that item is restocking, check out our other accessories — there's a lot of great gear in stock right now: gpca.com/collections/all.\nWe'll also have the out-of-stock item back soon. Want us to notify you when it's available?"
+  },
+  {
+    "a": "parttt",
+    "t": "Shipping",
+    "q": "Part of my order is missing — what's the next step?",
+    "r": "So sorry about that!\nPlease share your order number and which part is missing, and we'll get the missing item(s) shipped out to you as soon as possible.\nWe'll make it right — no hassle!"
+  },
+  {
+    "a": "pirrr",
+    "t": "Shipping",
+    "q": "My international order has a logistics delay — can you give me an update?",
+    "r": "We're sorry for the inconvenience! International logistics can sometimes experience delays during high-volume periods or customs processing.\nYour package is still on its way — please allow a bit more time for customs clearance. Share your order number and we'll check the latest carrier update on our end and keep you posted!"
+  },
+  {
+    "a": "preee",
+    "t": "Shipping",
+    "q": "I ordered a pre-order item — when will it ship?",
+    "r": "Your order includes a pre-order item that's currently in production/transit. Shipping for this item will start soon — you'll receive a shipping confirmation email with tracking as soon as it's on its way.\nThanks so much for your patience and for supporting GPCA early. We're excited to get this to you!"
+  },
+  {
+    "a": "reee",
+    "t": "Shipping",
+    "q": "Can you send me instructions on how to ship back my return package?",
+    "r": "Of course! Please print out this email thread (including your Return Authorization Number) and pack it with the return item.\nShip to: GPCA Products, 3104 South Saddlebrook Ln #B, Katy, TX 77494. Please retain your return tracking number — we can't assume responsibility for lost shipments.\nAllow 2–3 weeks for delivery and 5–10 business days after receipt for processing. Any questions, we're here!"
+  },
+  {
+    "a": "reshiii",
+    "t": "Shipping",
+    "q": "My package shows as lost or was never delivered — can you reship it?",
+    "r": "We're so sorry to hear that! Let's get this sorted for you right away.\nPlease share your order number and shipping address, and we'll follow up with the carrier and arrange a reship as needed. We want to make sure your GPCA gear makes it to you!"
+  },
+  {
+    "a": "resss",
+    "t": "Shipping",
+    "q": "[Internal] Please reship this order to the team — internal use only.",
+    "r": "[INTERNAL USE ONLY — do not send to customer]\nReship order as directed. Confirm address with internal team before processing. Use standard warehouse fulfillment workflow."
+  },
+  {
+    "a": "rettt",
+    "t": "Shipping",
+    "q": "Can you send me a prepaid return shipping label?",
+    "r": "We'd be happy to help with your return! Please share your order number and reason for return, and we'll review and provide return instructions.\nNote that return shipping fees are generally the customer's responsibility unless there's a defect or fulfillment error on our end. Once we confirm the details, we'll get the process started for you!"
+  },
+  {
+    "a": "saddd",
+    "t": "Shipping",
+    "q": "My shipping address is wrong on my order — can you update it?",
+    "r": "No problem — let's catch this before it ships! Please share your order number and the correct shipping address as soon as possible, and we'll update it right away.\nIf it's already shipped, we'll do our best to redirect it with the carrier. We're on it!"
+  },
+  {
+    "a": "scannn",
+    "t": "Shipping",
+    "q": "I placed an order but haven't received a shipping update email yet.",
+    "r": "The shipping confirmation email might have landed in your spam or promotions folder. Please check all folders and add hello@gpca.com to your contacts list so future emails don't get filtered.\nIf you still can't find it, share your order number and we'll resend the tracking information directly. Your order is moving!"
+  },
+  {
+    "a": "sccc",
+    "t": "Shipping",
+    "q": "I entered the wrong shipping address — can you update it before it ships?",
+    "r": "Yes — let's update it right away! Share your order number and the corrected shipping address and we'll make the change immediately.\nIf the package has already shipped, we'll try our best to reroute with the carrier. The sooner you reach us, the better!\nThanks for catching this!"
+  },
+  {
+    "a": "shhh",
+    "t": "Shipping",
+    "q": "Why is my order taking so long to arrive?",
+    "r": "We totally understand the wait can be frustrating! USPS and carrier networks occasionally experience volume-related delays, especially during peak periods.\nYour package is still on its way — please give it a few more business days. If tracking hasn't updated in over a week, reach out with your order number and we'll investigate with the carrier.\nWe appreciate your patience and we're here to help!"
+  },
+  {
+    "a": "sss",
+    "t": "Shipping",
+    "q": "Can you give me an update on my shipping status?",
+    "r": "Of course! Please share your order number or the email you used at checkout and we'll pull up the latest tracking info right away.\nYou can also check your original shipping confirmation email for the USPS tracking link. We'll get you a full update ASAP!"
+  },
+  {
+    "a": "steall",
+    "t": "Shipping",
+    "q": "My package was stolen after delivery — what can I do?",
+    "r": "That's really frustrating — we're sorry that happened!\nWe'd recommend filing a report with USPS and your local police department as a first step (carriers often require this for claims).\nPlease also share your order number with us and we'll look into what options we can offer to help make it right. We want to get your GPCA gear in your hands!"
+  },
+  {
+    "a": "theftt",
+    "t": "Shipping",
+    "q": "My tracking shows delivered but I never received the package — what should I do?",
+    "r": "Before anything else, please check all delivery spots around your home: porch, side door, mailbox, garage area, and check with neighbors in case it was left nearby. Also check if anyone else at the address may have received it. If it's truly missing after all that, share your order number with us and we'll file a carrier investigation and explore options to get you taken care of!"
+  },
+  {
+    "a": "trrr",
+    "t": "Shipping",
+    "q": "Can you share my tracking number for my GPCA order?",
+    "r": "Happy to help!\nPlease share your order number or the email address used at checkout and we'll send you the tracking number right away. You should also have received a shipping confirmation email — check all folders and look for the USPS tracking link in there!"
+  },
+  {
+    "a": "addd",
+    "t": "Shipping",
+    "q": "[Internal] Please confirm the shipping address for this order before processing.",
+    "r": "[INTERNAL USE ONLY — do not send to customer]\nConfirm shipping address with customer before fulfillment. Cross-check against order record and update if needed before marking as ready to ship."
+  },
+  {
+    "a": "dttt",
+    "t": "Shipping",
+    "q": "Will my order be delivered today?",
+    "r": "It looks like your order is out for delivery today! Keep an eye on your USPS tracking link for real-time updates.\nIf you have any issues with the delivery, let us know and we'll jump in to help right away. Exciting — almost there!"
+  },
+  {
+    "a": "orderrr",
+    "t": "Order",
+    "q": "Can I place a GPCA order over the phone?",
+    "r": "We currently only process orders online — no phone ordering at the moment! You can order directly at gpca.com or through our Amazon storefront at amazon.com/gpca.\nBoth options are quick, secure, and offer free shipping on qualifying orders. Let us know if you need any help placing your order!"
+  },
+  {
+    "a": "ordeee",
+    "t": "Order",
+    "q": "I can't find my order — can you look it up using my email address?",
+    "r": "Of course! I searched using your email but wasn't able to locate a matching order.\nCould you double-check the email you used at checkout? Sometimes orders are placed under a different email or as a guest.\nShare your receipt if you have it and I'll take another look right away!"
+  },
+  {
+    "a": "orddd",
+    "t": "Order",
+    "q": "Can you look up my order using my order number?",
+    "r": "Absolutely! Please share your order number (or the email address used at checkout) and we'll pull it up right away.\nIf you used multiple emails, try those as well and let us know. We'll get you the latest update as soon as we find it!"
+  },
+  {
+    "a": "duppp",
+    "t": "Order",
+    "q": "I accidentally placed a duplicate order — can one be cancelled?",
+    "r": "No worries — we'll take care of that right away! We'll cancel the duplicate order for you, and you'll receive a refund back to your original payment method.\nPlease share your order numbers so we can confirm which one to cancel. Thanks for catching it!"
+  },
+  {
+    "a": "payyy",
+    "t": "Order",
+    "q": "Can you send me a PayPal payment link for an additional item or shipping fee?",
+    "r": "Sure thing! Here is your PayPal link: [Insert PayPal link here].\nPlease complete the payment and then send us the confirmation so we can process your request. Let us know if you have any questions!"
+  },
+  {
+    "a": "dashhh",
+    "t": "Order",
+    "q": "Can I view my order details under my GPCA account?",
+    "r": "Yes! Log into your account at gpca.com and you'll be able to see your order history, tracking info, and status.\nIf you checked out as a guest, you may not have an account — but you can create one using the same email. Let us know if you need help accessing your order!"
+  },
+  {
+    "a": "cannn",
+    "t": "Order",
+    "q": "I need to cancel my order — is that possible?",
+    "r": "We'll do our best to help! If your order hasn't shipped yet, we can cancel it and issue a full refund.\nPlease share your order number as soon as possible so we can check the fulfillment status and act quickly. The sooner we know, the better the chance we can catch it in time!"
+  },
+  {
+    "a": "mphooo",
+    "t": "Order",
+    "q": "We need a photo to identify the missing item from your order — can you send one?",
+    "r": "Could you snap a quick photo of what was included in your package and send it over to hello@gpca.com with your order number?\nThat'll help us quickly identify what's missing and get the right item shipped out to you.\nWe'll get it sorted as soon as we see the photo!"
+  },
+  {
+    "a": "canppp",
+    "t": "Order",
+    "q": "I requested a cancellation — has it been processed yet?",
+    "r": "We received your cancellation request and are checking with the fulfillment team to see if we can still pause it before it ships. We'll update you as soon as we have confirmation.\nIf the order has already shipped, we'll provide return instructions. Thank you for your patience!"
+  },
+  {
+    "a": "ordernoshow",
+    "t": "Order",
+    "q": "I placed an order recently but haven't received any confirmation email — did it go through?",
+    "r": "Thanks for checking in! Orders can sometimes go through without a confirmation email reaching the inbox — it may have landed in spam or your promotions folder.\nPlease check all folders and search for an email from hello@gpca.com. If you don't find anything, share the email address you used and we'll look up the order on our end and resend the confirmation!"
+  },
+  {
+    "a": "oeee",
+    "t": "Order",
+    "q": "I placed an order but haven't received any information or confirmation — what happened?",
+    "r": "Sorry about the confusion! This can happen if the confirmation email went to your spam folder or if the order was placed as a guest with a different email.\nPlease check all folders for an email from hello@gpca.com, and share the email address or any payment confirmation you have and we'll locate your order right away. We're on it!"
+  },
+  {
+    "a": "cou12",
+    "t": "Discount",
+    "q": "Do you offer a special discount for celebrities, large social media creators, or music groups?",
+    "r": "Hey, that's awesome — thank you for supporting GPCA! We do offer a special 12% discount on top of all current sale prices for qualifying big supporters.\nHere's your exclusive code: gpca12mrtxm (expires in 2 days). Please tag @GPCAofficial if you share our products — we'd love to feature you to our 40K+ IG followers and across our other channels.\nThanks for the love and have a great one!"
+  },
+  {
+    "a": "couuu",
+    "t": "Discount",
+    "q": "Do you offer a military, first responder, or frontline discount?",
+    "r": "Absolutely — thank you so much for your service! 🙏 We're honored to offer a special discount for military, firefighters, police, and frontline workers. Here's your code for an additional 5% off: Generalpurpose5ck (expires in 2 days).\nYou can also use GPCA-SP for an extra 10% discount on top of current sale prices (expires in 2 days). Thank you again — your sacrifice means a lot to all of us at GPCA!"
+  },
+  {
+    "a": "courrr",
+    "t": "Discount",
+    "q": "I'm having trouble applying my coupon code at checkout — what should I do?",
+    "r": "No worries at all! Give it one more try at checkout, and make sure the code is entered exactly as shared (no extra spaces).\nIf it's still not applying, just place the order and send us your order number — we'll manually apply the discount as a partial refund to your original payment method. Easy fix!\nThanks for your order and have a great one!"
+  },
+  {
+    "a": "counnn",
+    "t": "Discount",
+    "q": "I forgot to apply my coupon code during checkout — can you still apply it?",
+    "r": "Of course! We've got you covered.\nJust share your coupon code and order number with us, and we'll manually apply it as a partial refund to your original payment method. No stress — thanks for reaching out and we appreciate your support of GPCA! 🙌"
+  },
+  {
+    "a": "refff",
+    "t": "RMA",
+    "q": "I returned my order — when can I expect my refund?",
+    "r": "Thanks for checking in! We'll follow up with our RMA team to confirm the return has been received and inspected.\nOnce it clears, your refund will be processed and should appear within 10–15 business days depending on your bank. Thanks for your patience and let us know if you have any further questions!"
+  },
+  {
+    "a": "rmaa",
+    "t": "RMA",
+    "q": "I'd like to return my GPCA order — how do I start the process?",
+    "r": "We're sorry to hear it didn't work out! Before processing the return, we want to make sure we can't fix the issue — feel free to ask any questions about installation or product use and we'll do our best to help.\nIf you still want to proceed, your Return Authorization Number is: [INSERT ORDER NUMBER]2025. Print this email thread and include it with your return shipment to: GPCA Products, 3104 South Saddlebrook Ln #B, Katy, TX 77494.\nRetain your return tracking number. Allow 2–3 weeks for delivery and 5–10 business days after receipt for your refund to be applied to your original payment method."
+  },
+  {
+    "a": "rmarr",
+    "t": "RMA",
+    "q": "I want to return my current item and order a different one — how do I do that?",
+    "r": "No problem! You can return your current item and place a new order for the correct one right away — no need to wait.\nYour Return Authorization Number is: [INSERT ORDER NUMBER]2025. Print this email thread and include it with your return to: GPCA Products, 3104 South Saddlebrook Ln #B, Katy, TX 77494.\nRetain your tracking number. We'll process your return within 5–10 business days of receipt and apply a credit to your original payment method.\nLet us know your new order and we'll keep an eye on it!"
+  },
+  {
+    "a": "rmadefect",
+    "t": "RMA",
+    "q": "I received a defective or damaged product — what are my options?",
+    "r": "We're really sorry about that! If there's a confirmed defect, we'll send you a replacement right away — no return required.\nIf it's not a defect but you're unhappy with it, I can also get manager approval for a 15% partial refund so you can keep the item. If you'd prefer a full return, your Return Authorization Number is: [INSERT ORDER NUMBER]2025.\nPrint this thread and ship the item to: GPCA Products, 3104 South Saddlebrook Ln #B, Katy, TX 77494. Retain your tracking number and allow 5–10 business days after receipt for processing.\nWhatever works best for you, we're here to help!"
+  },
+  {
+    "a": "rma1",
+    "t": "RMA",
+    "q": "I'm not happy with my product — what can be done?",
+    "r": "We're sorry to hear that! Let's start by understanding the issue — sometimes it's something we can resolve quickly.\nIs it a fit issue, installation question, or a product defect? Our FAQ at gpca.com/pages/faq and install videos at youtube.com/c/gpcaofficial might have the answer.\nIf there's a defect, we'll gladly send a replacement. If installation is the challenge, let us walk you through it.\nAnd if you still want to return after all that, we'll get the process started. Just let us know what happened!"
+  },
+  {
+    "a": "rmass",
+    "t": "RMA",
+    "q": "Does GPCA cover return shipping fees?",
+    "r": "Return shipping is generally the customer's responsibility unless the item is defective or there was a fulfillment error on our end. We're sorry for the inconvenience!\nIf you believe your situation qualifies for covered return shipping, please share your order number and details and we'll review it with the team. We want to make the process as fair and smooth as possible for you."
+  },
+  {
+    "a": "wronggg",
+    "t": "RMA",
+    "q": "I received the wrong item or my package has a missing part — what should I do?",
+    "r": "Oh no — we're so sorry about that mix-up! Please share your order number and a photo of what you received (or what's missing), and we'll get the correct item or missing part shipped out to you as soon as possible.\nNo return needed for fulfillment errors. We'll make it right!"
+  },
+  {
+    "a": "refunddd",
+    "t": "RMA",
+    "q": "I was told I'd receive a refund — when will it appear in my account?",
+    "r": "Your refund has been processed on our end! Please allow 5–10 business days for it to appear, depending on your bank's processing time.\nIf it doesn't show up within that window, please reach out with your order number and we'll follow up on our end. Thanks for your patience!"
+  },
+  {
+    "a": "afff",
+    "t": "Marketing",
+    "q": "I'm interested in promoting GPCA on my channel — how do I become an affiliate?",
+    "r": "Awesome! Thanks for reaching out, please share your channels, we will review with the team. Let me know if you have a future order in, we can send along some goodies.\nI would like to invite you to join our affiliate program ( https://affiliate.gpca.com/ )\n\nLooking forward to working with you. 🙌\n\nThanks,\n\nNick\n\n\nAwesome! Thanks for reaching out, Please let us know your model and year, and  which product you are interested in reviewing/ presenting and open to filming video for us, we will review with the team and see if we will collaborate.\nI would like to invite you to join our affiliate program ( https://affiliate.gpca.com/ )\n\nLooking forward to working with you. 🙌\n\nThanks,\n\nNick\n\nIf this arrangement works for you, please place the order directly on GPCA.com and we will provide full refund for the order when you send us the film as the first project, and then you can utilize our affiliate program for commission and coupon for your followers. https://affiliate.gpca.com/"
+  },
+  {
+    "a": "amaaa",
+    "t": "Marketing",
+    "q": "Where can I find GPCA products on Amazon?",
+    "r": "You can find our full Amazon storefront here: amazon.com/gpca. Same great products, Prime shipping eligible, and all the reviews you need to feel confident before ordering.\nLet us know if you have any questions!"
+  },
+  {
+    "a": "clubbb",
+    "t": "Marketing",
+    "q": "Our Jeep club is interested in working with GPCA — how do we connect?",
+    "r": "That's awesome — we love the Jeep community! We'll review your club details with our team and see how we can support each other.\nIn the meantime, I'd also like to personally invite your club members to our affiliate program: affiliate.gpca.com. It's a great way for members to earn rewards and share exclusive discounts with the crew.\nLooking forward to working with you all! 🙌"
+  },
+  {
+    "a": "collaaa",
+    "t": "Marketing",
+    "q": "I'm interested in a marketing collaboration with GPCA — who should I contact?",
+    "r": "Thank you for reaching out! For marketing collaborations, please email us at hello@gpca.us with a brief overview of your channel, platform, and what you have in mind.\nOur team reviews all collaboration inquiries and will get back to you as soon as possible. Looking forward to connecting!"
+  },
+  {
+    "a": "deccc",
+    "t": "Marketing",
+    "q": "Can I get a free GPCA decal?",
+    "r": "We love the enthusiasm!\nDrop us your shipping address and we'll see what we can do. Tag us @GPCAofficial on Instagram with your Jeep or adventure setup and you might just get a little something special from us. 🤙"
+  },
+  {
+    "a": "iggg",
+    "t": "Marketing",
+    "q": "We'd love for you to tag GPCA on Instagram when you share your experience!",
+    "r": "If you're loving your GPCA gear, please tag us @GPCAofficial on Instagram!\nWe share customer photos and adventures to our 40K+ followers — and we'd love to feature your build or trail story. The GPCA community is full of awesome people, and we'd love to see you out there! 🤙"
+  },
+  {
+    "a": "igppp",
+    "t": "Marketing",
+    "q": "We'd love to collaborate — can you share your channel or page stats with us?",
+    "r": "Awesome — we're always looking for great people to work with! Could you share some details about your platform — follower count, average views/engagement, and content focus?\nThat helps us figure out the best way to collaborate and what we can offer you. Looking forward to connecting!"
+  },
+  {
+    "a": "igvvv",
+    "t": "Marketing",
+    "q": "We'd love to collaborate — please upload a video featuring our product and we'll go from there!",
+    "r": "Excited to work together! Here's our ask: create a video featuring the GPCA product and upload it to your channel, then send us the link.\nOnce we review performance and engagement, we can discuss next steps for an ongoing collaboration. We want to make sure it's a great fit for both sides.\nLet's make something awesome!"
+  },
+  {
+    "a": "infbg",
+    "t": "Marketing",
+    "q": "We'd love for you to review the GP Back Grip — would you be interested?",
+    "r": "The GP Back Grip PRO is one of our most unique and loved products — we think your audience would really appreciate it! It's a grab handle that mounts on the headrest, designed for passengers in any vehicle on or off-road.\nWould you be open to receiving a unit and creating a review? Let us know and we'll coordinate shipping right away!"
+  },
+  {
+    "a": "inflll",
+    "t": "Marketing",
+    "q": "We're interested in collaborating — please share your channel details for our team to review.",
+    "r": "Thanks for reaching out! Please share links to your channel(s) along with your main content focus (Jeep, offroad, EDC, outdoor, etc.) and your approximate audience size.\nOur team will review and get back to you with collaboration options. Looking forward to it!"
+  },
+  {
+    "a": "infvvv",
+    "t": "Marketing",
+    "q": "We'd love to have you create a video featuring GPCA products — are you interested?",
+    "r": "We'd love that! The GPCA lineup — from grab handles to EDC carabiners to cargo covers — makes for great content, especially for Jeep and outdoor audiences.\nIf you're interested, let us know your platform and audience size and we'll send you a product to feature. Can't wait to see what you create!"
+  },
+  {
+    "a": "ksss",
+    "t": "Marketing",
+    "q": "Do you have any new products launching on Kickstarter or anywhere else?",
+    "r": "Yes!\nCheck out our latest launches and new arrivals here: gpca.com/collections/new-arrivals. We also occasionally run Kickstarter campaigns for new product launches — follow us @GPCAofficial on Instagram and sign up at gpca.com to stay in the loop on everything new coming out!"
+  },
+  {
+    "a": "newww",
+    "t": "Marketing",
+    "q": "Are there any new GPCA products I should check out?",
+    "r": "Great timing! Check out all our latest new arrivals here: gpca.com/collections/new-arrivals.\nWe're always rolling out new gear for Jeep owners, EDC enthusiasts, and outdoor adventurers. Lots of exciting stuff — let us know if anything catches your eye!"
+  },
+  {
+    "a": "outtt",
+    "t": "Marketing",
+    "q": "The product I want is currently out of stock — are there other GPCA accessories I can check out in the meantime?",
+    "r": "Bummer — we're sorry about that! While that item is restocking, check out our other accessories — there's a lot of great gear in stock right now: gpca.com/collections/all.\nWe'll also have the out-of-stock item back soon. Want us to notify you when it's available?"
+  },
+  {
+    "a": "revvv",
+    "t": "Marketing",
+    "q": "Would you be willing to leave a review for your GPCA product?",
+    "r": "We hope you're loving your GPCA gear! If you have a moment, we'd be incredibly grateful if you could leave us a quick review on our website or Amazon store.\nIt means the world to a small California brand and helps other adventurers find the right gear. Thank you so much! 🙏"
+  },
+  {
+    "a": "youttt",
+    "t": "Marketing",
+    "q": "We'd like to invite you to collaborate with GPCA on YouTube — are you interested?",
+    "r": "We'd love to work with you! YouTube is a big part of how we connect with the Jeep and outdoor community.\nIf you're interested, please share your channel link and a little about your content focus and audience. We'll review and reach out with a collaboration proposal.\nLet's make something great together!"
+  },
+  {
+    "a": "affliii",
+    "t": "Marketing",
+    "q": "What is the GPCA affiliate program link?",
+    "r": "Our affiliate program is right here: affiliate.gpca.com. Sign up, get your unique coupon code and affiliate link, and start earning right away.\nWe provide all the marketing support you need. Would love to have you on the team!"
+  },
+  {
+    "a": "ddd",
+    "t": "Dealer",
+    "q": "I'm interested in becoming a GPCA dealer or distributor — how do I get started?",
+    "r": "Thanks so much for reaching out — that's exciting! We'd love to learn more about your company.\nPlease let us know which products you're interested in carrying and the quantity you have in mind, and we'll review, provide a price sheet, and explore how we can collaborate. GPCA products are patented in the U.S. and internationally, so our dealers enjoy strong IP protection.\nWe're primarily looking for dealers and distributors for wholesale right now — let us know if you're open to that!"
+  },
+  {
+    "a": "dd1",
+    "t": "Dealer",
+    "q": "I'm interested in learning more about GPCA wholesale or dealer pricing.",
+    "r": "Thanks for your interest! Please let us know which products you're considering and your estimated order quantities.\nWe'll review and send you a detailed price sheet. GPCA products are patented in the U.S., China, and internationally — our dealers have strong protection.\nWe look forward to building a great partnership with you!"
+  },
+  {
+    "a": "dda",
+    "t": "Dealer",
+    "q": "I'm interested in becoming an authorized GPCA dealer — what's the process?",
+    "r": "We'd love to explore that with you! Please share some details about your company — your location, current product categories, and the GPCA products you're most interested in.\nWe'll follow up with our dealer requirements, pricing tiers, and next steps. Looking forward to connecting!"
+  },
+  {
+    "a": "ddc",
+    "t": "Dealer",
+    "q": "Does GPCA offer a dropshipping program?",
+    "r": "Great question — we do have dropshipping options available for qualifying partners! Please share your platform, monthly sales volume estimate, and which products you'd like to offer.\nWe'll review and get back to you with program details and pricing. Let's see if it's a good fit!"
+  },
+  {
+    "a": "ddp",
+    "t": "Dealer",
+    "q": "Can you share the GPCA price sheet for wholesale orders?",
+    "r": "Please find our current wholesale price sheet attached / linked below.\nGPCA products are patented in the U.S., China, and internationally — our dealers enjoy strong IP protection across all major markets.\nLet us know which products and quantities you're interested in and we'll take it from there!"
+  },
+  {
+    "a": "thh",
+    "t": "Misc",
+    "q": "[Standard Closing] Thank you for reaching out — have a great one!",
+    "r": "Thanks for reaching out! Have a great one! 🙌"
+  },
+  {
+    "a": "hhh",
+    "t": "Misc",
+    "q": "[Standard Closing] Have a great one!",
+    "r": "Have a great one! 🤙"
+  },
+  {
+    "a": "ttt",
+    "t": "Misc",
+    "q": "[Standard Closing] Thanks and goodbye.",
+    "r": "Thanks for reaching out! Have a good one!"
+  },
+  {
+    "a": "tkkk",
+    "t": "Misc",
+    "q": "[Standard Closing] Thank you!",
+    "r": "Thanks so much! 🙌"
+  },
+  {
+    "a": "hddd",
+    "t": "Misc",
+    "q": "[Standard Closing] Hope that helps!",
+    "r": "Hope that helps! Let us know if you have any other questions. 😊"
+  },
+  {
+    "a": "hggg",
+    "t": "Misc",
+    "q": "[Standard Closing] Hope you enjoy your GPCA gear!",
+    "r": "Hope you enjoy your GPCA products! Happy adventuring! 🏔️"
+  },
+  {
+    "a": "heee",
+    "t": "Misc",
+    "q": "[Standard Closing] Here to help!",
+    "r": "We're here to help! Feel free to reach out anytime. 😊"
+  },
+  {
+    "a": "helppp",
+    "t": "Misc",
+    "q": "[Standard Closing] Let us know if you need more help.",
+    "r": "Let us know if there's anything else we can help with — we're always here! 🤙"
+  },
+  {
+    "a": "kkk",
+    "t": "Misc",
+    "q": "[Standard Closing] Cool, got it!",
+    "r": "Got it! Thanks for letting us know. 🙂"
+  },
+  {
+    "a": "warmm",
+    "t": "Misc",
+    "q": "[Warm Welcome] Welcome to GPCA!",
+    "r": "Welcome to GPCA! We're so glad to have you here.\nWhether you're a seasoned off-roader or just getting started with your adventure gear, we're here to help. Feel free to ask anything! 🤙"
+  },
+  {
+    "a": "enjjj",
+    "t": "Misc",
+    "q": "[Standard Follow-up] Enjoy, and let us know if you have questions!",
+    "r": "Enjoy your GPCA gear, and don't hesitate to reach out if you have any questions along the way. Happy adventuring! 🏕️"
+  },
+  {
+    "a": "phooo",
+    "t": "Misc",
+    "q": "I'd like to place an order by phone — is that possible?",
+    "r": "We appreciate you reaching out! We currently only process orders online at gpca.com or through our Amazon storefront at amazon.com/gpca.\nBoth are quick, secure, and offer free shipping on qualifying orders. Let us know if you need any help navigating the site!"
+  },
+  {
+    "a": "calll",
+    "t": "Misc",
+    "q": "Do you have a customer service phone number I can call?",
+    "r": "We handle all customer support via email to make sure every inquiry gets a thorough, tracked response. Reach us anytime at hello@gpca.com — we respond within 1 business day. It's the fastest way to get the help you need! 😊"
+  },
+  {
+    "a": "???",
+    "t": "Misc",
+    "q": "I received a blank or unclear message — can you clarify what you're looking for?",
+    "r": "Hi! It looks like your message came through empty or unclear — no worries!\nCould you let us know what you're looking for or what question you have? We're happy to help and want to make sure we give you the right answer. 😊"
+  },
+  {
+    "a": "gifff",
+    "t": "Misc",
+    "q": "A customer is receiving a small gift or surprise — how should we communicate it?",
+    "r": "We have a little surprise heading your way! 🎁 Keep an eye on your mailbox — we hope it puts a smile on your face. Thanks so much for being an awesome part of the GPCA community!"
+  },
+  {
+    "a": "hiccc",
+    "t": "Misc",
+    "q": "A customer is reporting issues with the GPCA website — how do we respond?",
+    "r": "Thanks for the heads up! We're sorry you're running into trouble on the site.\nCould you describe what's happening and share the page URL? We'll look into it right away and get it fixed.\nIn the meantime, you can also try refreshing the page or using a different browser. Thanks for helping us improve the experience!"
+  },
+  {
+    "a": "gpcaaa",
+    "t": "Misc",
+    "q": "What does GPCA stand for?",
+    "r": "Great question!\nGPCA stands for General Purpose California — it reflects our roots in California adventure culture and our philosophy of building versatile, general-purpose gear for outdoor enthusiasts and everyday carry. Built by adventurers, for adventurers! 🤙"
+  },
+  {
+    "a": "maddd",
+    "t": "Misc",
+    "q": "Where are GPCA products made?",
+    "r": "GPCA is based in California and our products are designed here in the U.S. Our manufacturing partners are carefully selected to ensure the quality and precision our customers expect.\nAll products go through strict quality control before they reach you. Proud to build great gear! 🇺🇸"
+  },
+  {
+    "a": "ittt",
+    "t": "Misc",
+    "q": "The GPCA website is loading slowly or not working properly — what should I do?",
+    "r": "Sorry about that! Try refreshing the page or clearing your browser cache.\nSwitching to a different browser or device can also help. If the issue persists, please let us know what page you're on and what device/browser you're using and we'll look into it on our end right away!"
+  },
+  {
+    "a": "ebayyy",
+    "t": "Misc",
+    "q": "Does GPCA have an eBay store?",
+    "r": "We don't currently sell on eBay — our official storefronts are gpca.com and our Amazon store at amazon.com/gpca. We recommend buying from these channels to ensure you're getting genuine GPCA products with full warranty and support.\nLet us know if you need help ordering!"
+  },
+  {
+    "a": "forrr",
+    "t": "Misc",
+    "q": "I have feedback or design suggestions for GPCA products — where can I share them?",
+    "r": "We LOVE hearing from our community — you're the reason our products keep getting better! Please share your feedback and we'll pass it directly to our product team.\nYour insights genuinely shape what we build next. Thank you for caring enough to reach out! 🙏"
+  },
+  {
+    "a": "deccc",
+    "t": "Misc",
+    "q": "Can I request a free GPCA decal?",
+    "r": "We love the enthusiasm!\nDrop us your shipping address and we'll see what we can do. Tag us @GPCAofficial on Instagram with your Jeep or adventure setup and you might just get a little something special from us. 🤙"
+  },
+  {
+    "a": "revvv",
+    "t": "Misc",
+    "q": "Can you ask a customer for a product review?",
+    "r": "We hope you're loving your GPCA gear! If you have a moment, we'd be incredibly grateful if you could leave us a quick review on our website or Amazon store.\nIt means the world to a small California brand and helps other adventurers find the right gear. Thank you so much! 🙏"
+  },
+  {
+    "a": "gpcaryan",
+    "t": "AI",
+    "q": "Where can I chat with Ryan the GPCA guy?",
+    "r": "On ChatGPT: https://chatgpt.com/g/g-uHSKzmjUP-ryan-the-gpca-guy\n\nOn Google Gemini: https://gemini.google.com/gem/1Y1VmaKsORYZKZZ4h_RZAIIauQdIgPc9W?usp=sharing"
+  },
+  {
+    "a": "Carawasher",
+    "t": "Carabiner",
+    "q": "What are the two black washers for on the large Torx screws?",
+    "r": "The two black washers are intended for use with the large torx screws. They make it easier for customers to dismount and reassemble the product, which may be necessary for TSA checkpoints.\n\nThank you for reaching out 🙂"
+  },
+  {
+    "a": "anchorthread",
+    "t": "Anchor",
+    "q": "Is the GPCA Anchor PRO thread the same length as the Jeep factory screw?",
+    "r": "The Jeep factory screw has extra blank/ non-threaded tip, the GPCA Anchor PRO are built with the same thread length. Hope it helps.\nThanks for checking with us 🙂"
+  },
+  {
+    "a": "bghigh",
+    "t": "Back GRIP",
+    "q": "Can I raise the headrest for more grip room, and do you offer a longer mount?",
+    "r": "You may set the headrest slightly higher for more grip space. The GPCA Grip is designed for a solid grip as seen in the demo with a full-size adult hand, but you can still adjust the height for more/ less space.\n\nPlease email hello@gpca.com with your order number if your headrests need a longer mount on our GP-Grips, we offer that as well. Thanks for checking with us\n\nHope it helps,\n\nThanks for reaching out,\nHave a good one!"
+  }
+];
